@@ -1,985 +1,953 @@
 <!--
-author: MAKE&LEARN · ŠC Kranj · ETŠ Mija Stanimirović
-email: 
-language: sl
-narrator: Slovenian Female
-title: Od ideje do učila — MAKE&LEARN
-comment: Interaktivna različica gradiva za 28.–30. oktober 2026; slovensko-srbska vsebina.
-import: https://raw.githubusercontent.com/LiaTemplates/Fullscreen/0.0.1/README.md
+author:   Luka Colarič
+email:    luka.colaric@sckr.si
+version:  1.0.0
+comment:  MAKE&LEARN. Usposabljanje učiteljev / obuka nastavnika, 28.–30. 10. 2026, ŠC Kranj, MladLab.
+          Ta tečaj je hkrati primer: vse, kar vidite, je en sam markdown v LiaScriptu.
+logo:     img/art_tangram.png
+tags:     MAKE&LEARN, Erasmus+, učila, LiaScript
 -->
 
 # Od ideje do učila
 
-**Od ideje do nastavnog sredstva**
+_Od ideje do nastavnog sredstva_
 
-MAKE&LEARN · usposabljanje učiteljev / obuka nastavnika  
-**28.–30. 10. 2026 · ŠC Kranj, MladLab**
+**MAKE&LEARN** · usposabljanje učiteljev / obuka nastavnika
+28.–30. 10. 2026 · ŠC Kranj, MladLab
 
-> Ta predstavitev je hkrati interaktivni učni pripomoček. Preklopi med **Slides**, **Presentation** in **Textbook** načinom.
+Ta tečaj je napisan v LiaScriptu: en sam markdown na GitHubu, ki ga brskalnik prikaže kot tečaj s kvizi in delovnimi listi. Prvi dan boste enako naredili tudi vi.
+
+_Ovaj kurs je napisan u LiaScriptu. Prvog dana ćete i vi napraviti isto._
+
+![](img/art_abak.png)<!-- style="width:120px" -->
+![](img/art_kocka.png)<!-- style="width:120px" -->
 
 
 ## Tri dni, ena ideja
 
-<!-- Izvirna prosojnica 2/55 -->
+_Tri dana, jedna ideja_
 
-Tri dana, jedna ideja
+| Dan | Kaj naredimo                                                    | Kaj odnesete                         |
+| --- | --------------------------------------------------------------- | ------------------------------------ |
+| 1   | Iskanje idej, delovni zvezek LiaScript, spletna aplikacija z AI  | aplikacija na GitHub Pages           |
+| 2   | SCAMPER, 3D-tisk, laser, karton                                  | prototip z QR kodo do aplikacije     |
+| 3   | Kritični prijatelj, markdown, stran za knjižnico                 | stran učila in akcijski načrt        |
 
-1. dan / 1. dan
+Delate v paru: en učitelj iz Kranja, eden iz Niša. Isti par vse tri dni.
 
-Ideja, delovni zvezek LiaScript in spletna aplikacija na GitHub Pages.
-
-2. dan / 2. dan
-
-Prototip iz kartona, 3D-tiska in laserja, z QR kodo do včerajšnje aplikacije.
-
-3. dan / 3. dan
-
-Stran učila za knjižnico in akcijski načrt za delo z dijaki.
+_Radite u paru: jedan nastavnik iz Kranja, jedan iz Niša._
 
 
 ## Projekt MAKE&LEARN
 
-<!-- Izvirna prosojnica 3/55 -->
+_Erasmus+ KA210-VET, partnerstvo manjšega obsega_
 
-Erasmus+ KA210-VET
+| 2                                      | 10                     | 20+                         | 15                 |
+| -------------------------------------- | ---------------------- | --------------------------- | ------------------ |
+| šoli · škole                           | učiteljev · nastavnika | učil · sredstava            | mesecev · meseci   |
+| ŠC Kranj, ETŠ Mija Stanimirović (Niš)  | 5 + 5                  | izdelajo dijaki z učitelji  | 9/2026 – 11/2027   |
 
-**2** šoli · škole
+Dijaki in učitelji skupaj izdelajo učila za redni pouk, čim več iz recikliranih materialov, s 3D-tiskom ali CNC, kjer ima to smisel.
 
-**10**
-
-učiteljev · nastavnika
-
-**20+** učil · sredstava
-
-**15** mesecev · meseci
-
-Dijaki in učitelji skupaj izdelajo učila za redni pouk, čim več iz recikliranih materialov. / Učenici i nastavnici zajedno prave nastavna sredstva za redovnu nastavu.
+_Učenici i nastavnici zajedno prave nastavna sredstva za redovnu nastavu._
 
 
 ## Kaj se zgodi v projektu
 
-<!-- Izvirna prosojnica 4/55 -->
+_Šta se dešava u projektu_
 
-Šta se dešava u projektu
+| Kdaj                 | Kaj                              | Kje       |
+| -------------------- | -------------------------------- | --------- |
+| okt 2026             | **to usposabljanje**             | Kranj     |
+| nov 2026 – jun 2027  | dijaki izdelajo učila            | obe šoli  |
+| mar – jun 2027       | spletna knjižnica načrtov        | splet     |
+| okt 2027             | predstavitev in tekmovanje       | Niš       |
 
-okt 2026
+**Merila dobrega učila:** jasen pedagoški namen, deluje, uporabno pri pouku.
 
-To usposabljanje / Ova obuka
-
-nov 2026 – jun 2027
-
-Dijaki izdelajo učila / Učenici prave sredstva
-
-mar – jun 2027
-
-Spletna knjižnica / Veb biblioteka
-
-okt 2027
-
-Tekmovanje v Nišu / Takmičenje u Nišu
-
-Merila dobrega učila: jasen namen, deluje, uporabno pri pouku. / Kriterijumi: jasna svrha, funkcioniše, upotrebljivo u nastavi.
+_Kriterijumi: jasna svrha, funkcioniše, upotrebljivo u nastavi._
 
 
-## 1. dan · od ideje do aplikacije
+# 1. dan: od ideje do aplikacije
 
-<!-- Izvirna prosojnica 5/55 -->
+_1. dan: od ideje do aplikacije_
 
-| Čas | Dejavnost |
-|---|---|
-| 9.00 | Ugani učilo / Pogodi sredstvo |
-| 9.15 | Spoznavanje in pari / Upoznavanje i parovi |
-| 9.30 | Projekt in zgodovina učil |
-| 10.00 | Iskanje idej · Lista 1, 2 |
-| 10.40 | Odmor / Pauza |
-| 10.55 | LiaScript delovni zvezek |
-| 11.20 | Spletna aplikacija z AI · List 3 |
-| 11.55 | Objava na GitHub · List 4 |
-| 12.20 | Zaključek |
-
-
-
-
-> **Namig predavatelju:** Odprite naslednje poglavje v načinu Slides; udeleženci lahko sledijo tudi na telefonu.
+| Ura   | Blok                              | List |
+| ----- | --------------------------------- | ---- |
+| 9.00  | Ugani učilo                       |      |
+| 9.15  | Spoznavanje in pari               |      |
+| 9.30  | Projekt in zgodovina učil         |      |
+| 10.00 | Iskanje idej                      | 1, 2 |
+| 10.40 | Odmor                             |      |
+| 10.55 | Delovni zvezek LiaScript          |      |
+| 11.20 | Spletna aplikacija z AI           | 3    |
+| 11.55 | Objava na GitHub Pages            | 4    |
+| 12.20 | Zaključek                         |      |
 
 
 ## Ugani učilo
 
-<!-- Izvirna prosojnica 6/55 -->
+_Pogodi sredstvo · 15 min · v paru_
 
-**V paru ugotovita, kaj uči vsako učilo.** / U paru zapišite šta uči svako sredstvo.
+Osem resničnih učil in pripomočkov iz zgodovine. Za vsako izberi ime, nato vsa razvrsti od najstarejšega do najnovejšega.
 
+![A](img/art_jevons.png)
+![B](img/art_quipu.png)
+![C](img/art_planimeter.png)
+![D](img/art_llull.png)
+![E](img/art_genaille.png)
+![F](img/art_chladni.png)
+![G](img/art_pantograf.png)
+![H](img/art_taumatrop.png)
 
+**A** [[ Chladnijeva plošča | Genaille–Lucasove palice | (Jevonsov logični klavir) | Llullov krog | Pantograf | Planimeter | Quipu | Taumatrop ]]
 
-**Vizualno gradivo iz izvirne predstavitve:**
+**B** [[ Chladnijeva plošča | Genaille–Lucasove palice | Jevonsov logični klavir | Llullov krog | Pantograf | Planimeter | (Quipu) | Taumatrop ]]
 
-![Ilustracija iz prosojnice 6](assets/slide06_3.png)
-![Ilustracija iz prosojnice 6](assets/slide06_5.png)
-![Ilustracija iz prosojnice 6](assets/slide06_7.png)
-![Ilustracija iz prosojnice 6](assets/slide06_9.png)
-![Ilustracija iz prosojnice 6](assets/slide06_11.png)
-![Ilustracija iz prosojnice 6](assets/slide06_13.png)
+**C** [[ Chladnijeva plošča | Genaille–Lucasove palice | Jevonsov logični klavir | Llullov krog | Pantograf | (Planimeter) | Quipu | Taumatrop ]]
+
+**D** [[ Chladnijeva plošča | Genaille–Lucasove palice | Jevonsov logični klavir | (Llullov krog) | Pantograf | Planimeter | Quipu | Taumatrop ]]
+
+**E** [[ Chladnijeva plošča | (Genaille–Lucasove palice) | Jevonsov logični klavir | Llullov krog | Pantograf | Planimeter | Quipu | Taumatrop ]]
+
+**F** [[ (Chladnijeva plošča) | Genaille–Lucasove palice | Jevonsov logični klavir | Llullov krog | Pantograf | Planimeter | Quipu | Taumatrop ]]
+
+**G** [[ Chladnijeva plošča | Genaille–Lucasove palice | Jevonsov logični klavir | Llullov krog | (Pantograf) | Planimeter | Quipu | Taumatrop ]]
+
+**H** [[ Chladnijeva plošča | Genaille–Lucasove palice | Jevonsov logični klavir | Llullov krog | Pantograf | Planimeter | Quipu | (Taumatrop) ]]
+
+Vrstni red od najstarejšega do najnovejšega, vpiši črke (npr. A B C …):
+
+[[B D G F H C A E]]
+<script>
+  "@input".toUpperCase().replace(/[^A-H]/g, "") == "BDGFHCAE"
+</script>
+*****************************************************************
+
+| Črka | Učilo                          | Kaj uči                                  | Leto        |
+| ---- | ------------------------------ | ---------------------------------------- | ----------- |
+| B    | Quipu, vozlana vrvica Inkov     | zapis števil v desetiškem sistemu        | 15. stol.   |
+| D    | Llullov krog (Ars magna)        | kombinatorika, kombiniranje pojmov       | okoli 1305  |
+| G    | Pantograf                       | povečava risbe, podobnost, razmerja      | 1603        |
+| F    | Chladnijeva plošča              | zvočno valovanje, stojno valovanje       | 1787        |
+| H    | Taumatrop                       | zaznavanje slike, začetek animacije      | 1825        |
+| C    | Polarni planimeter (Amsler)     | ploščina nepravilnega lika               | 1854        |
+| A    | Jevonsov logični klavir         | logično sklepanje, Boolova logika        | 1869        |
+| E    | Genaille–Lucasove palice        | množenje brez prenašanja                 | 1891        |
+
+*****************************************************************
 
 
 ## Spoznavanje in pari
 
-<!-- Izvirna prosojnica 7/55 -->
+_Upoznavanje i parovi · 15 min_
 
-VAJA · VEŽBA
-
-Upoznavanje i parovi
-
-Ime, šola, predmet. / Ime, škola, predmet.
-
-Najboljše učilo, ki se ga spomniš iz šole. / Najbolje sredstvo kog se sećaš iz škole.
-
-Poišči par iz druge šole. / Nađi par iz druge škole.
-
-15 min
-
-do 9.30 / do 9.30
+1. Ime, šola, predmet.
+   _Ime, škola, predmet._
+2. Najboljše učilo, ki se ga spomniš iz šole.
+   _Najbolje sredstvo kog se sećaš iz škole._
+3. Poišči par iz druge šole.
+   _Nađi par iz druge škole._
 
 
 ## Zgodovina učil
 
-<!-- Izvirna prosojnica 8/55 -->
+_Istorija nastavnih sredstava_
 
-01
+![Abak](img/art_abak.png)
+![Globus](img/art_globus.png)
+![Zemljevid sestavljanka](img/art_zemljevid.png)
+![Froeblovi darovi](img/art_froebel.png)
+![Montessori](img/art_montessori.png)
+![Cuisenairjeve palčke](img/art_cuisenaire.png)
+![Logo želva](img/art_zelva.png)
+![Mikrokrmilnik](img/art_plosca.png)
+![AI](img/art_ai.png)
 
-Istorija nastavnih sredstava
-
-
-## Antika – 1800
-
-<!-- Izvirna prosojnica 9/55 -->
-
-Abak / Abakus
-
-antika
-
-Globus / Globus
-
-15. stoletje
-
-Zemljevid sestavljanka / Slagalica-mapa
-
-okoli 1766
-
-**Vizualno gradivo iz izvirne predstavitve:**
-
-![Ilustracija iz prosojnice 9](assets/slide09_3.png)
-![Ilustracija iz prosojnice 9](assets/slide09_6.png)
-![Ilustracija iz prosojnice 9](assets/slide09_9.png)
-
-
-## 1800 – 1960
-
-<!-- Izvirna prosojnica 10/55 -->
-
-Froeblovi darovi / Frebelovi darovi
-
-1837
-
-Montessori pripomočki / Montesori sredstva
-
-1907
-
-Cuisenairjeve palčke / Kizenerovi štapići
-
-1952
-
-**Vizualno gradivo iz izvirne predstavitve:**
-
-![Ilustracija iz prosojnice 10](assets/slide10_3.png)
-![Ilustracija iz prosojnice 10](assets/slide10_6.png)
-![Ilustracija iz prosojnice 10](assets/slide10_9.png)
-
-
-## 1960 – danes
-
-<!-- Izvirna prosojnica 11/55 -->
-
-1960 – danas
-
-Logo želva / Logo kornjača
-
-1967
-
-Mikrokrmilniki / Mikrokontroleri
-
-2005
-
-Umetna inteligenca / Veštačka inteligencija
-
-2022
-
-**Vizualno gradivo iz izvirne predstavitve:**
-
-![Ilustracija iz prosojnice 11](assets/slide11_3.png)
-![Ilustracija iz prosojnice 11](assets/slide11_6.png)
-![Ilustracija iz prosojnice 11](assets/slide11_9.png)
+| Leto         | Učilo                    | Ideja                                          |
+| ------------ | ------------------------ | ---------------------------------------------- |
+| antika       | abak                     | računanje in mestne vrednosti                  |
+| 15. stol.    | globus                   | Zemlja v roki                                  |
+| okoli 1766   | zemljevid sestavljanka   | prva sestavljanka je bila zemljevid             |
+| 1837         | Froeblovi darovi         | kocke, valji in krogle za prvi vrtec           |
+| 1907         | Montessori pripomočki    | pripomoček sam pokaže napako                   |
+| 1952         | Cuisenairjeve palčke     | števila kot dolžine                            |
+| 1967         | Logo želva               | otroci programirajo robota, ki riše            |
+| 2005         | mikrokrmilniki           | Arduino, kasneje micro:bit in ESP32            |
+| 2022         | umetna inteligenca       | danes z njo sami naredimo spletno učilo        |
 
 
 ## Konkretno, slikovno, abstraktno
 
-<!-- Izvirna prosojnica 12/55 -->
+_Konkretno, slikovno, apstraktno_
 
-**Konkretno → slikovno → abstraktno**
+| Konkretno                       | Slikovno                           | Abstraktno  |
+| ------------------------------- | ---------------------------------- | ----------- |
+| Primem pico in jo razrežem.     | Narišem krog, pobarvam polovico.   | Zapišem ½.  |
 
-1. Primem pico in jo razrežem na pol.
-2. Narišem krog in pobarvam polovico.
-3. Zapišem $\frac{1}{2}$.
+Najboljša učila so preprosta. Večina jih manjka na konkretni stopnji.
 
-Kaj manjka, če dijaku pokažemo le simbol?
+_Najbolja sredstva su jednostavna. Većina nedostaje na konkretnom nivou._
 
-- [( )] Le hitrejše preverjanje znanja.
-- [(X)] Konkretna izkušnja, ki jo lahko poveže s simbolom.
-- [( )] Več zapletenih definicij.
+Kje v vašem predmetu manjka konkretna stopnja?
 
-> Najboljša učila so preprosta; iščemo način, da učenec pojem **doživi**.
-
+[[___ ___]]
 
 
 ## Iskanje idej
 
-<!-- Izvirna prosojnica 13/55 -->
+_Traženje ideja · 40 min · list 1 in 2_
 
-02
+| Korak            | Kaj                                                       | Čas    |
+| ---------------- | --------------------------------------------------------- | ------ |
+| Bolečina         | snov, ki je dijaki nikoli ne razumejo, en listek na idejo | 10 min |
+| Kako bi lahko …? | bolečino prepišeta v vprašanje                            | 10 min |
+| Crazy 8s         | 8 skic v 8 minutah na prepognjenem A4                     | 10 min |
+| Izbira           | partner s 3 pikami označi najboljše, izbereta eno         | 10 min |
 
-Traženje ideja
+### List 1: Iskanje idej
 
+_Radni list 1: Traženje ideja_
 
-## Bolečina
+Bolečine (snov, ki je dijaki ne razumejo):
 
-<!-- Izvirna prosojnica 14/55 -->
+[[___ ___ ___ ___]]
 
-VAJA · VEŽBA
+Kako bi lahko …? _Kako bismo mogli …?_
 
-Problem
+[[___]]
 
-Na listke napiši snov, ki je dijaki nikoli ne razumejo. / Napiši gradivo koje učenici nikad ne razumeju.
+Primer: Kako bi lahko Ohmov zakon naredili otipljiv?
 
-En listek, ena bolečina. / Jedan listić, jedan problem.
+Izbrana ideja: kaj je, kaj dijak z njo počne, česa se nauči.
 
-Skupaj razvrstita listke v skupine. / Zajedno grupišite listiće.
+[[___ ___ ___]]
 
-10 min
+### List 2: Crazy 8s
 
-do 10.10 / do 10.10
+_8 ideja za 8 minuta_
 
-List 1 / delovni list / radni list
+Crazy 8s rišete na papir: A4 prepognite na 8 polj, ena minuta na polje. Tukaj zapišite le izbrano skico z besedami.
 
-
-## Kako bi lahko …?
-
-<!-- Izvirna prosojnica 15/55 -->
-
-VAJA · VEŽBA
-
-Kako bismo mogli …?
-
-Izberita najmočnejšo bolečino. / Izaberite najjači problem.
-
-Prepišita jo v vprašanje »Kako bi lahko …?« / Prepišite u pitanje »Kako bismo mogli …?«
-
-Primer: Kako bi lahko Ohmov zakon naredili otipljiv? / Primer: Kako bismo Omov zakon učinili opipljivim?
-
-10 min
-
-do 10.20 / do 10.20
-
-List 1 / delovni list / radni list
-
-
-## Crazy 8s
-
-<!-- Izvirna prosojnica 16/55 -->
-
-VAJA · VEŽBA
-
-8 ideja za 8 minuta
-
-A4 prepogni na 8 polj. / Savij A4 na 8 polja.
-
-Vsako polje: ena ideja, ena minuta. / Svako polje: jedna ideja, jedan minut.
-
-Grde skice so dobrodošle. / Ružne skice su dobrodošle.
-
-10 min
-
-do 10.30 / do 10.30
-
-List 2 / delovni list / radni list
-
-
-## Izbira
-
-<!-- Izvirna prosojnica 17/55 -->
-
-VAJA · VEŽBA
-
-Izbor
-
-Partner s 3 pikami označi tvoje najboljše skice. / Partner označava 3 najbolje skice tačkom.
-
-Izberita eno idejo za zaslon. / Izaberite jednu ideju za ekran.
-
-Zapišita jo na dno lista 1. / Zapišite je na dno lista 1.
-
-10 min
-
-do 10.40 / do 10.40
-
-List 1 / delovni list / radni list
+[[___ ___]]
 
 
 ## Odmor
 
-<!-- Izvirna prosojnica 18/55 -->
-
-Pauza
-
-15 min  ·  nadaljujemo ob 10.55 / nastavljamo u 10.55
+_Pauza · 15 min · nadaljujemo ob 10.55_
 
 
 ## Delovni zvezek LiaScript
 
-<!-- Izvirna prosojnica 19/55 -->
+_Radna sveska LiaScript · 25 min_
 
-03
+Navaden tekst v markdownu postane interaktivni tečaj: kvizi, naloge, slike, video. Brezplačno, v brskalniku, brez prijave. Ta tečaj je primer.
 
-Radna sveska LiaScript
+_Običan tekst u markdownu postaje interaktivni kurs. Ovaj kurs je primer._
 
+![LiveEditor](img/qr_lia.png)<!-- style="width:160px" -->
 
-## Kaj je LiaScript
+[LiveEditor](https://liascript.github.io/LiveEditor/)
 
-<!-- Izvirna prosojnica 20/55 -->
+### Kviz v LiaScriptu
 
-Navaden **Markdown** postane interaktivni tečaj: kvizi, slike, video, zvok in izvajanje kode.
+_Kviz u LiaScriptu_
 
-- [LiaScript LiveEditor](https://liascript.github.io/LiveEditor/)
-- [Uradna dokumentacija](https://liascript.github.io/blog/liascript-documentation-english/)
+Tako je napisan kviz:
 
-**Mini dokaz:** odgovorite na vprašanje na naslednji strani; to ni posnetek zaslona, ampak živa naloga.
+``` markdown
+Koliko je tok pri 12 V in 4 Ω?
 
+[( )] 2 A
+[(X)] 3 A
+[( )] 48 A
+```
 
+In tako deluje:
 
-## Kviz v LiaScriptu
+Koliko je tok pri 12 V in 4 Ω?
 
-<!-- Izvirna prosojnica 21/55 -->
+[( )] 2 A
+[(X)] 3 A
+[( )] 48 A
 
-**Ohmov zakon** · Kolikšen je tok pri 12 V in uporu 4 Ω?
+| Zapis           | Pomen                     |
+| --------------- | ------------------------- |
+| `[( )] [(X)]`   | en pravilen odgovor       |
+| `[[ ]] [[X]]`   | več pravilnih odgovorov   |
+| `[[odgovor]]`   | vpiši odgovor             |
+| `[[___]]`       | prosto besedilo, brez ocene |
 
-- [( )] 2 A
-- [(X)] 3 A
-- [( )] 48 A
+### Vaja: delovni zvezek z AI
 
----
+_Vežba: radna sveska sa AI_
 
-**Katere so enote električnih veličin?** / Izaberi sve tačne odgovore.
+1. Prosi AI za delovni zvezek v LiaScriptu za svojo temo: kratka razlaga in 5 vprašanj.
+   _Traži od AI radnu svesku u LiaScriptu: objašnjenje i 5 pitanja._
+2. Odgovor prilepi v LiveEditor.
+   _Zalepi odgovor u LiveEditor._
+3. Preveri dejstva in sam popravi vsaj eno vprašanje.
+   _Proveri činjenice i sam popravi bar jedno pitanje._
+4. Shrani kot `README.md`.
 
-- [[X]] volt
-- [[ ]] meter
-- [[X]] amper
-- [[ ]] kilogram
+Primer poziva za AI:
 
----
-
-**Zapiši kemijski simbol za kisik.**
-
-[[O]]
-
-Vsaka od teh nalog je zapisana neposredno v `.md` datoteki.
-
-
-
-## Delovni zvezek z AI
-
-<!-- Izvirna prosojnica 22/55 -->
-
-**25 min · do 11.20 · List 3? Ne: za to aktivnost uporabite svoj osnutek.**
-
-1. Prosi AI za LiaScript delovni zvezek: **razlaga in 5 vprašanj**.
-2. Kodo prilepi v [LiveEditor](https://liascript.github.io/LiveEditor/).
-3. Preveri dejstva in **eno vprašanje popravi sam**.
-4. Shrani kot **README.md**.
-
-> AI pripravi osnutek, učitelj pa ostane avtor učne vsebine.
-
+```
+Naredi delovni zvezek v LiaScriptu za [tema], [letnik].
+Kratka razlaga, nato 5 vprašanj z izbiro odgovorov.
+Vrni samo markdown.
+```
 
 
 ## Spletna aplikacija z AI
 
-<!-- Izvirna prosojnica 23/55 -->
+_Veb aplikacija sa AI · 35 min · list 3_
 
-04
+Vsako od teh učil je ena datoteka HTML, ki jo je napisala AI po kratkem opisu.
 
-Veb aplikacija sa AI
+![RGB izziv](img/shot_rgb.png)
+![Phishing detektiv](img/shot_phishing.png)
+![ESP32 pinout](img/shot_esp32.png)
+![Galerija vrst orodij](img/shot_galerija.png)
+
+**Vrste orodij:** kviz, razvrščanje, iskanje parov, kartice, spomin, časovnica, klik na sliko, simulacija, sestavljanje stavkov.
+
+### List 3: Opis za AI
+
+_Radni list 3: Opis za AI_
+
+Naslov · _Naslov_
+
+[[___]]
+
+Predmet in letnik · _Predmet i razred_
+
+[[___]]
+
+Učni cilj: po uporabi dijak zna … · _Cilj učenja_
+
+[[___]]
+
+Vrsta orodja · _Vrsta alata_
+
+[(kviz)] kviz
+[(razvrscanje)] razvrščanje
+[(pari)] iskanje parov
+[(kartice)] kartice
+[(spomin)] spomin
+[(casovnica)] časovnica
+[(slika)] klik na sliko
+[(simulacija)] simulacija
+[(stavki)] sestavljanje stavkov
+
+Kaj dijak počne, korak za korakom · _Šta učenik radi_
+
+[[___ ___]]
+
+Vsebina: tvoj seznam vprašanj ali pojmov · _Sadržaj_
+
+[[___ ___ ___ ___]]
+
+En primer, v celoti izdelan · _Jedan primer_
+
+[[___ ___]]
+
+Pravilno in napačno: kaj vidi dijak · _Povratna informacija_
+
+[[___]]
+
+Videz in jezik · _Izgled i jezik_
+
+[[___]]
+
+**Tehnična pravila (prepiši v opis):**
+
+```
+Ena sama datoteka index.html (HTML, CSS in JS v njej).
+Brez prijave, brez strežnika, brez zunanjih podatkov.
+Deluje na telefonu, računalniku in interaktivni tabli.
+Vsa vsebina v enem preglednem seznamu na vrhu kode.
+Preden napišeš kodo, mi postavi največ 3 vprašanja.
+```
+
+### Delo z AI
+
+_Rad sa AI_
+
+1. Prilepi opis in odgovori na vprašanja.
+2. Ena sprememba naenkrat: »Spremeni samo X, ostalo pusti.«
+3. Ko deluje, shrani kopijo.
+4. Preizkusi na telefonu.
 
 
-## Kaj lahko naredite v pol ure
+## Objava na GitHub Pages
 
-<!-- Izvirna prosojnica 24/55 -->
+_Objava na GitHub Pages · 25 min · list 4_
 
-Tri primeri spletnih učil, ustvarjenih kot ena HTML datoteka:
+1. Prijava na [github.com](https://github.com).
+2. New repository, Public, ime npr. `moje-ucilo`.
+3. Add file → Upload files: `index.html` in `README.md`.
+4. Settings → Pages → Deploy from a branch → main → Save.
+5. Po minuti se na vrhu pokaže povezava.
 
-- **RGB izziv** — preizkušanje barv in vrednosti
-- **Phishing detektiv** — odločanje ob sumljivem sporočilu
-- **ESP32 pinout** — razumevanje funkcij priključkov
+![github.com](img/qr_github.png)<!-- style="width:140px" -->
 
-**Vprašanje za vas:** katero dejanje bo pri vašem predmetu izvajal dijak — in kaj bo videl ob napaki?
+**Delovni zvezek kot tečaj:** na GitHubu odpri `README.md`, klikni Raw in povezavo prilepi za
 
+`https://liascript.github.io/course/?`
 
-**Vizualno gradivo iz izvirne predstavitve:**
+### List 4: Moje povezave
 
-![Ilustracija iz prosojnice 24](assets/slide24_3.png)
-![Ilustracija iz prosojnice 24](assets/slide24_6.png)
-![Ilustracija iz prosojnice 24](assets/slide24_9.png)
+_Radni list 4: Moji linkovi_
 
+Povezava do aplikacije · _Link do aplikacije_
 
-## Opis za AI
+[[___]]
 
-<!-- Izvirna prosojnica 25/55 -->
+Povezava do delovnega zvezka · _Link do radne sveske_
 
-Naslov / Predmet in letnik / Učni cilj: po uporabi dijak zna … / Vrsta orodja / Kaj dijak počne, korak za korakom / Vsebina: tvoj seznam vprašanj / En primer, v celoti / Pravilno / napačno: kaj vidi dijak / Videz in jezik
+[[___]]
 
-Tehnična pravila / Ena datoteka index.html. Brez strežnika. Deluje na telefonu in tabli. Vsebina na vrhu kode. AI najprej postavi do 3 vprašanja. / Vsebino napišeš ti, ne AI.
+Kaj bi še dodal? · _Šta bih još dodao?_
 
-
-## Aplikacija z AI
-
-<!-- Izvirna prosojnica 26/55 -->
-
-VAJA · VEŽBA
-
-Aplikacija sa AI
-
-Izpolnita opis na listu 3. / Popunite opis na listu 3.
-
-Prilepita ga v AI in odgovorita na vprašanja. / Zalepite ga u AI i odgovorite.
-
-Preizkusita na telefonu. / Testirajte na telefonu.
-
-Ena sprememba naenkrat. Ko deluje, shranita kopijo. / Jedna izmena odjednom. Sačuvajte kopiju.
-
-35 min
-
-do 11.55 / do 11.55
-
-List 3 / delovni list / radni list
-
-
-## GitHub Pages v 5 korakih
-
-<!-- Izvirna prosojnica 27/55 -->
-
-1. Prijava na [github.com](https://github.com/)
-2. **New repository → Public**
-3. **Upload files:** `index.html` in `README.md`
-4. **Settings → Pages → Deploy from a branch → main → Save** (če se prikaže izbira mape: `/root`)
-5. Odpri povezavo do spletne aplikacije, ko je objava zaključena.
-
-**LiaScript README** lahko odprete z ustreznim javnim URL-jem do surove `.md` datoteke v bralniku LiaScript. Podrobnosti preverite v [LiaScript dokumentaciji](https://liascript.github.io/).
-
-
-
-## Objava
-
-<!-- Izvirna prosojnica 28/55 -->
-
-VAJA · VEŽBA
-
-Sledi korakom na projektorju. / Prati korake na projektoru.
-
-Povezavo do aplikacije zapiši na list 4. / Link do aplikacije zapiši na list 4.
-
-Povezavo pošlji v skupni seznam. / Pošalji link u zajednički spisak.
-
-25 min
-
-do 12.20 / do 12.20
-
-List 4 / delovni list / radni list
+[[___ ___]]
 
 
 ## Danes
 
-<!-- Izvirna prosojnica 29/55 -->
+_Danas_
 
-Danas
+- [x] ideja iz bolečine
+- [x] delovni zvezek LiaScript
+- [x] spletna aplikacija na GitHub Pages
 
-✓  Ideja iz bolečine
+**Jutri** iz vaše aplikacije naredimo QR kodo in jo vgraviramo na fizično učilo.
 
-✓  Delovni zvezek LiaScript
-
-✓  Spletna aplikacija na GitHub Pages
-
-Jutri: iz vaše aplikacije naredimo QR kodo in jo vgraviramo na fizično učilo. / Sutra: od aplikacije pravimo QR kod i graviramo ga na fizičko sredstvo.
+_Sutra od aplikacije pravimo QR kod i graviramo ga na fizičko sredstvo._
 
 
-## 2. dan · izdelava
+# 2. dan: izdelava
 
-<!-- Izvirna prosojnica 30/55 -->
+_2. dan: izrada_
 
-| Čas | Dejavnost |
-|---|---|
-| 9.00 | Včeraj / Juče |
-| 9.10 | Kaj je dobro učilo |
-| 9.25 | SCAMPER · List 5 |
-| 9.55 | 3D-tisk |
-| 10.35 | Odmor |
-| 10.50 | Laser in QR koda |
-| 11.30 | Prototip · List 6 |
-| 12.15 | Pokaži in povej |
-
-
-
-
-> **Namig predavatelju:** Odprite naslednje poglavje v načinu Slides; udeleženci lahko sledijo tudi na telefonu.
+| Ura   | Blok                 | List |
+| ----- | -------------------- | ---- |
+| 9.00  | Včeraj               |      |
+| 9.10  | Kaj je dobro učilo   |      |
+| 9.25  | SCAMPER              | 5    |
+| 9.55  | Varnost in 3D-tisk   |      |
+| 10.35 | Odmor                |      |
+| 10.50 | Laser in QR koda     |      |
+| 11.30 | Prototip             | 6    |
+| 12.15 | Pokaži in povej      |      |
 
 
 ## Včeraj
 
-<!-- Izvirna prosojnica 31/55 -->
+_Juče · 10 min_
 
-Juče
+Vsak par v 30 sekundah pokaže svojo aplikacijo na telefonu. Vsak dobi majhen list s QR kodo svoje aplikacije: danes jo vgraviramo.
 
-Vsak par v 30 sekundah pokaže svojo aplikacijo na telefonu. / Svaki par za 30 sekundi pokazuje aplikaciju na telefonu.
-
-Tvoja QR koda / Tvoj QR kod
-
-Vsak dobi majhen list s QR kodo svoje aplikacije. Danes jo vgraviramo. / Svako dobija mali list sa QR kodom svoje aplikacije.
+_Svaki par za 30 sekundi pokazuje aplikaciju. Svako dobija mali list sa svojim QR kodom._
 
 
 ## Kaj je dobro učilo
 
-<!-- Izvirna prosojnica 32/55 -->
+_Šta je dobro nastavno sredstvo · 15 min_
 
-Šta je dobro nastavno sredstvo
+1. Samo pokaže napako. _Samo pokazuje grešku._
+2. En pojem. _Jedan pojam._
+3. Več čutil. _Više čula._
+4. Za vse dijake. _Za sve učenike._
+5. Iz recikliranega. _Od recikliranog._
 
-Samo pokaže napako / Samo pokazuje grešku
+Katero od petih ima tvoja ideja že zdaj? · _Šta tvoja ideja već ima?_
 
-En pojem / Jedan pojam
-
-Več čutil / Više čula
-
-Za vse dijake / Za sve učenike
-
-Iz recikliranega / Od recikliranog
+[[1]] samo pokaže napako
+[[2]] en pojem
+[[3]] več čutil
+[[4]] za vse dijake
+[[5]] iz recikliranega
 
 
 ## SCAMPER
 
-<!-- Izvirna prosojnica 33/55 -->
+_Sedam pitanja za novu ideju · 30 min · list 5_
 
-Uporabi **SCAMPER** za izboljšavo običajnega učila.
+| Črka | Slovensko         | Srpski              | Vprašanje                                       |
+| ---- | ----------------- | ------------------- | ----------------------------------------------- |
+| S    | Zamenjaj          | Zameni              | Kaj lahko zamenjam: material, vsebino, obliko?  |
+| C    | Združi            | Kombinuj            | S čim ga povežem: zvok, luč, QR koda?           |
+| A    | Prilagodi         | Prilagodi           | Kako ga prilagodim svojemu predmetu?            |
+| M    | Spremeni          | Izmeni              | Večje, manjše, druge barve, več kosov?          |
+| P    | Uporabi drugače   | Upotrebi drugačije  | Za kaj drugega bi ga uporabil?                  |
+| E    | Odstrani          | Ukloni              | Kaj izpustim, da ostane bistvo?                 |
+| R    | Obrni             | Obrni               | Kaj, če naredim obratno?                        |
 
-| Črka | Slovenščina | Srpski |
-|---|---|---|
-| S | Zamenjaj | Zameni |
-| C | Združi | Kombinuj |
-| A | Prilagodi | Prilagodi |
-| M | Spremeni | Izmeni |
-| P | Uporabi drugače | Upotrebi drugačije |
-| E | Odstrani | Ukloni |
-| R | Obrni | Obrni |
+**Primer, abak:** kroglice zamenjaj z besedami (S), abak za dvojiški sistem (C), za ves razred na steni (M).
 
-Primer za abak: namesto kroglic besede (S); predstavitev binarnega sistema (C); učilo čez vso steno (M).
+### List 5: SCAMPER
 
-**Označi vse ideje, ki so primer uporabe SCAMPER.**
+_Radni list 5: SCAMPER_
 
-- [[X]] Zamenjamo kroglice z barvnimi simboli.
-- [[X]] Uporabimo abak za ponazoritev binarnega sistema.
-- [[ ]] Kopiramo isto učilo brez spremembe.
-- [[X]] Odstranimo del, ki za učni cilj ni potreben.
+Učilo s kartice · _Sredstvo sa kartice_
 
+[[___]]
 
+S · Zamenjaj
 
-## SCAMPER – vaja
+[[___]]
 
-<!-- Izvirna prosojnica 34/55 -->
+C · Združi
 
-VAJA · VEŽBA
+[[___]]
 
-SCAMPER
+A · Prilagodi
 
-Par izvleče kartico klasičnega učila. / Par izvlači karticu klasičnog sredstva.
+[[___]]
 
-Pri vsaki črki ena ideja za vaš predmet. / Za svako slovo jedna ideja za vaš predmet.
+M · Spremeni
 
-Izberita eno in jo narišita. / Izaberite jednu i nacrtajte je.
+[[___]]
 
-Lahko jo povežeta z včerajšnjo idejo. / Možete je povezati sa jučerašnjom idejom.
+P · Uporabi drugače
 
-30 min
+[[___]]
 
-do 9.55 / do 9.55
+E · Odstrani
 
-List 5 / delovni list / radni list
+[[___]]
+
+R · Obrni
+
+[[___]]
+
+Izbrana ideja · _Izabrana ideja_
+
+[[___ ___]]
 
 
 ## Varnost
 
-<!-- Izvirna prosojnica 35/55 -->
+_Bezbednost_
 
-**Pravila dela v delavnici**
-
-- Laser ne dela brez nadzora.
-- Odsesavanje mora biti vedno vklopljeno.
-- Šoba 3D-tiskalnika je vroča, tudi nad 200 °C.
-- Ob ognju: pokrov zaprt, stroj ustavi in pokliči odgovorno osebo.
-
-**Preverjanje:** kaj mora biti pri delu z laserjem vedno vključeno?
-
-- [( )] Samo osvetlitev prostora
-- [(X)] Odsesavanje
-- [( )] Bluetooth
-
+1. Laser ne dela brez nadzora. _Laser ne radi bez nadzora._
+2. Odsesavanje vedno vklopljeno. _Usisavanje uvek uključeno._
+3. Šoba 3D-tiskalnika je vroča, nad 200 °C. _Mlaznica je vruća, preko 200 °C._
+4. Ob ognju: pokrov zaprt, stroj ustavi, pokliči. _Kod vatre: poklopac zatvoren, pozovi._
 
 
 ## 3D-tisk
 
-<!-- Izvirna prosojnica 36/55 -->
+_3D-štampa · 40 min_
 
-**Postopek:** [Printables](https://www.printables.com/) ali [Tinkercad](https://www.tinkercad.com/) → priprava v rezalniku → tisk do 20 minut.
+1. Najdi model na [Printables](https://www.printables.com) ali ga nariši v [Tinkercad](https://www.tinkercad.com).
+2. Razreži: do 20 minut tiska.
+3. Datoteko prinesi k tiskalniku.
 
-**Izziv:** kocka za svoj predmet, na šestih ploskvah simboli, besede ali formule.
+![Tinkercad](img/qr_tinkercad.png)<!-- style="width:120px" -->
+![Printables](img/qr_printables.png)<!-- style="width:120px" -->
 
-Poskusite 3D model v brskalniku: [Tinkercad](https://www.tinkercad.com/) (za urejanje se lahko zahteva prijava).
+**Izziv:** kocka za tvoj predmet, na 6 ploskvah besede, simboli ali formule.
 
-
-**Vizualno gradivo iz izvirne predstavitve:**
-
-![Ilustracija iz prosojnice 36](assets/slide36_11.png)
-![Ilustracija iz prosojnice 36](assets/slide36_13.png)
-
-
-## 3D-tisk – vaja
-
-<!-- Izvirna prosojnica 37/55 -->
-
-VAJA · VEŽBA
-
-3D-tisk
-
-3D-štampa
-
-Najdita ali narišita en kos za vaše učilo. / Nađite ili nacrtajte jedan deo.
-
-Razrežita: do 20 minut tiska. / Isecite: do 20 minuta štampe.
-
-Datoteko prinesita k tiskalniku. / Donesite datoteku do štampača.
-
-40 min
-
-do 10.35 / do 10.35
+[Video: Tinkercad za začetnike](https://www.youtube.com/results?search_query=tinkercad+beginner+tutorial)
 
 
 ## Odmor
 
-<!-- Izvirna prosojnica 38/55 -->
-
-Pauza
-
-15 min  ·  nadaljujemo ob 10.50 / nastavljamo u 10.50
+_Pauza · 15 min · nadaljujemo ob 10.50_
 
 
-## QR koda v Inkscapu
+## Laser in QR koda
 
-<!-- Izvirna prosojnica 39/55 -->
+_Laser i QR kod · 40 min_
 
-**QR koda poveže fizično učilo z digitalno nalogo.**
+**QR koda v Inkscapu**
 
 1. Odpri predlogo za laser.
-2. Inkscape: **Extensions → Render → Barcode → QR Code**.
-3. Prilepi naslov spletne aplikacije.
-4. QR naj bo **najmanj 25 mm**; za graviranje najprej preveri berljivost.
+2. Extensions → Render → Barcode → QR Code.
+3. Prilepi povezavo do svoje aplikacije.
+4. QR naj bo vsaj 25 mm, kot gravura.
 
-**Test pred graviranjem:** odpri povezavo z mobilnim telefonom.
+Pred rezanjem kodo preizkusi s telefonom na zaslonu. Rez gre po vrsti, 3 minute na par. Medtem delaš prototip iz kartona.
 
-
-
-## Laser
-
-<!-- Izvirna prosojnica 40/55 -->
-
-VAJA · VEŽBA
-
-Na predlogo dodaj ime, predmet in QR kodo. / Dodaj ime, predmet i QR kod.
-
-Rez po vrsti, 3 minute na par. / Rez po redu, 3 minuta po paru.
-
-Medtem delaj prototip iz kartona. / U međuvremenu pravi prototip od kartona.
-
-40 min
-
-do 11.30 / do 11.30
+_Pre rezanja proveri kod telefonom. Rez ide po redu, 3 minuta po paru._
 
 
 ## Prototip
 
-<!-- Izvirna prosojnica 41/55 -->
+_Prototip · 45 min · list 6_
 
-VAJA · VEŽBA
+Najprej karton in odpadni material, nato natisnjeni in izrezani deli. Ni treba dokončati: šteje, da ideja deluje v roki.
 
-Najprej karton in odpadni material. / Prvo karton i otpadni materijal.
+### List 6: Moj prototip
 
-Dodaj natisnjene in izrezane dele. / Dodaj odštampane i isečene delove.
+_Radni list 6: Moj prototip_
 
-Izpolni list 6: skica in materiali. / Popuni list 6: skica i materijali.
+Ime učila · _Ime sredstva_
 
-45 min
+[[___]]
 
-do 12.15 / do 12.15
+Skico narišeš na papir. Tukaj zapiši materiale in ali so reciklirani.
 
-List 6 / delovni list / radni list
+[[___ ___ ___]]
+
+Orodja · _Alati_
+
+[[karton]] karton
+[[les]] odpadni les / otpadno drvo
+[[laser]] laser
+[[3d]] 3D-tisk / 3D-štampa
+[[elektronika]] elektronika (ESP32)
+
+QR koda vodi do · _QR kod vodi do_
+
+[[___]]
 
 
 ## Pokaži in povej
 
-<!-- Izvirna prosojnica 42/55 -->
+_Pokaži i ispričaj · 15 min_
 
-VAJA · VEŽBA
+Vsak par 1 minuto: problem, učilo, QR koda. Ostali skenirajo.
 
-Pokaži i ispričaj
-
-Vsak par 1 minuto: problem, učilo, QR. / Svaki par 1 minut: problem, sredstvo, QR.
-
-Ostali skenirajo QR kodo. / Ostali skeniraju QR kod.
-
-15 min
-
-do 12.30 / do 12.30
+_Svaki par 1 minut: problem, sredstvo, QR kod._
 
 
-## 3. dan · knjižnica in načrt
+# 3. dan: knjižnica in načrt
 
-<!-- Izvirna prosojnica 43/55 -->
+_3. dan: biblioteka i plan_
 
-| Čas | Dejavnost |
-|---|---|
-| 9.00 | Včeraj / Juče |
-| 9.10 | Kritični prijatelj · List 7 |
-| 9.30 | Knjižnica, Markdown, predloga |
-| 10.05 | Pisanje strani · List 8 |
-| 10.40 | Odmor |
-| 10.55 | Stran in akcijski načrt · Lista 8, 9 |
-| 11.45 | Oddaja · List 10 |
-| 12.00 | Predstavitve |
-| 12.20 | Kaj sledi, vprašalnik · List 12 |
-
-
-
-
-> **Namig predavatelju:** Odprite naslednje poglavje v načinu Slides; udeleženci lahko sledijo tudi na telefonu.
-
-
-## Včeraj
-
-<!-- Izvirna prosojnica 44/55 -->
-
-Juče
-
-Prevzemite tiske, ki so tekli čez noč. / Preuzmite štampe koje su radile preko noći.
-
-Danes vsak par odda stran učila in akcijski načrt. / Danas svaki par predaje stranu sredstva i akcioni plan.
+| Ura   | Blok                             | List  |
+| ----- | -------------------------------- | ----- |
+| 9.00  | Včeraj                           |       |
+| 9.10  | Kritični prijatelj               | 7     |
+| 9.30  | Knjižnica, markdown, predloga    |       |
+| 10.05 | Pisanje strani                   | 8     |
+| 10.40 | Odmor                            |       |
+| 10.55 | Stran in akcijski načrt          | 8, 9  |
+| 11.45 | Oddaja                           | 10    |
+| 12.00 | Predstavitve                     |       |
+| 12.20 | Kaj sledi, vprašalnik            | 12    |
 
 
 ## Kritični prijatelj
 
-<!-- Izvirna prosojnica 45/55 -->
+_Kritički prijatelj · 20 min · list 7_
 
-VAJA · VEŽBA
+Par predstavi učilo drugemu paru v 3 minutah. Drugi par napiše po en stavek v vsako polje. Nato zamenjajta vlogi.
 
-Kritički prijatelj
+### List 7: Kritični prijatelj
 
-Par predstavi učilo drugemu paru, 3 minute. / Par predstavlja sredstvo drugom paru, 3 minuta.
+Všeč mi je … · _Sviđa mi se …_
 
-Drugi par napiše: Všeč mi je … Želim si … Kaj če …? / Drugi par piše: Sviđa mi se … Voleo bih … Šta ako …?
+[[___ ___]]
 
-Zamenjajta vlogi. / Zamenite uloge.
+Želim si … · _Voleo bih …_
 
-20 min
+[[___ ___]]
 
-do 9.30 / do 9.30
+Kaj če …? · _Šta ako …?_
 
-List 7 / delovni list / radni list
+[[___ ___]]
+
+Kaj bova spremenila · _Šta ćemo promeniti_
+
+[[___ ___]]
 
 
 ## Spletna knjižnica učil
 
-<!-- Izvirna prosojnica 46/55 -->
+_Veb biblioteka nastavnih sredstava · 15 min_
 
-Veb biblioteka nastavnih sredstava
+Ena stran na učilo: namen, materiali, koraki, uporaba pri pouku, datoteke. Slovensko, srbsko, angleško. Objavi ŠC Kranj.
 
-Ena stran na učilo: namen, materiali, koraki, uporaba pri pouku, datoteke. / Jedna strana po sredstvu. / Slovensko, srbsko, angleško. Objavi ŠC Kranj.
-
-**Vizualno gradivo iz izvirne predstavitve:**
-
-![Ilustracija iz prosojnice 46](assets/slide46_4.png)
+![Primer kazala učil](img/shot_index.png)
 
 
 ## Markdown
 
-<!-- Izvirna prosojnica 47/55 -->
+_Markdown · 10 min_
 
-Markdown je navaden tekst z nekaj znaki za strukturo.
+| Napišeš                      | Dobiš               |
+| ---------------------------- | ------------------- |
+| `# Naslov`                   | velik naslov        |
+| `## Podnaslov`               | manjši naslov       |
+| `- alineja`                  | seznam              |
+| `1. korak`                   | oštevilčen seznam   |
+| `**krepko**`                 | **krepko**          |
+| `![opis](slike/1.jpg)`       | slika               |
+| `[besedilo](povezava)`       | povezava            |
 
-```markdown
-# Naslov
-## Podnaslov
-- alineja
-1. prvi korak
-**krepko**
-![opis](slike/1.jpg)
-[besedilo](https://example.org)
-```
-
-**Interaktivni dodatek LiaScripta:**
-
-```markdown
-Koliko je 2 + 3?
-
-- [( )] 4
-- [(X)] 5
-- [( )] 6
-```
-
+Že poznate iz LiaScripta.
 
 
 ## Predloga za stran učila
 
-<!-- Izvirna prosojnica 48/55 -->
+_Šablon za stranu sredstva_
 
-V knjižnico vključite:
+``` markdown
+---
+title: "Ime učila"
+date: 2026-10-30
+avtorji: ["Ime Priimek", "Ime Priimek"]
+sola: "ŠC Kranj / ETŠ Mija Stanimirović"
+predmet: "Elektrotehnika"
+letnik: "2. letnik"
+materiali: ["karton", "odpadni les"]
+reciklirano: true
+orodja: ["laser", "3D-tisk"]
+naslovna: "slike/naslovna.jpg"
+licenca: "CC BY-SA 4.0"
+---
 
-1. **Namen** / Svrha
-2. **Materiali in orodja** / Materijali i alati
-3. **Izdelava po korakih** / Izrada korak po korak
-4. **Uporaba pri pouku** / Upotreba u nastavi
-5. **Kako so sodelovali dijaki** / Kako su učestvovali učenici
-6. **Nadgradnje in datoteke** / Nadogradnje i datoteke
+## Namen
+## Materiali in orodja
+## Izdelava
+## Uporaba pri pouku
+## Kako so sodelovali dijaki
+## Nadgradnje
+## Datoteke
 
-> Prenesite vsebino z delovnega lista 8 v Markdown. AI lahko pomaga urediti zapis, **dejstva preverite sami**.
+Nastalo v projektu Erasmus+ MAKE&LEARN, ki ga sofinancira Evropska unija.
+```
 
+**Namig:** zapiske z lista 8 in predlogo prilepi v AI: »Izpolni to predlogo z mojimi zapiski. Ne izmišljuj dejstev.« Nato preveri.
 
 
 ## Pisanje strani
 
-<!-- Izvirna prosojnica 49/55 -->
+_Pisanje strane · 35 + 50 min · list 8_
 
-VAJA · VEŽBA
+1. Fotografiraj učilo in vsak korak.
+2. Izpolni osnutek.
+3. Prepiši ga v `index.md`, ročno ali z AI.
 
-Pisanje strane
+### List 8: Stran učila, osnutek
 
-Fotografiraj učilo in vsak korak. / Fotografiši sredstvo i svaki korak.
+Naslov učila · _Naziv sredstva_
 
-Izpolni osnutek na listu 8. / Popuni nacrt na listu 8.
+[[___]]
 
-Prepiši ga v index.md, ročno ali z AI. / Prepiši u index.md, ručno ili sa AI.
+Predmet, letnik, čas izdelave · _Predmet, razred, vreme izrade_
 
-35 min
+[[___]]
 
-do 10.40 / do 10.40
+Namen · _Svrha_
 
-List 8 / delovni list / radni list
+[[___ ___]]
+
+Materiali in orodja (označi reciklirano) · _Materijali i alati_
+
+[[___ ___]]
+
+Izdelava po korakih · _Izrada korak po korak_
+
+[[___ ___ ___ ___]]
+
+Uporaba pri pouku · _Upotreba u nastavi_
+
+[[___ ___]]
+
+Kako so sodelovali dijaki · _Kako su učestvovali učenici_
+
+[[___ ___]]
+
+Nadgradnje · _Nadogradnje_
+
+[[___]]
 
 
 ## Odmor
 
-<!-- Izvirna prosojnica 50/55 -->
-
-Pauza
-
-15 min  ·  nadaljujemo ob 10.55 / nastavljamo u 10.55
+_Pauza · 15 min · nadaljujemo ob 10.55_
 
 
-## Stran in akcijski načrt
+## Akcijski načrt
 
-<!-- Izvirna prosojnica 51/55 -->
+_Akcioni plan · list 9 · vsak učitelj svojega_
 
-VAJA · VEŽBA
+Predmet in letnik · _Predmet i razred_
 
-Strana i akcioni plan
+[[___]]
 
-Dokončaj stran učila. / Završi stranu sredstva.
+Število dijakov in ekip · _Broj učenika i timova_
 
-Vsak sam izpolni akcijski načrt za svoj razred. / Svako sam popunjava akcioni plan.
+[[___]]
 
-Kaj bodo dijaki naredili od novembra do junija? / Šta će učenici raditi od novembra do juna?
+Učilo, ki ga bodo izdelali dijaki · _Sredstvo koje će napraviti učenici_
 
-50 min
+[[___ ___]]
 
-do 11.45 / do 11.45
+Učni cilj · _Cilj učenja_
 
-List 9 / delovni list / radni list
+[[___]]
+
+| Mesec      | Kaj delamo · _Šta radimo_ |
+| ---------- | ------------------------- |
+| november   |                           |
+| december   |                           |
+| januar     |                           |
+| februar    |                           |
+| marec      |                           |
+| april      |                           |
+| maj        |                           |
+| junij      |                           |
+
+Časovnica po mesecih · _Vremenski plan_
+
+[[___ ___ ___ ___ ___ ___ ___ ___]]
+
+Materiali, najprej reciklirani · _Materijali_
+
+[[___ ___]]
+
+Kdaj preizkus v razredu · _Kada test u razredu_
+
+[[___]]
+
+Kako bom dijake vprašal po motivaciji · _Kako ću pitati učenike o motivaciji_
+
+[[___ ___]]
 
 
 ## Oddaja
 
-<!-- Izvirna prosojnica 52/55 -->
+_Predaja · 15 min · list 10_
 
-Oddajte mapo:
-
-```text
+```
 priimek-ucilo/
-├── index.md
-├── slike/
-└── datoteke/
+   index.md
+   slike/
+      naslovna.jpg
+      korak-1.jpg
+   datoteke/
+      model.stl
 ```
 
-**Mapa** → skupna mapa projekta v Teamsu.  
-**Akcijski načrt** → vodji usposabljanja.
-
+- [ ] mapa z imenom `priimek-ucilo`
+- [ ] v njej `index.md`
+- [ ] mapa `slike/` z naslovno fotografijo in koraki
+- [ ] mapa `datoteke/` (STL, SVG)
+- [ ] na dnu strani vrstica o projektu Erasmus+ MAKE&LEARN
+- [ ] naloženo v skupno mapo v Teamsu
+- [ ] akcijski načrt oddan
+- [ ] vprašalnik izpolnjen
 
 
 ## Predstavitve
 
-<!-- Izvirna prosojnica 53/55 -->
+_Prezentacije · 20 min_
 
-VAJA · VEŽBA
+Vsak par 1 minuto: problem, učilo, kako ga bodo izdelali dijaki.
 
-Prezentacije
-
-Vsak par 1 minuto: problem, učilo, kako ga bodo izdelali dijaki. / Svaki par 1 minut: problem, sredstvo, kako će ga napraviti učenici.
-
-20 min
-
-do 12.20 / do 12.20
+_Svaki par 1 minut: problem, sredstvo, kako će ga napraviti učenici._
 
 
 ## Kaj sledi
 
-<!-- Izvirna prosojnica 54/55 -->
+_Šta sledi_
 
-Šta sledi
-
-nov 2026
-
-Začetek z dijaki / Početak sa učenicima
-
-jun 2027
-
-10 učil na šolo / 10 sredstava po školi
-
-okt 2027
-
-Tekmovanje v Nišu / Takmičenje u Nišu
-
-Prosim, izpolnite vprašalnik na listu 12. / Molim, popunite upitnik na listu 12.
+| Kdaj      | Kaj                              |
+| --------- | -------------------------------- |
+| nov 2026  | začetek z dijaki                 |
+| jun 2027  | 10 učil na šolo                  |
+| okt 2027  | predstavitev in tekmovanje v Nišu |
 
 
-## Hvala
+## Vprašalnik o usposabljanju
 
-<!-- Izvirna prosojnica 55/55 -->
+_Upitnik o obuci · list 12 · anonimno_
 
-MAKE&LEARN · ŠC Kranj · ETŠ Mija Stanimirović / sofinancira Evropska unija / sufinansira Evropska unija
+1 = sploh se ne strinjam, 5 = popolnoma se strinjam
+_1 = uopšte se ne slažem, 5 = potpuno se slažem_
+
+Vsebina usposabljanja je bila jasna. · _Sadržaj obuke je bio jasan._
+
+[(1)] 1
+[(2)] 2
+[(3)] 3
+[(4)] 4
+[(5)] 5
+
+Usposabljanje je uporabno za moj pouk. · _Obuka je korisna za moju nastavu._
+
+[(1)] 1
+[(2)] 2
+[(3)] 3
+[(4)] 4
+[(5)] 5
+
+Metodo so-ustvarjanja znam uporabiti z dijaki. · _Znam da primenim kokreaciju._
+
+[(1)] 1
+[(2)] 2
+[(3)] 3
+[(4)] 4
+[(5)] 5
+
+Vsebina je povezana z mojim predmetom. · _Sadržaj je povezan sa mojim predmetom._
+
+[(1)] 1
+[(2)] 2
+[(3)] 3
+[(4)] 4
+[(5)] 5
+
+Kaj je bilo najbolj koristno? · _Šta je bilo najkorisnije?_
+
+[[___ ___]]
+
+Kaj bi spremenili? · _Šta biste promenili?_
+
+[[___ ___]]
 
 
-## Bonus · LiaScript zna še več
+# Priloge
 
-To je ista učna vsebina v treh pogledih: predstavitev, besedilo in učne naloge. Slike so lokalne; kvizi se preverjajo v brskalniku.
+_Prilozi_
 
-**Preizkusite:** [LiveEditor](https://liascript.github.io/LiveEditor/) · [LiaScript](https://liascript.github.io/)
 
-**Za avtorje:** celotno gradivo lahko spremenite z urejanjem datoteke `README.md`.
+## 20 klasičnih učil za navdih
+
+_20 klasičnih sredstava za inspiraciju_
+
+| #  | Učilo                          | Leto       | Kaj uči                      | Izdelava          |
+| -- | ------------------------------ | ---------- | ---------------------------- | ----------------- |
+| 1  | Napierjeve palice              | 1617       | množenje                     | laser             |
+| 2  | logaritemsko računalo          | ok. 1630   | logaritmi                    | laser             |
+| 3  | geoplošča                      | 1950-a     | liki, ploščina, koti         | laser, zatiči     |
+| 4  | Dienesove kocke                | 1960-a     | mestne vrednosti, dvojiško   | 3D-tisk           |
+| 5  | Montessori zlate perle         | zač. 1900  | enice, desetice, stotice     | perle, žica       |
+| 6  | Soma kocka                     | 1933       | prostorska predstava         | les, 3D-tisk      |
+| 7  | Hanojski stolp                 | 1883       | rekurzija, algoritmi         | laser, palice     |
+| 8  | Keplerjeva telesa              | 1596       | geometrijska telesa          | laser, 3D-tisk    |
+| 9  | astrolab                       | antika     | zvezde, čas, koti            | laser             |
+| 10 | planetarij (orrery)            | ok. 1704   | gibanje planetov             | 3D-tisk, zobniki  |
+| 11 | mehanski števec                | 1642       | prenos pri seštevanju        | 3D-tisk           |
+| 12 | camera obscura                 | antika     | optika, oko                  | karton, leča      |
+| 13 | stereoskop                     | 1838       | 3D vid                       | laser, leči       |
+| 14 | zoetrop                        | 1834       | animacija                    | karton, laser     |
+| 15 | laterna magika                 | 17. stol.  | projekcija                   | škatla, LED       |
+| 16 | Albertijev disk                | 1467       | šifriranje                   | laser             |
+| 17 | Jacquardove luknjane kartice   | 1804       | programiranje                | laser             |
+| 18 | Morsejev telegraf              | 1830-a     | kodiranje signalov           | les, ESP32        |
+| 19 | Vesalijeva anatomija           | 1543       | plasti telesa                | laser, papir      |
+| 20 | Séguinova deska                | 1840-a     | oblike, vključevanje         | laser             |
+
+
+## Natisljivi delovni listi
+
+_Radni listovi za štampu_
+
+Vsi delovni listi so tudi v PDF za tisk, v mapi `delovni-listi/`.
+
+[Vsi delovni listi v enem PDF](delovni-listi/00_vsi_delovni_listi.pdf)
+
+
+## O tečaju
+
+Erasmus+ KA210-VET MAKE&LEARN · ŠC Kranj · ETŠ Mija Stanimirović
+Sofinancira Evropska unija. / Sufinansira Evropska unija.
+
+Ta tečaj je odprt (CC BY-SA 4.0). Lahko ga kopirate, prevedete in prilagodite.
