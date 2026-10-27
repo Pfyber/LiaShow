@@ -17,6 +17,7 @@ Context for Claude Code. Read this before changing anything in this repo.
 
 ```
 README.md          LiaScript course for participants (slides + worksheets as surveys + quizzes)
+liascript-zmore.md separate LiaScript showcase course (all quiz/survey types, code, Python, 3D, embedded PhET/Falstad/ChemCollective/MolView/Ventusky), linked from the README LiaScript slide
 vodja.md           facilitator script (times, what to say, answers). Not for participants.
 img/               line-art illustrations (art_*.png), photos for the guessing game (foto_*.jpg, credits in README "O tečaju"), QR codes (qr_*.png), app screenshots (shot_*.png)
 delovni-listi/     printable A4 worksheets as PDF, 01–12 plus 00_vsi_delovni_listi.pdf

@@ -249,6 +249,10 @@ _Običan tekst u markdownu postaje interaktivni kurs. Ovaj kurs je primer._
 
 [LiveEditor](https://liascript.github.io/LiveEditor/)
 
+**Kaj vse zmore LiaScript:** [vse vrste vprašanj in anket, koda, 3D modeli, simulacije](https://liascript.github.io/course/?https://raw.githubusercontent.com/Pfyber/LiaShow/main/liascript-zmore.md)
+
+_Šta sve može LiaScript: sve vrste pitanja, kod, 3D modeli, simulacije._
+
 ### Kviz v LiaScriptu
 
 _Kviz u LiaScriptu_
