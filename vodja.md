@@ -1,7 +1,7 @@
 <!--
 author:   Luka Colarič
 email:    luka.colaric@sckr.si
-version:  1.0.0
+version:  1.1.0
 comment:  Scenarij za vodjo delavnice MAKE&LEARN. Ni za udeležence: vsebuje rešitve.
 -->
 
@@ -23,6 +23,9 @@ Pred začetkom vsakega bloka zaženi odštevalnik.
 - [ ] predloga za laser z oknom za QR kodo
 - [ ] predloga `index.md` v skupni mapi v Teamsu
 - [ ] karton, odpadni les, lepilne pištole, listki
+- [ ] vse tri pozive iz tečaja enkrat preizkusi z AI, ki jo bodo uporabljali udeleženci
+
+**Rdeča nit:** list 1 → poziv za zvezek, list 3 → poziv za aplikacijo, list 8 → poziv za stran učila. Vsak poziv da tudi kratko besedilo za dokumentacijo (razdelek Za učitelja, opis za učitelje). Na 3. dan stran nastane iz tega, kar že imajo. To povej na začetku, ob diagramu Tri dni, ena ideja.
 
 
 # 1. dan
@@ -69,20 +72,28 @@ Zgodovina: ne beri tabele, izberi tri zgodbe. Prva sestavljanka je bila zemljevi
 
 Štopaj 4 × 10 minut in vsakič glasno reci naslednji korak. Pri Crazy 8s reci »zdaj« vsako minuto.
 
+Ob koncu preveri, da ima vsak par na listu 1 tri stavke o izbrani ideji. Brez njih poziv za zvezek ne deluje.
+
 
 ## 10.55 LiaScript
 
 Odpri LiveEditor, vanj prilepi kviz iz tečaja in pokaži, kako se takoj pokaže. Reci: »Ta tečaj, ki ga gledate, je narejen prav tako.«
 
+Nato poziv: pokaži, kje zamenjajo besedilo v oglatih oklepajih. Če AI vrne napako v oznakah, naj jo prosijo: »Popravi oznake LiaScripta, vsebine ne spreminjaj.« Razdelek Za učitelja naj ostane, to je dokumentacija.
+
 
 ## 11.20 Aplikacija z AI
 
-Odigraj en krog RGB izziva. Najpogostejša napaka udeležencev: preveč sprememb naenkrat.
+Odigraj en krog RGB izziva. Najpogostejša napaka udeležencev: preveč sprememb naenkrat. Druga: list 3 je preveč splošen. Pomagaj, da v Vsebino napišejo pravi seznam vprašanj ali pojmov.
+
+Opis za učitelje, ki ga AI napiše na koncu, naj prepišejo na list 4.
 
 
 ## 11.55 GitHub Pages
 
 Skupaj, korak za korakom. Kdor nima potrjenega računa, objavi pri partnerju.
+
+Pazi na: ime repozitorija z malimi črkami, datoteka točno `index.html`, Public. Na koncu v `README.md` zamenjajo besedo POVEZAVA.
 
 **Zvečer:** iz zbranih povezav naredi QR kode in jih vstavi v predloge za laser.
 
@@ -100,6 +111,8 @@ Skupaj, korak za korakom. Kdor nima potrjenega računa, objavi pri partnerju.
 | 11.30 | Prototip         | hodiš med pari                       |
 | 12.15 | Pokaži in povej  | fotografiraj                         |
 
+Na začetku dneva reci: »Fotografirajte vsak korak.« Brez fotografij jutri ni strani.
+
 **Zvečer:** zaženi daljše tiske čez noč.
 
 
@@ -116,5 +129,9 @@ Skupaj, korak za korakom. Kdor nima potrjenega računa, objavi pri partnerju.
 | 11.45 | Oddaja                 | preveriš mape v Teamsu                  |
 | 12.00 | Predstavitve           | fotografiraj                            |
 | 12.20 | Kaj sledi, vprašalnik  | pobereš vprašalnike, skupinska fotografija |
+
+## 10.05 Pisanje strani
+
+Pokaži tabelo Vir na prosojnici Predloga za stran učila: vsak razdelek strani ima list, s katerega ga prepišejo. Nato poziv za stran. AI rada dopolni, česar ne ve. Zato pravilo `[manjka]`: vsako tako mesto dopolnijo sami ali ga zbrišejo.
 
 Akcijski načrt je obljubljen rezultat projekta. Brez njega usposabljanje ni zaključeno.
