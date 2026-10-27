@@ -16,7 +16,7 @@ Context for Claude Code. Read this before changing anything in this repo.
 ## Repo layout
 
 ```
-README.md          LiaScript course for participants (slides + worksheets as surveys + quizzes)
+README.md          LiaScript course for participants (slides, quizzes, AI prompts, links to PDF worksheets)
 liascript-zmore.md separate LiaScript showcase course (all quiz/survey types, code, Python, 3D, embedded PhET/Falstad/ChemCollective/MolView/Ventusky), linked from the README LiaScript slide
 vodja.md           facilitator script (times, what to say, answers). Not for participants.
 img/               line-art illustrations (art_*.png), photos for the guessing game (foto_*.jpg, credits in README "O tečaju"), QR codes (qr_*.png), app screenshots (shot_*.png)
@@ -31,7 +31,7 @@ Course URL once pushed to GitHub:
 ## Schedule (keep README.md, vodja.md and the PPTX in sync)
 
 - Day 1: guessing game (obscure historical aids), intro pairs, project + history, idea finding (pain point → "how might we" → Crazy 8s → choose), break, LiaScript workbook with AI, web app with AI (single index.html), publish on GitHub Pages.
-- Day 2: yesterday recap with printed QR codes to each pair's app, what makes a good aid, SCAMPER (with printed cards of classic aids), safety + 3D printing, break, laser with engraved QR code (Inkscape: Extensions → Render → Barcode → QR Code), cardboard prototype, show and tell.
+- Day 2: yesterday recap (each pair shows its app), what makes a good aid, SCAMPER (with printed cards of classic aids), safety + 3D printing, break, laser with engraved QR code (Inkscape: Extensions → Render → Barcode → QR Code), cardboard prototype, show and tell.
 - Day 3: critical friend (I like / I wish / What if), library + markdown + template, writing the library page, break, page + classroom action plan (each teacher, required project output), submission to Teams, presentations, what's next + evaluation questionnaire.
 
 Worksheet numbers are fixed and referenced everywhere: 1 Iskanje idej, 2 Crazy 8s, 3 Opis za AI, 4 GitHub Pages, 5 SCAMPER, 6 Prototip, 7 Kritični prijatelj, 8 Stran učila, 9 Akcijski načrt, 10 Markdown in oddaja, 11 20 klasičnih učil, 12 Vprašalnik.
@@ -49,7 +49,8 @@ Worksheet numbers are fixed and referenced everywhere: 1 Iskanje idej, 2 Crazy 8
 - Header comment block at the top (author, email, version, comment, logo).
 - `#` = day/chapter, `##` = slide, `###` = worksheet sub-page.
 - Quizzes: `[( )]`/`[(X)]` single choice, `[[ ]]`/`[[X]]` multiple, `[[answer]]` text, `[[ a | (b) | c ]]` dropdown, solution block between lines of `*`.
-- Worksheets are surveys: `[[___]]` one line, `[[___ ___ ___]]` three lines, `[(1)] label` single choice, `[[x]] label` checkbox. Surveys have no correct answer.
+- Worksheets: paper work (sheets 1, 2, 5, 6, 7) and collected sheets (9, 12) are linked as PDFs (GitHub blob URLs, so they open in the browser). Only what goes into AI is on screen, as copyable prompt templates: workbook prompt, sheet 3 (aid description), sheet 8 (library page). Survey answers stay in the participant's browser, so never use surveys for anything the facilitator must collect.
+- Thread: idea in 3 sentences → workbook prompt; sheet 3 → app prompt → `opis.md` in the participant's repo; day 3: `opis.md` + "Za učitelja" → library page prompt.
 - Images are relative (`img/...`). A paragraph with only images becomes a gallery.
 - Facilitator notes and answers live in vodja.md, never in README.md text (except quiz solution blocks).
 
