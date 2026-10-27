@@ -18,7 +18,7 @@ Context for Claude Code. Read this before changing anything in this repo.
 ```
 README.md          LiaScript course for participants (slides + worksheets as surveys + quizzes)
 vodja.md           facilitator script (times, what to say, answers). Not for participants.
-img/               line-art illustrations (art_*.png), QR codes (qr_*.png), app screenshots (shot_*.png)
+img/               line-art illustrations (art_*.png), photos for the guessing game (foto_*.jpg, credits in README "O tečaju"), QR codes (qr_*.png), app screenshots (shot_*.png)
 delovni-listi/     printable A4 worksheets as PDF, 01–12 plus 00_vsi_delovni_listi.pdf
 predloga/index.md  Hugo page template for the teaching aids library
 CLAUDE.md          this file

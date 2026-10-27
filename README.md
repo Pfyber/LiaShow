@@ -91,14 +91,14 @@ _Pogodi sredstvo · 15 min · v paru_
 
 Osem resničnih učil in pripomočkov iz zgodovine. Za vsako izberi ime, nato vsa razvrsti od najstarejšega do najnovejšega.
 
-![A](img/art_jevons.png)
-![B](img/art_quipu.png)
-![C](img/art_planimeter.png)
-![D](img/art_llull.png)
-![E](img/art_genaille.png)
-![F](img/art_chladni.png)
-![G](img/art_pantograf.png)
-![H](img/art_taumatrop.png)
+![A](img/foto_jevons.jpg)
+![B](img/foto_quipu.jpg)
+![C](img/foto_planimeter.jpg)
+![D](img/foto_llull.jpg)
+![E](img/foto_genaille.jpg)
+![F](img/foto_chladni.jpg)
+![G](img/foto_pantograf.jpg)
+![H](img/foto_taumatrop.jpg)
 
 **A** [[ Chladnijeva plošča | Genaille–Lucasove palice | (Jevonsov logični klavir) | Llullov krog | Pantograf | Planimeter | Quipu | Taumatrop ]]
 
@@ -951,3 +951,14 @@ Erasmus+ KA210-VET MAKE&LEARN · ŠC Kranj · ETŠ Mija Stanimirović
 Sofinancira Evropska unija. / Sufinansira Evropska unija.
 
 Ta tečaj je odprt (CC BY-SA 4.0). Lahko ga kopirate, prevedete in prilagodite.
+
+**Fotografije pri igri Ugani učilo** · _Fotografije u igri Pogodi sredstvo_ (Wikimedia Commons)
+
+- A: Nelson, en.wikipedia, [CC BY-SA 2.0](https://commons.wikimedia.org/wiki/File:William_Stanley_Jevons_Logic_Piano.jpg)
+- B: Claus Ableiter, [CC BY-SA 3.0](https://commons.wikimedia.org/wiki/File:Inca_Quipu.jpg)
+- C: CIA, [javna last](https://commons.wikimedia.org/wiki/File:Compensating_Polar_Planimeter_%2830880918835%29.jpg)
+- D: Ramon Llull, Ars magna, [javna last](https://commons.wikimedia.org/wiki/File:Ramon_Llull_-_Ars_Magna_Fig_1.png)
+- E: Worrydream, [javna last](https://commons.wikimedia.org/wiki/File:Genaille-Lucas_rulers_full_600.png)
+- F: Rodrigo Tetsuo Argenton, eksponat Estes Objethos Atelier, [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Chladni_plate_01.jpg)
+- G: Christoph Scheiner, [javna last](https://commons.wikimedia.org/wiki/File:Pantograph_by_Christoph_Scheiner_%28crop%29.png)
+- H: taumatrop iz leta 1825, obe strani, [javna last](https://commons.wikimedia.org/wiki/File:Taumatropio_fiori_e_vaso,_1825_Frame_1.png)
