@@ -13,7 +13,7 @@ Udeleženci imajo odprt tečaj (`README.md`), ti ta dokument. Pri vsakem bloku: 
 ## Pred delavnico
 
 - [ ] udeleženci imajo GitHub račun s potrjenim e-naslovom
-- [ ] povezava do tečaja deluje
+- [ ] povezava do tečaja deluje, v obeh jezikih (slovenščina, srpščina); udeleženci iz Niša dobijo povezavo do `README.sr.md`
 - [ ] vse tri pozive iz tečaja enkrat preizkusi z AI, ki jo bodo uporabljali
 - [ ] natisnjeni listi: 1, 2, 5, 6, 7, 9, 12 za vse; 3, 4, 8 nekaj rezervnih
 - [ ] SCAMPER kartice v 2 kompletih, listki, flomastri, pike za glasovanje

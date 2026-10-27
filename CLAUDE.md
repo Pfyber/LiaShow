@@ -16,7 +16,8 @@ Context for Claude Code. Read this before changing anything in this repo.
 ## Repo layout
 
 ```
-README.md          LiaScript course for participants (slides, quizzes, AI prompts, links to PDF worksheets)
+README.md          LiaScript course for participants, Slovenian (slides, quizzes, AI prompts, links to PDF worksheets)
+README.sr.md       the same course in Serbian; keep in sync with README.md
 liascript-zmore.md separate LiaScript showcase course (all quiz/survey types, code, Python, 3D, embedded PhET/Falstad/ChemCollective/MolView/Ventusky), linked from the README LiaScript slide
 vodja.md           facilitator script (times, what to say, answers). Not for participants.
 img/               line-art illustrations (art_*.png), photos for the guessing game (foto_*.jpg, credits in README "O tečaju"), QR codes (qr_*.png), app screenshots (shot_*.png)
@@ -38,7 +39,7 @@ Worksheet numbers are fixed and referenced everywhere: 1 Iskanje idej, 2 Crazy 8
 
 ## Writing rules
 
-- Language: Slovenian first, Serbian (Latin script, ekavica) on the line below in italics. Keep both short.
+- Language: the course exists twice, `README.md` (Slovenian, `language: sl`) and `README.sr.md` (Serbian, Latin script, ekavica, `language: hr` because LiaScript has no Serbian UI). They link to each other with the `translation:` header macro and a link on the title slide. Any change to one must be made in the other; same slides, same order, same quiz answers. `liascript-zmore.md` and `vodja.md` stay bilingual / Slovenian.
 - Plain, understated language. No em dashes. No marketing tone, no "AI-sounding" phrasing.
 - Design: minimal, white background, black text, one blue accent, thin lines. No decorative cards or emoji.
 - Facts about the project come only from the Erasmus+ application. Do not invent numbers or dates.
