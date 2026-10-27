@@ -665,7 +665,7 @@ _ChemCollective: titracija_
 
 Virtualni kemijski laboratorij: standardizacija NaOH z raztopino KHP.
 
-<iframe src="https://chemcollective.org/vlab/101" width="100%" height="900" style="border:1px solid #ddd" allowfullscreen></iframe>
+<iframe src="https://chemcollective.org/vlab/101" width="100%" height="900" style="border:1px solid #ddd" sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-modals" allowfullscreen></iframe>
 
 
 ## MolView: molekula v 3D
