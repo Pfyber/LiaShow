@@ -43,14 +43,18 @@ V treh dneh v paru razvijete eno učilo za svoj predmet. Programiranje ni potreb
 
 _10 min_
 
-V treh dneh v paru naredite več stvari, ki jih lahko takoj uporabite pri pouku. Vsaka je uporabna sama zase. Lahko so na isto temo, ni pa nujno.
+V treh dneh v paru naredite več stvari, ki jih lahko takoj uporabite pri pouku.
 
-| Kaj odnesete                    | Kaj je                                                       | Kdaj   |
-| ------------------------------- | ------------------------------------------------------------ | ------ |
-| spletna aplikacija              | digitalno učilo: igra, simulacija ali vaja na spletu         | 1. dan |
-| interaktivni delovni zvezek     | vaš učbenik ali delovni list, izboljšan s kvizi in razlago   | 1. dan |
-| fizično učilo                   | izdelek iz makerspacea: 3D-tisk, laser, karton               | 2. dan |
-| stran v knjižnici in načrt      | da učilo ponovijo drugi in z njim delajo vaši dijaki         | 3. dan |
+- Vsaka je uporabna sama zase.
+- Lahko so na isto temo, ni pa nujno.
+
+
+|                                            | Kaj odnesete                    | Kaj je                                                       | Kdaj   |
+| ------------------------------------------ | ------------------------------- | ------------------------------------------------------------ | ------ |
+| ![](img/shot_rgb.png)<!-- style="height:60px" --> | spletna aplikacija              | digitalno učilo: igra, simulacija ali vaja na spletu         | 1. dan |
+| ![](img/shot_liascript.png)<!-- style="height:60px" --> | interaktivni delovni zvezek     | vaš učbenik ali delovni list, izboljšan s kvizi in razlago   | 1. dan |
+| ![](img/art_kocka.png)<!-- style="height:60px" --> | fizično učilo                   | izdelek iz makerspacea: 3D-tisk, laser, karton               | 2. dan |
+| ![](img/shot_index.png)<!-- style="height:60px" --> | stran v knjižnici in načrt      | da učilo ponovijo drugi in z njim delajo vaši dijaki         | 3. dan |
 
 Za vse to ne potrebujete znanja programiranja. Kodo napiše AI, vi poskrbite za vsebino.
 
@@ -121,6 +125,10 @@ Vrstni red od najstarejšega do najnovejšega, vpišite črke (npr. A B C …):
 | A    | Jevonsov logični klavir         | logično sklepanje, Boolova logika        | 1869        |
 | E    | Genaille–Lucasove palice        | množenje brez prenašanja                 | 1891        |
 
+Chladnijeva plošča v živo:
+
+!?[Chladnijeva plošča, 2 min](https://www.youtube.com/watch?v=tFAcYruShow)<!-- style="max-width:560px" -->
+
 *****************************************************************
 
 **Za pogovor:** katero od osmih bi danes uporabili pri svojem pouku in zakaj?
@@ -180,7 +188,17 @@ Vsako učilo je nastalo, ker nekdo nečesa ni znal razložiti samo z besedami.
 
 _10 min_
 
-Psiholog Jerome Bruner je leta 1966 opisal, da učenje poteka v treh stopnjah: najprej z rokami, potem s sliko, šele nato s simboli. Šola pogosto začne kar pri simbolih. Dijak, ki zna formulo na pamet, a ne ve, kaj pomeni, je preskočil prvi dve stopnji.
+![Konkretno, slikovno, abstraktno](img/art_crb.png)<!-- style="float:right; width:150px; margin:0 0 1rem 1.5rem" -->
+
+Psiholog Jerome Bruner je leta 1966 opisal tri stopnje učenja:
+
+1. **konkretno:** z rokami,
+2. **slikovno:** s sliko,
+3. **abstraktno:** s simboli.
+
+Šola pogosto začne kar pri simbolih. Dijak, ki zna formulo na pamet, a ne ve, kaj pomeni, je preskočil prvi dve stopnji.
+
+!?[Concrete, pictorial, abstract, Oxford Education, 2 min, angleško](https://www.youtube.com/watch?v=VMpu9gVcT5g)<!-- style="max-width:560px" -->
 
 | Predmet           | Konkretno: primem v roke                 | Slikovno: vidim                 | Abstraktno: zapišem   |
 | ----------------- | ---------------------------------------- | ------------------------------- | --------------------- |
@@ -215,17 +233,52 @@ _40 min · na papirju_
 
 Dobra ideja redko pride prva. Zato najprej veliko idej, potem izbor. Vsak korak vzame rezultat prejšnjega.
 
-| Korak             | Kako                                                                                                         | Čas    |
-| ----------------- | ------------------------------------------------------------------------------------------------------------ | ------ |
-| 1. Bolečine       | Vsak sam: snov, ki je dijaki ne razumejo. Ena na listek, čim več. Prvi listek že imate.                      | 8 min  |
-| 2. Vprašanje      | Listke preberita drug drugemu. Izberita enega in ga prepišita v vprašanje **Kako bi lahko …?**               | 7 min  |
-| 3. Crazy 8s       | Vsak sam: A4 prepognite na 8 polj. Za isto vprašanje 8 različnih rešitev, ena na minuto. Nato si jih pokažeta. | 10 min |
-| 4. Izbira         | Vsak s 3 pikami označi najboljše skice, svoje ali partnerjeve. Izbereta eno, ki deluje na zaslonu.            | 10 min |
-| 5. Trije stavki   | Izbrano idejo opišita: kaj je, kaj dijak počne, česa se nauči.                                                | 5 min  |
+![Crazy 8s](img/art_crazy8.png)<!-- style="float:right; width:150px; margin:0 0 1rem 1.5rem" -->
 
-**Primer.** Bolečina: »dijaki ne razumejo Ohmovega zakona«. Vprašanje: »Kako bi lahko Ohmov zakon naredili otipljiv?« Crazy 8s: drsniki za napetost in upor, ob katerih žarnica sveti močneje; igra, v kateri izbereš pravi upor, da LED ne pregori; kartice za pare; vodni model s cevmi … Izbrana: simulacija z drsniki.
+**1. Bolečine** · 8 min · vsak sam
 
-Pri Crazy 8s je dovoljeno vse: igra, simulacija, kartice, predmet, poskus. Lepota in izvedljivost nista pomembni. Skice predmetov shranite: jutri iz njih lahko nastane fizično učilo.
+- Snov, ki je dijaki ne razumejo. Ena na listek, čim več.
+- Prvi listek že imate.
+
+**2. Vprašanje** · 7 min · v paru
+
+- Listke preberita drug drugemu in izberita enega.
+- Prepišita ga v vprašanje **Kako bi lahko …?**
+
+**3. Crazy 8s** · 10 min · vsak sam
+
+- A4 prepognite na 8 polj.
+- Za isto vprašanje 8 različnih rešitev, ena na minuto.
+- Dovoljeno je vse: igra, simulacija, kartice, predmet, poskus. Lepota ni pomembna.
+- Nato si skice pokažeta.
+
+**4. Izbira** · 10 min · v paru
+
+- Vsak s 3 pikami označi najboljše skice, svoje ali partnerjeve.
+- Izbereta eno, ki deluje na zaslonu. Iz nje bo aplikacija.
+- Skice predmetov shranite za jutri.
+
+**5. Trije stavki** · 5 min · v paru
+
+- Kaj je, kaj dijak počne, česa se nauči.
+
+**Primer**
+
+| Korak          | Ohmov zakon                                                     |
+| -------------- | --------------------------------------------------------------- |
+| bolečina       | dijaki ne razumejo Ohmovega zakona                              |
+| vprašanje      | Kako bi lahko Ohmov zakon naredili otipljiv?                    |
+| Crazy 8s       | drsniki za U in R, ob katerih žarnica sveti močneje             |
+|                | igra: izberi pravi upor, da LED ne pregori                      |
+|                | kartice za pare: formula in vezje                               |
+|                | vodni model s cevmi                                             |
+| izbira         | simulacija z drsniki                                            |
+
+Kako to izgleda, v dveh kratkih videih (angleško):
+
+!?[Kako bi lahko …?, 2 min](https://www.youtube.com/watch?v=MJWLON3Sy4E)<!-- style="max-width:560px" -->
+
+!?[Crazy 8s, 2 min](https://www.youtube.com/watch?v=yz4g87XapQ0)<!-- style="max-width:560px" -->
 
 [List 1: Iskanje idej (PDF)](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/01_iskanje_idej.pdf) · [List 2: Crazy 8s (PDF)](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/02_crazy8s.pdf)
 
@@ -249,6 +302,8 @@ Iz izbrane ideje naredimo spletno učilo. Vsako od teh je ena sama datoteka, ki 
 ![Phishing detektiv](img/shot_phishing.png)
 ![ESP32 pinout](img/shot_esp32.png)
 ![Galerija vrst orodij](img/shot_galerija.png)
+![Pixel art v dvojiško](img/shot_pixel.png)
+![Prepoznaj porte](img/shot_porti.png)
 
 **Vrste:** kviz, razvrščanje, iskanje parov, kartice, spomin, časovnica, klik na sliko, simulacija, sestavljanje stavkov.
 
@@ -299,7 +354,12 @@ _25 min_
 
 **Rezultat:** aplikacija na spletu, ki jo odpre vsak telefon.
 
-**GitHub** je brezplačen prostor za datoteke na spletu. **GitHub Pages** iz teh datotek naredi spletno stran. Za učilo naredite en **repozitorij**, to je mapa na spletu. Vse delate v brskalniku, s kopiranjem in lepljenjem.
+- **GitHub** je brezplačen prostor za datoteke na spletu.
+- **GitHub Pages** iz teh datotek naredi spletno stran.
+- **Repozitorij** je mapa na spletu. Za učilo naredite enega.
+- Vse delate v brskalniku, s kopiranjem in lepljenjem.
+
+!?[GitHub Pages za začetnike, GitHub, 4 min, angleško](https://www.youtube.com/watch?v=b2r9Cdvssi0)<!-- style="max-width:560px" -->
 
 1. **Repozitorij.** Na [github.com](https://github.com) kliknite **New**. Ime z malimi črkami, brez presledkov, npr. `ohmov-zakon`. Izberite **Public** in **Create repository**.
 2. **Aplikacija.** Kliknite **creating a new file**. Ime `index.html`, prilepite kodo iz AI, **Commit changes**.
@@ -322,7 +382,19 @@ _25 min_
 
 **Rezultat:** vaš učbenik ali delovni list kot interaktivni zvezek na spletu.
 
-Aplikacija je novo učilo. Večino pouka pa še vedno nosijo učbeniki in delovni listi, ki so na papirju in ne odgovorijo. **LiaScript** iz navadnega besedila naredi interaktivno gradivo: razlaga, kvizi, ki se preverijo sami, slike in video. Brezplačno, v brskalniku, brez prijave. Tudi ta tečaj je narejen tako.
+Aplikacija je novo učilo. Večino pouka pa še vedno nosijo učbeniki in delovni listi, ki so na papirju in ne odgovorijo.
+
+**LiaScript** iz navadnega besedila naredi interaktivno gradivo:
+
+- razlaga, slike in video,
+- kvizi, ki se preverijo sami,
+- brezplačno, v brskalniku, brez prijave.
+
+Tudi ta tečaj je narejen tako.
+
+![Besedilo z vrzelmi v LiaScriptu](img/shot_liascript.png)<!-- style="max-width:560px" -->
+
+!?[Hello LiaScript, 3 min, angleško](https://www.youtube.com/watch?v=rbqm6MN0We4)<!-- style="max-width:560px" -->
 
 Tako je napisan kviz:
 
@@ -430,13 +502,14 @@ _15 min_
 
 Pet lastnosti, ki jih imajo učila, ki se obdržijo. Vse smo včeraj videli v zgodovini.
 
-| Lastnost                  | Primer                                           |
-| ------------------------- | ------------------------------------------------ |
-| 1. Samo pokaže napako     | Montessori: kos se ne prilega, če je narobe      |
-| 2. En pojem               | Cuisenairjeve palčke: samo števila kot dolžine   |
-| 3. Več čutil              | Chladnijeva plošča: zvok vidiš v pesku           |
-| 4. Za vse dijake          | abak: deluje brez branja in brez jezika          |
-| 5. Iz recikliranega       | karton, odpadni les, stara elektronika           |
+
+|                                              | Lastnost                  | Primer                                           |
+| -------------------------------------------- | ------------------------- | ------------------------------------------------ |
+| ![](img/art_montessori.png)<!-- style="height:60px" --> | 1. Samo pokaže napako     | Montessori: kos se ne prilega, če je narobe      |
+| ![](img/art_cuisenaire.png)<!-- style="height:60px" --> | 2. En pojem               | Cuisenairjeve palčke: samo števila kot dolžine   |
+| ![](img/foto_chladni.jpg)<!-- style="height:60px" --> | 3. Več čutil              | Chladnijeva plošča: zvok vidiš v pesku           |
+| ![](img/art_abak.png)<!-- style="height:60px" --> | 4. Za vse dijake          | abak: deluje brez branja in brez jezika          |
+|  | 5. Iz recikliranega       | karton, odpadni les, stara elektronika           |
 
 Kaj od tega ima vaša ideja že zdaj?
 
@@ -456,6 +529,14 @@ _30 min · na papirju_
 **Rezultat:** ideja za fizično učilo.
 
 SCAMPER je sedem vprašanj, s katerimi obstoječo stvar spremenimo v novo. Najprej vadimo na tujem učilu, potem uporabimo na svojem.
+
+Kartice s klasičnimi učili, na primer:
+
+| Hanojski stolp | Napierjeve palice | Séguinova deska | Zoetrop | Albertijev disk |
+| -------------- | ----------------- | --------------- | ------- | --------------- |
+| ![](img/art_hanoi.png)<!-- style="height:80px" --> | ![](img/art_napier.png)<!-- style="height:80px" --> | ![](img/art_seguin.png)<!-- style="height:80px" --> | ![](img/art_zoetrop.png)<!-- style="height:80px" --> | ![](img/art_sifra.png)<!-- style="height:80px" --> |
+
+!?[SCAMPER, 2 min, angleško](https://www.youtube.com/watch?v=M2I4PSdt7_8)<!-- style="max-width:560px" -->
 
 1. Izvlecite kartico s klasičnim učilom in odgovorite na vseh sedem vprašanj, 10 minut.
 2. Enako naredite za svojo idejo: izbrano idejo ali skico predmeta iz Crazy 8s, 15 minut.
@@ -494,13 +575,20 @@ _35 min_
 
 **Rezultat:** del učila v tiskalniku in datoteka STL.
 
-3D-tiskalnik po računalniškem modelu sloj za slojem zgradi predmet iz plastike. Tisk traja dolgo, zato morajo biti modeli do odmora v tiskalniku.
+![Kocka](img/art_kocka.png)<!-- style="float:right; width:150px; margin:0 0 1rem 1.5rem" -->
 
-1. Najdite model na [Printables](https://www.printables.com) ali ga narišite v [Tinkercad](https://www.tinkercad.com) ([video za začetnike](https://www.youtube.com/results?search_query=tinkercad+beginner+tutorial)).
+- 3D-tiskalnik po računalniškem modelu sloj za slojem zgradi predmet iz plastike.
+- Tisk traja dolgo, zato morajo biti modeli do odmora v tiskalniku.
+
+!?[Kako deluje 3D-tisk, 2 min, angleško](https://www.youtube.com/watch?v=Vx0Z6LplaMU)<!-- style="max-width:560px" -->
+
+1. Najdite model na [Printables](https://www.printables.com) ali ga narišite v [Tinkercad](https://www.tinkercad.com).
 2. Model naj se natisne v največ 20 minutah. Tisk zažene vodja.
 3. STL shranite za stran učila.
 
 **Ne veste, kaj bi tiskali?** Kocka za vaš predmet, na 6 ploskvah besede, simboli ali formule.
+
+!?[Tinkercad za začetnike, 6 min, angleško](https://www.youtube.com/watch?v=lTeE7bIawPM)<!-- style="max-width:560px" -->
 
 
 ## Odmor
@@ -514,7 +602,10 @@ _40 min_
 
 **Rezultat:** vgravirana QR koda, ki odpre vašo aplikacijo ali zvezek.
 
-Laserski rezalnik po risbi reže in gravira les, karton ali akril. QR koda poveže fizično učilo z digitalnim: dijak jo skenira s telefonom.
+- Laserski rezalnik po risbi reže in gravira les, karton ali akril.
+- QR koda poveže fizično učilo z digitalnim: dijak jo skenira s telefonom.
+
+!?[Kako deluje laserski rez, 2 min, angleško](https://www.youtube.com/watch?v=SIjUVCho_xU)<!-- style="max-width:560px" -->
 
 1. Odprite predlogo za laser v Inkscapu.
 2. **Extensions → Render → Barcode → QR Code**.
@@ -531,7 +622,11 @@ _45 min · na papirju_
 
 **Rezultat:** prototip, ki ga lahko primete, s QR kodo.
 
-Prototip ni končni izdelek. Pokaže, ali ideja deluje v roki. Najprej karton in odpadni material, nato dodajte natisnjene in izrezane dele.
+![Tangram](img/art_tangram.png)<!-- style="float:right; width:150px; margin:0 0 1rem 1.5rem" -->
+
+- Prototip ni končni izdelek. Pokaže, ali ideja deluje v roki.
+- Najprej karton in odpadni material.
+- Nato dodajte natisnjene in izrezane dele.
 
 Na list 6 narišite skico in zapišite materiale. Jutri ju potrebujete za stran učila.
 
@@ -794,6 +889,10 @@ Repozitorij ostane vaš. Z enakimi pozivi naredite zvezek in aplikacijo za kater
 
 
 ## 20 klasičnih učil za navdih
+
+| 1 | 7 | 14 | 16 | 17 | 20 |
+| - | - | -- | -- | -- | -- |
+| ![](img/art_napier.png)<!-- style="height:70px" --> | ![](img/art_hanoi.png)<!-- style="height:70px" --> | ![](img/art_zoetrop.png)<!-- style="height:70px" --> | ![](img/art_sifra.png)<!-- style="height:70px" --> | ![](img/art_jacquard.png)<!-- style="height:70px" --> | ![](img/art_seguin.png)<!-- style="height:70px" --> |
 
 | #  | Učilo                          | Leto       | Kaj uči                      | Izdelava          |
 | -- | ------------------------------ | ---------- | ---------------------------- | ----------------- |
