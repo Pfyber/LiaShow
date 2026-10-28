@@ -31,7 +31,7 @@ Course URL once pushed to GitHub:
 
 ## Schedule (keep README.md, vodja.md and the PPTX in sync)
 
-- Day 1: welcome (3-day overview), intro round and mixed pairs (pair chooses one subject), guessing game in pairs, project + history, idea finding, low pressure (pain points → pick a topic → idea mixer: random app type + twist from a button in the course or dice on sheet 2 → choose), break, web app with AI (single index.html), publish on GitHub Pages, LiaScript interactive workbook from an existing textbook page or worksheet (README.md in the same repo, links to the app).
+- Day 1: welcome (3-day overview), intro round and mixed pairs (pair chooses one subject), guessing game in pairs, project + history, idea finding, low pressure (pain points → pick a topic → idea mixer: random game format (Milijonar, Escape room, Spomin, Simulator, Detektiv, Sestavljanka) + twist from a button in the course or dice on sheet 2 → choose), break, web app with AI (single index.html), publish on GitHub Pages, LiaScript interactive workbook from an existing textbook page or worksheet (README.md in the same repo, links to the app).
 - Day 2: yesterday recap (each pair shows its app), what makes a good aid, SCAMPER on a starting point the pair chooses (any teaching aid or a board game), then on their own idea, safety + 3D printing, break, laser with engraved QR code (Inkscape: Extensions → Render → Barcode → QR Code), cardboard prototype, show and tell.
 - Day 3: pick up prints, critical friend (I like / I wish / What if), library overview, preparing the material folder (photos renamed, STL, SVG), writing the library page, break, page + classroom action plan (each teacher, required project output), submission to Teams, presentations, what's next + evaluation questionnaire.
 

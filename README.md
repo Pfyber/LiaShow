@@ -247,29 +247,46 @@ Ne iščemo popolne ideje. Iščemo nekaj, kar bi radi preizkusili pri pouku.
 
 **3. Mešalnik idej** · 15 min · v paru
 
-- Pritisnite **Premešaj**. Dobite vrsto aplikacije in dodatek.
-- Pogovorite se: kako bi naša tema delovala tako?
-- Kar vam je všeč, zapišite. Kar ne, preskočite in premešajte znova.
+- Pritisnite **Premešaj**. Dobite obliko igre in zasuk.
+- Pogovorite se o vprašanju pod karticama. Ni pravilnih odgovorov.
+- Kar vam je všeč, zapišite. Kar ne, premešajte znova.
 - Dovolj so 3 do 5 idej.
 
 <script input="button" input-always-active>
-var vrste = ["kviz", "razvrščanje", "iskanje parov", "klik na sliko", "simulacija z drsniki", "časovnica"];
-var dodatki = ["na čas", "slike namesto besed", "dijak najde napako", "od lažjega k težjemu", "za ves razred na tabli", "par proti paru"];
-var v = vrste[Math.floor(Math.random() * vrste.length)];
-var d = dodatki[Math.floor(Math.random() * dodatki.length)];
-var card = "display:inline-block; padding:.7rem 1.2rem; margin:.3rem; border:1px solid #1f4fd1; border-radius:8px; font-size:1.35rem; background:#fff";
+var oblike = [
+  ["Milijonar", "4 odgovori, vsako vprašanje malo težje, ena pomoč"],
+  ["Escape room", "pravi odgovori odklepajo ključavnice do izhoda"],
+  ["Spomin", "obračaj kartice in poišči pare, ki spadajo skupaj"],
+  ["Simulator", "premikaj drsnike in opazuj, kaj se zgodi"],
+  ["Detektiv", "na sliki, v vezju ali v izračunu se skriva napaka"],
+  ["Sestavljanka", "povleci dele na pravo mesto ali v pravi vrstni red"]
+];
+var zasuki = [
+  ["Proti uri", "samo 60 sekund", "Kaj, če ima dijak samo 60 sekund?"],
+  ["Brez besed", "samo slike, simboli in zvok", "Kaj, če ni besedila, samo slike, simboli in zvok?"],
+  ["Ves razred", "vsi skupaj na tabli", "Kaj, če igra ves razred skupaj na tabli?"],
+  ["Stopnje", "vsaka stopnja malo težja", "Kaj, če je vsaka stopnja malo težja, kot v igrici?"],
+  ["Iz poklica", "naloga iz resničnega dela", "Kaj, če je naloga iz resničnega dela v poklicu?"],
+  ["Dijak je učitelj", "dijak sestavi nalogo za sošolca", "Kaj, če dijak na koncu sam sestavi nalogo za sošolca?"]
+];
+var o = oblike[Math.floor(Math.random() * oblike.length)];
+var z = zasuki[Math.floor(Math.random() * zasuki.length)];
+var card = "display:inline-block; vertical-align:top; width:270px; padding:14px 18px; margin:6px; border:1px solid #1f4fd1; border-radius:10px; background:#fff";
+var big = "display:block; font-size:24px; font-weight:600; margin-bottom:4px; color:#1a1a1a";
+var small = "display:block; font-size:16px; line-height:1.35; color:#5b6270";
 setTimeout(function () {
   var el = document.getElementById("mesalnik");
   if (el) {
-    el.innerHTML = '<span style="' + card + '">' + v + '</span>'
-      + '<span style="font-size:1.5rem; margin:0 .4rem; color:#5b6270">+</span>'
-      + '<span style="' + card + '">' + d + '</span>';
+    el.innerHTML = '<span style="' + card + '"><span style="' + big + '">' + o[0] + '</span><span style="' + small + '">' + o[1] + '</span></span>'
+      + '<span style="display:inline-block; font-size:26px; margin:26px 4px 0; color:#5b6270; vertical-align:top">+</span>'
+      + '<span style="' + card + '"><span style="' + big + '">' + z[0] + '</span><span style="' + small + '">' + z[1] + '</span></span>'
+      + '<p style="margin:14px 6px 0; font-size:19px; line-height:1.45"><b>Kako bi vaša tema delovala kot ' + o[0].toLowerCase() + '?</b><br>' + z[2] + '</p>';
   }
 }, 50);
 "Premešaj"
 </script>
 
-<div id="mesalnik" style="margin:.5rem 0 1.5rem; min-height:4rem"></div>
+<div id="mesalnik" style="margin:8px 0 24px; min-height:190px"></div>
 
 **4. Izbira** · 10 min · v paru
 
@@ -279,13 +296,13 @@ setTimeout(function () {
 
 **Primer: Ohmov zakon**
 
-| Premešaj                                   | Ideja                                                     |
-| ------------------------------------------ | --------------------------------------------------------- |
-| simulacija z drsniki + na čas              | nastavi napetost, da žarnica zasveti v 10 sekundah        |
-| razvrščanje + od lažjega k težjemu         | razvrsti vezja po toku, najprej tri, nato šest            |
-| iskanje parov + slike namesto besed        | poveži shemo vezja s pravim tokom                         |
-| kviz + dijak najde napako                  | v izračunu toka je napaka, poišči jo                      |
-| **izbrana**                                | **simulacija z drsniki**                                  |
+| Premešaj                          | Ideja                                                                 |
+| --------------------------------- | --------------------------------------------------------------------- |
+| Escape room + Proti uri           | tri ključavnice, za vsako izračunaj tok, vse v 60 sekundah            |
+| Simulator + Stopnje               | najprej ena žarnica, nato dve zaporedno, nato vzporedno               |
+| Detektiv + Iz poklica             | električar je izbral napačen upor in LED je pregorela; poišči napako  |
+| Spomin + Brez besed               | pari: shema vezja in žarnica, ki sveti enako močno                    |
+| **izbrana**                       | **Simulator s stopnjami**                                             |
 
 Brez računalnika gre tudi s kocko: na listu 2 sta obe tabeli.
 
