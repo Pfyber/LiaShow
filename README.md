@@ -133,7 +133,7 @@ Vrstni red od najstarejšega do najnovejšega, vpišite črke (npr. A B C …):
 
 ## Projekt MAKE&LEARN
 
-_10 min_
+_5 min_
 
 Delavnica je del projekta Erasmus+. Kar naredite te tri dni, boste z dijaki ponovili v svoji šoli.
 
@@ -154,7 +154,7 @@ Delavnica je del projekta Erasmus+. Kar naredite te tri dni, boste z dijaki pono
 
 ## Zgodovina učil
 
-_10 min_
+_5 min_
 
 Vsako učilo je nastalo, ker nekdo nečesa ni znal razložiti samo z besedami.
 
@@ -183,15 +183,33 @@ Vsako učilo je nastalo, ker nekdo nečesa ni znal razložiti samo z besedami.
 
 ## Konkretno, slikovno, abstraktno
 
-Dijak snov najlažje razume v treh korakih:
+_10 min_
 
-| Konkretno                       | Slikovno                           | Abstraktno  |
-| ------------------------------- | ---------------------------------- | ----------- |
-| Primem pico in jo razrežem.     | Narišem krog, pobarvam polovico.   | Zapišem ½.  |
+Psiholog Jerome Bruner je leta 1966 opisal, da učenje poteka v treh stopnjah: najprej z rokami, potem s sliko, šele nato s simboli. Šola pogosto začne kar pri simbolih. Dijak, ki zna formulo na pamet, a ne ve, kaj pomeni, je preskočil prvi dve stopnji.
 
-Pouk pogosto začne kar pri abstraktnem. Dobro učilo doda manjkajoči korak, najpogosteje konkretnega: nekaj, kar dijak prime v roke.
+| Predmet           | Konkretno: primem v roke                 | Slikovno: vidim                 | Abstraktno: zapišem   |
+| ----------------- | ---------------------------------------- | ------------------------------- | --------------------- |
+| matematika        | razrežem pico na pol                     | krog s pobarvano polovico       | ½                    |
+| elektrotehnika    | baterija, žarnica in žice na mizi        | shema vezja                     | $U = R \cdot I$       |
+| računalništvo     | obračam kartice z 1, 2, 4 in 8 pikami    | tabela mest 8 4 2 1             | $1011_2 = 11$         |
+| kemija            | model molekule iz kroglic in paličic     | strukturna formula              | $\ce{H2O}$            |
+| strojništvo       | zavrtim dva zobnika različnih velikosti  | risba zobniškega para           | $i = z_2 / z_1$       |
+| zgodovina         | kartice z dogodki obešam na vrvico       | časovnica                       | letnice               |
 
-**Kje v vašem predmetu manjka?** S tem vprašanjem gremo v iskanje idej.
+Vsa učila iz igre zjutraj so konkretni korak do abstraktne ideje: quipu do desetiškega zapisa, Chladnijeva plošča do valovanja, planimeter do ploščine.
+
+**Preverite se.** Na kateri stopnji je?
+
+<!-- data-randomize -->
+[[konkretno] [slikovno] [abstraktno]]
+[    (X)        ( )         ( )     ] Dijak s peskom na plošči vidi, kako zveni kovina.
+[    ( )        (X)         ( )     ] Graf hitrosti v odvisnosti od časa.
+[    ( )        ( )         (X)     ] $P = U \cdot I$
+[    (X)        ( )         ( )     ] Dijak z vozli na vrvici zapiše število 352.
+[    ( )        (X)         ( )     ] Zemljevid Evrope.
+[    ( )        ( )         (X)     ] $\ce{2H2 + O2 -> 2H2O}$
+
+**V paru, 2 minuti:** poiščite eno temo, ki jo vaši dijaki spoznajo samo kot formulo ali definicijo. Zapišite jo na prvi listek. Z njo začnemo iskanje idej.
 
 
 ## Iskanje idej

@@ -78,7 +78,9 @@ Projekt na kratko: dve šoli, deset učiteljev, dvajset učil, tekmovanje v Niš
 
 Zgodovina: ne beri tabele, izberi tri zgodbe. Prva sestavljanka je bila zemljevid. Montessori: pripomoček sam pokaže napako. Logo: otroci programirajo robota.
 
-Končaj z vprašanjem s prosojnice Konkretno, slikovno, abstraktno: »Kje v vašem predmetu manjka konkretna stopnja?« To je most v iskanje idej.
+Časovno: projekt 5 min, zgodovina 5 min, Konkretno, slikovno, abstraktno 10 min.
+
+Konkretno, slikovno, abstraktno: preberi eno vrstico tabele, ki je najbližja predmetom v sobi. Kviz rešijo v paru, 2 minuti. Nato naloga v paru: ena tema, ki jo dijaki poznajo samo kot formulo. To je prvi listek pri iskanju idej.
 
 
 ## 10.00 Iskanje idej
