@@ -31,7 +31,7 @@ Course URL once pushed to GitHub:
 
 ## Schedule (keep README.md, vodja.md and the PPTX in sync)
 
-- Day 1: welcome (3-day overview), intro round and mixed pairs (pair chooses one subject), guessing game in pairs, project + history, idea finding (pain point → "how might we" → Crazy 8s → choose), break, LiaScript workbook with AI, web app with AI (single index.html), publish on GitHub Pages.
+- Day 1: welcome (3-day overview), intro round and mixed pairs (pair chooses one subject), guessing game in pairs, project + history, idea finding (pain point → "how might we" → Crazy 8s → choose), break, web app with AI (single index.html), publish on GitHub Pages, LiaScript interactive workbook from an existing textbook page or worksheet (README.md in the same repo, links to the app).
 - Day 2: yesterday recap (each pair shows its app), what makes a good aid, SCAMPER (with printed cards of classic aids), safety + 3D printing, break, laser with engraved QR code (Inkscape: Extensions → Render → Barcode → QR Code), cardboard prototype, show and tell.
 - Day 3: pick up prints, critical friend (I like / I wish / What if), library overview, preparing the material folder (photos renamed, STL, SVG), writing the library page, break, page + classroom action plan (each teacher, required project output), submission to Teams, presentations, what's next + evaluation questionnaire.
 
@@ -51,7 +51,8 @@ Worksheet numbers are fixed and referenced everywhere: 1 Iskanje idej, 2 Crazy 8
 - `#` = day/chapter, `##` = slide, `###` = worksheet sub-page.
 - Quizzes: `[( )]`/`[(X)]` single choice, `[[ ]]`/`[[X]]` multiple, `[[answer]]` text, `[[ a | (b) | c ]]` dropdown, solution block between lines of `*`.
 - Worksheets: paper work (sheets 1, 2, 5, 6, 7) and collected sheets (9, 12) are linked as PDFs (GitHub blob URLs, so they open in the browser). Only what goes into AI is on screen, as copyable prompt templates: workbook prompt, sheet 3 (aid description), sheet 8 (library page). Survey answers stay in the participant's browser, so never use surveys for anything the facilitator must collect.
-- Thread: idea in 3 sentences → workbook prompt; sheet 3 → app prompt → `opis.md` in the participant's repo; day 3: `opis.md` + "Za učitelja" → library page prompt.
+- Outputs are independent, not three parts of one aid: web app on GitHub Pages (new digital aid), LiaScript workbook (upgrade of an existing textbook page or worksheet), physical makerspace aid. Same topic optional; a QR code can link physical to digital.
+- Thread: brainstorm → idea in 3 sentences → sheet 3 app prompt → `opis.md`; Crazy 8s object sketches → day 2 physical aid; day 3: `opis.md` + "Za učitelja" + physical aid data → library page prompt (page describes the physical aid).
 - Images are relative (`img/...`). A paragraph with only images becomes a gallery.
 - Facilitator notes and answers live in vodja.md, never in README.md text (except quiz solution blocks).
 

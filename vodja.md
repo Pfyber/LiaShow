@@ -1,7 +1,7 @@
 <!--
 author:   Luka Colarič
 email:    luka.colaric@sckr.si
-version:  1.3.0
+version:  1.4.0
 comment:  Scenarij za vodjo delavnice MAKE&LEARN. Ni za udeležence: vsebuje rešitve.
 -->
 
@@ -25,7 +25,9 @@ Udeleženci imajo odprt tečaj (`README.md`), ti ta dokument. Pri vsakem bloku: 
 
 **Papir ali zaslon.** Na papirju je vse, kar je risanje, glasovanje ali delo v skupini (listi 1, 2, 5, 6, 7) in kar pobereš (9, 12). Na zaslonu je samo to, kar gre v AI: zvezek (poziv), opis učila (list 3), stran učila (list 8).
 
-**Rdeča nit.** Ideja v treh stavkih gre v poziv za zvezek. Opis učila gre v poziv za aplikacijo in v `opis.md`. Tretji dan `opis.md` in razdelek Za učitelja gresta v poziv za stran. Povej to ob prosojnici Tri dni, ena ideja.
+**Kaj odnesejo.** Tri samostojne stvari, ne trije deli enega učila: spletno aplikacijo (novo digitalno učilo), interaktivni zvezek (izboljšan učbenik ali delovni list, ki ga že imajo) in fizično učilo iz makerspacea. Teme so lahko iste ali različne. QR koda lahko poveže fizično z digitalnim.
+
+**Rdeča nit.** Iskanje idej da idejo za aplikacijo in skice za jutri. Opis učila gre v poziv za aplikacijo in v `opis.md`. Tretji dan `opis.md`, razdelek Za učitelja in podatki o fizičnem učilu gredo v poziv za stran.
 
 
 # 1. dan
@@ -38,15 +40,15 @@ Udeleženci imajo odprt tečaj (`README.md`), ti ta dokument. Pri vsakem bloku: 
 | 9.40  | Projekt, zgodovina        | edini daljši govor, 20 min                 |
 | 10.00 | Iskanje idej              | 4 × 10 min, štopaš                         |
 | 10.40 | Odmor                     |                                            |
-| 10.55 | LiaScript                 | pokažeš LiveEditor, nato vaja              |
-| 11.20 | Aplikacija z AI           | odigraš RGB izziv, nato vaja               |
-| 11.55 | GitHub Pages              | skupaj na projektorju                      |
+| 10.55 | Aplikacija z AI           | odigraš RGB izziv, nato vaja               |
+| 11.30 | GitHub Pages              | skupaj na projektorju                      |
+| 11.55 | Delovni zvezek            | pokažeš LiveEditor, nato vaja              |
 | 12.20 | Zaključek                 | povezave v Teams                           |
 
 
 ## 9.00 Dobrodošli
 
-Pokaži diagram in tri vprašanja dneva. Povej rdečo nit (zgoraj). Vsi odprejo tečaj na prenosniku; udeleženci iz Niša srbsko različico.
+Pokaži tabelo Kaj odnesete. Povej, da so to samostojne stvari (zgoraj). Vsi odprejo tečaj na prenosniku; udeleženci iz Niša srbsko različico.
 
 
 ## 9.10 Spoznavanje in pari
@@ -85,30 +87,30 @@ Konkretno, slikovno, abstraktno: preberi eno vrstico tabele, ki je najbližja pr
 
 ## 10.00 Iskanje idej
 
-Listi 1 in 2 na papirju. Štopaj 4 × 10 minut in vsakič glasno reci naslednji korak. Pri Crazy 8s reci »zdaj« vsako minuto.
+Listi 1 in 2 na papirju. Pet korakov: 8, 7, 10, 10, 5 minut. Štopaj in vsakič glasno reci naslednji korak. Pri Crazy 8s reci »zdaj« vsako minuto; obe skici rišeta za isto vprašanje.
 
-Ob koncu preveri, da ima vsak par idejo v treh stavkih. Brez njih poziv za zvezek ne deluje.
-
-
-## 10.55 LiaScript
-
-Odpri LiveEditor, prilepi kviz iz tečaja, pokaži, kako se takoj prikaže. Reci: »Ta tečaj je narejen prav tako.«
-
-Pokaži ikono za kopiranje pri pozivu in kje zamenjajo besedilo v oglatih oklepajih. Če AI pokvari oznake: »Popravi oznake LiaScripta, vsebine ne spreminjaj.« Razdelek Za učitelja naj ostane.
+Pri izbiri pazi, da izbereta idejo, ki deluje na zaslonu, saj iz nje takoj nastane aplikacija. Skice predmetov naj shranijo za 2. dan. Ob koncu preveri, da ima vsak par idejo v treh stavkih.
 
 
-## 11.20 Aplikacija z AI
+## 10.55 Aplikacija z AI
 
 Odigraj en krog RGB izziva. Opis učila pišejo kar v poziv. Najpogostejši napaki: preveč splošna Vsebina (točka 6) in preveč sprememb naenkrat.
 
-Opis za učitelje, ki ga AI napiše na koncu, naj kopirajo zraven opisa. Ob 11.55 gre v `opis.md`.
+Opis za učitelje, ki ga AI napiše na koncu, naj kopirajo zraven opisa. Ob 11.30 gre v `opis.md`.
 
 
-## 11.55 GitHub Pages
+## 11.30 GitHub Pages
 
 Skupaj na projektorju, korak za korakom. Vse datoteke ustvarijo v brskalniku (Create new file), nič ne nalagajo. Kdor nima potrjenega računa, objavi pri partnerju.
 
-Pazi na: ime repozitorija z malimi črkami, datoteka točno `index.html`, Public, beseda POVEZAVA zamenjana.
+Pazi na: ime repozitorija z malimi črkami, datoteka točno `index.html`, Public. Vsak na koncu odpre aplikacijo na telefonu.
+
+
+## 11.55 Delovni zvezek
+
+Uvod: aplikacija je novo učilo, zvezek pa izboljša gradivo, ki ga že imajo. Naj imajo pri roki učbenik ali delovni list v PDF ali Wordu. Odpri LiveEditor, prilepi kviz iz tečaja, pokaži, kako se takoj prikaže. Reci: »Ta tečaj je narejen prav tako.«
+
+Če AI pokvari oznake: »Popravi oznake LiaScripta, vsebine ne spreminjaj.« `README.md` dodajo v isti repozitorij.
 
 **Zvečer:** preveri vse povezave v Teamsu. Za rezervo iz njih naredi QR kode (če komu Inkscape ne dela).
 
