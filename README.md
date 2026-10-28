@@ -54,7 +54,7 @@ V treh dneh v paru naredite več stvari, ki jih lahko takoj uporabite pri pouku.
 | ![](img/shot_rgb.png)<!-- style="height:60px" --> | spletna aplikacija              | digitalno učilo: igra, simulacija ali vaja na spletu         | 1. dan |
 | ![](img/shot_liascript.png)<!-- style="height:60px" --> | interaktivni delovni zvezek     | vaš učbenik ali delovni list, izboljšan s kvizi in razlago   | 1. dan |
 | ![](img/art_kocka.png)<!-- style="height:60px" --> | fizično učilo                   | izdelek iz makerspacea: 3D-tisk, laser, karton               | 2. dan |
-| ![](img/shot_index.png)<!-- style="height:60px" --> | stran v knjižnici in načrt      | da učilo ponovijo drugi in z njim delajo vaši dijaki         | 3. dan |
+| ![](img/shot_knjiznica.png)<!-- style="height:60px" --> | stran v knjižnici in načrt      | da učilo ponovijo drugi in z njim delajo vaši dijaki         | 3. dan |
 
 Za vse to ne potrebujete znanja programiranja. Kodo napiše AI, vi poskrbite za vsebino.
 
@@ -693,7 +693,12 @@ _15 min_
 
 Učila iz projekta bodo zbrana v javni spletni knjižnici, v slovenščini, srbščini in angleščini. Vsako dobi svojo stran z enakimi razdelki, da ga lahko ponovi vsak učitelj.
 
-![Primer kazala učil](img/shot_index.png)
+![Stran učila v knjižnici](img/shot_knjiznica.png)<!-- style="max-width:640px" -->
+
+- Na vrhu so podatki: predmet, letnik, šola, avtorji, materiali, orodja.
+- Spodaj so razdelki, vedno v istem vrstnem redu.
+- Datoteke za izdelavo (STL, SVG) se na strani pokažejo same, kot seznam za prenos.
+- Vrstica o sofinanciranju Erasmus+ je na vsaki strani samodejno, sami je ne pišete.
 
 | Razdelek                    | Vsebina                                         |
 | --------------------------- | ----------------------------------------------- |
@@ -703,7 +708,8 @@ Učila iz projekta bodo zbrana v javni spletni knjižnici, v slovenščini, srb�
 | Uporaba pri pouku           | kako ga uporabite v uri                         |
 | Kako so sodelovali dijaki   | kaj so načrtovali, izdelali in preizkusili      |
 | Nadgradnje                  | ideje za naprej                                 |
-| Datoteke                    | STL, SVG, povezavi do aplikacije in zvezka      |
+
+Stran je napisana v markdownu, enako kot vaš zvezek. Napiše jo AI iz vaših zapiskov. Srbski in angleški prevod pripravi vodja.
 
 
 ## Priprava gradiva
@@ -716,6 +722,7 @@ Na računalniku naredite mapo `priimek-ucilo` in vanjo zložite:
 
 ```
 priimek-ucilo/
+   index.sl.md      (nastane v naslednjem bloku)
    slike/
       naslovna.jpg
       korak-1.jpg
@@ -735,21 +742,21 @@ priimek-ucilo/
 
 _35 min_
 
-**Rezultat:** stran `index.md`, pripravljena za knjižnico.
+**Rezultat:** stran `index.sl.md`, pripravljena za knjižnico.
 
 Stran napiše AI iz vaših podatkov. Vaša naloga je preveriti, ali je vse res.
 
 1. Kopirajte poziv. Prilepite `opis.md` in razdelek Za učitelja iz zvezka. Dopolnite seznam DOPOLNI.
 2. Pošljite AI. Preberite rezultat: kar ni res, zbrišite; dopolnite mesta `[manjka]`.
-3. Rezultat shranite kot `index.md` v mapo `priimek-ucilo`.
+3. Rezultat shranite kot `index.sl.md` v mapo `priimek-ucilo`.
 
 ``` text
 Izpolni predlogo strani učila s spodnjimi podatki.
-Stran opisuje fizično učilo. Aplikacijo in zvezek omeni pri Uporabi pri pouku in Datotekah.
+Stran opisuje fizično učilo. Aplikacijo in zvezek omeni pri Uporabi pri pouku.
 Uporabi samo te podatke, ne izmišljuj. Kjer podatka ni, napiši [manjka].
 Kratki stavki, preprost jezik, slovensko.
 Pri Izdelavi oštevilči korake in pod vsakega dodaj ![Korak N](slike/korak-N.jpg).
-Zadnje vrstice predloge ne spreminjaj.
+Vrni samo izpolnjeno predlogo, brez razlage.
 
 OPIS UČILA (opis.md):
 [prilepi]
@@ -759,18 +766,21 @@ ZA UČITELJA (iz delovnega zvezka):
 
 DOPOLNI:
 - Avtorja in šola: [ ]
+- En stavek za kartico v knjižnici: [kaj je in česa se dijak nauči]
 - Čas izdelave: [npr. 4 šolske ure]
+- Zahtevnost: [lahko / srednje / zahtevno]
 - Materiali, označi reciklirane: [ ]
 - Orodja: [laser, 3D-tisk, karton …]
 - Koraki izdelave: [1. … 2. … 3. …]
 - Kako bodo sodelovali dijaki: [ ]
 - Kaj bomo spremenili po kritičnem prijatelju: [ ]
-- Povezava do aplikacije in zvezka: [ ]
+- Povezava do aplikacije: [ ]
+- Povezava do zvezka: [ ]
 
 PREDLOGA:
 ---
 title: ""
-date: 2026-10-30
+opis: ""
 avtorji: []
 sola: ""
 predmet: ""
@@ -781,6 +791,8 @@ materiali: []
 reciklirano: true
 orodja: []
 naslovna: "slike/naslovna.jpg"
+aplikacija: ""
+zvezek: ""
 licenca: "CC BY-SA 4.0"
 ---
 
@@ -790,10 +802,6 @@ licenca: "CC BY-SA 4.0"
 ## Uporaba pri pouku
 ## Kako so sodelovali dijaki
 ## Nadgradnje
-## Datoteke
-
----
-Nastalo v projektu Erasmus+ MAKE&LEARN, ki ga sofinancira Evropska unija.
 ```
 
 Raje najprej na papir? [List 8: Stran učila (PDF)](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/08_stran_ucila.pdf)
@@ -839,15 +847,15 @@ V skupno mapo v Teamsu naložite mapo `priimek-ucilo`:
 
 ```
 priimek-ucilo/
-   index.md
+   index.sl.md
    slike/
    datoteke/
 ```
 
-- [ ] `index.md` brez oznak `[manjka]`
+- [ ] `index.sl.md` brez oznak `[manjka]`
+- [ ] izpolnjeni `opis`, `aplikacija` in `zvezek` na vrhu strani
 - [ ] naslovna fotografija in fotografije korakov
 - [ ] STL in SVG
-- [ ] na dnu strani vrstica o Erasmus+ MAKE&LEARN
 - [ ] akcijski načrt oddan
 
 [List 10: Oddaja (PDF)](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/10_markdown_oddaja.pdf)
@@ -887,7 +895,7 @@ Repozitorij ostane vaš. Z enakimi pozivi naredite zvezek in aplikacijo za kater
 | --------------- | ---------- | ------------------------------------ | --------------------------------- |
 | Aplikacija      | 1. dan     | ideja in opis učila (list 3)         | `index.html` in Opis za učitelje  |
 | Delovni zvezek  | 1. dan     | stran iz učbenika ali delovni list   | `README.md` z razdelkom Za učitelja |
-| Stran učila     | 3. dan     | `opis.md`, Za učitelja, nove podatke | `index.md` za knjižnico           |
+| Stran učila     | 3. dan     | `opis.md`, Za učitelja, nove podatke | `index.sl.md` za knjižnico        |
 
 **Pravila za delo z AI:** konkreten opis, ena sprememba naenkrat, dejstva preverite sami, kar ni res, zbrišite.
 

@@ -22,7 +22,7 @@ liascript-zmore.md separate LiaScript showcase course (all quiz/survey types, co
 vodja.md           facilitator script (times, what to say, answers). Not for participants.
 img/               line-art illustrations (art_*.png), photos for the guessing game (foto_*.jpg, credits in README "O tečaju"), QR codes (qr_*.png), app screenshots (shot_*.png)
 delovni-listi/     printable A4 worksheets as PDF, 01–12 plus 00_vsi_delovni_listi.pdf
-predloga/index.md  Hugo page template for the teaching aids library
+predloga/index.md  copy of the library template (index.sl.md) for reference
 CLAUDE.md          this file
 ```
 
@@ -58,7 +58,7 @@ Worksheet numbers are fixed and referenced everywhere: 1 Iskanje idej, 2 Crazy 8
 
 ## Related work
 
-- Teaching aids library: Hugo site (sl/sr/en). One page bundle per aid: `priimek-ucilo/index.md`, `slike/`, `datoteke/`. Template in `predloga/index.md`. The Erasmus+ credit line at the bottom is required.
+- Teaching aids library: separate Hugo project in `Downloads/MAKE_LEARN_knjiznica` (sl/sr/en, no theme). One folder per aid in `content/ucila/<priimek-ucilo>/` with `index.sl.md`, `index.sr.md`, `index.en.md`, `slike/`, `datoteke/` (files in `datoteke/` are listed automatically). Template in its `predloga-ucila/`. The Erasmus+ co-funding line is in the site footer, so pages do not repeat it. Front matter keys: title, opis, avtorji, sola, predmet, letnik, cas_izdelave, tezavnost, materiali, reciklirano, orodja, naslovna, aplikacija, zvezek, licenca. Workshop participants submit `index.sl.md`; Luka adds sr/en.
 - Example web aids built as single-file HTML (RGB challenge, number systems, PC ports, ESP32 pinout, pixel art to binary, phishing detective, name wheel, countdown, big text) are linked from Luka's personal aids index.
 
 ## Open tasks
@@ -67,5 +67,5 @@ Worksheet numbers are fixed and referenced everywhere: 1 Iskanje idej, 2 Crazy 8
 2. After Day 1, collect the participants' app links and generate a QR code PNG per pair (Python `qrcode`), sized for laser engraving at 25 mm.
 3. Replace YouTube search links with specific videos once chosen.
 4. Proofread the Serbian lines with a colleague from Niš.
-5. After Day 3, convert teacher submissions from Teams into Hugo page bundles, add sr/en translations, keep the Erasmus+ line.
+5. After Day 3, copy each submitted `priimek-ucilo/` folder into the library's `content/ucila/`, add `index.sr.md` and `index.en.md` translations.
 6. Optional: add an English version of README.md for the Digital Blueprint Library.
