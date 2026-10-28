@@ -16,6 +16,7 @@ Udeleženci imajo odprt tečaj (`README.md`), ti ta dokument. Pri vsakem bloku: 
 - [ ] povezava do tečaja deluje, v obeh jezikih (slovenščina, srpščina); udeleženci iz Niša dobijo povezavo do `README.sr.md`
 - [ ] vse tri pozive iz tečaja enkrat preizkusi z AI, ki jo bodo uporabljali
 - [ ] natisnjeni listi: 1, 2, 5, 6, 7, 9, 12 za vse; 3, 4, 8 nekaj rezervnih
+- [ ] nekaj igralnih kock za list 2 (neobvezno)
 - [ ] nekaj družabnih iger in učil kot izhodišče za SCAMPER (Spomin, Človek ne jezi se, Jenga …), listki, flomastri, pike za glasovanje
 - [ ] prenosniki: Inkscape, rezalnik, Tinkercad
 - [ ] Tinkercad Classes s kodo razreda
@@ -27,7 +28,7 @@ Udeleženci imajo odprt tečaj (`README.md`), ti ta dokument. Pri vsakem bloku: 
 
 **Kaj odnesejo.** Tri samostojne stvari, ne trije deli enega učila: spletno aplikacijo (novo digitalno učilo), interaktivni zvezek (izboljšan učbenik ali delovni list, ki ga že imajo) in fizično učilo iz makerspacea. Teme so lahko iste ali različne. QR koda lahko poveže fizično z digitalnim.
 
-**Rdeča nit.** Iskanje idej da idejo za aplikacijo in skice za jutri. Opis učila gre v poziv za aplikacijo in v `opis.md`. Tretji dan `opis.md`, razdelek Za učitelja in podatki o fizičnem učilu gredo v poziv za stran.
+**Rdeča nit.** Iskanje idej da idejo za aplikacijo in listek z ostalimi idejami za jutri. Opis učila gre v poziv za aplikacijo in v `opis.md`. Tretji dan `opis.md`, razdelek Za učitelja in podatki o fizičnem učilu gredo v poziv za stran.
 
 
 # 1. dan
@@ -38,7 +39,7 @@ Udeleženci imajo odprt tečaj (`README.md`), ti ta dokument. Pri vsakem bloku: 
 | 9.10  | Spoznavanje in pari       | začneš ti, 1 minuta; nato pari             |
 | 9.25  | Ugani učilo               | tečaj na projektorju, pari ugibajo         |
 | 9.40  | Projekt, zgodovina        | edini daljši govor, 20 min                 |
-| 10.00 | Iskanje idej              | 4 × 10 min, štopaš                         |
+| 10.00 | Iskanje idej              | 4 koraki, brez naglice                     |
 | 10.40 | Odmor                     |                                            |
 | 10.55 | Aplikacija z AI           | odigraš RGB izziv, nato vaja               |
 | 11.30 | GitHub Pages              | skupaj na projektorju                      |
@@ -87,10 +88,11 @@ Konkretno, slikovno, abstraktno: preberi eno vrstico tabele, ki je najbližja pr
 
 ## 10.00 Iskanje idej
 
-Listi 1 in 2 na papirju. Pet korakov: 8, 7, 10, 10, 5 minut. Štopaj in vsakič glasno reci naslednji korak. Pri Crazy 8s reci »zdaj« vsako minuto; obe skici rišeta za isto vprašanje.
+Brez pritiska. Štiri koraki: 10, 5, 15, 10 minut. Povej naslednji korak, ne štej minut na glas.
 
-Pri izbiri pazi, da izbereta idejo, ki deluje na zaslonu, saj iz nje takoj nastane aplikacija. Skice predmetov naj shranijo za 2. dan. Ob koncu preveri, da ima vsak par idejo v treh stavkih.
+Mešalnik idej: pari pritiskajo Premešaj v tečaju (ali mečejo kocko po listu 2) in se pogovarjajo. Reci: »Ni pravilnih idej. Kar vam ni všeč, preskočite.« Če kdo obstane, mu pomagaj z enim primerom iz tabele Ohmov zakon.
 
+Pri izbiri pazi, da izbereta idejo, ki deluje na zaslonu, saj iz nje takoj nastane aplikacija. Ostale ideje naj shranijo za 2. dan. Ob koncu preveri, da ima vsak par idejo v treh stavkih.
 
 ## 10.55 Aplikacija z AI
 

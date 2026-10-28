@@ -191,7 +191,7 @@ Primer: Kako bismo mogli Omov zakon da učinimo opipljivim?
 
 Na kraju izabranu ideju zapišite u tri rečenice: **šta je, šta učenik radi sa njom, šta nauči.** Trebaće vam odmah posle pauze.
 
-[List 1: Traženje ideja (PDF)](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/01_iskanje_idej.pdf) · [List 2: Crazy 8s (PDF)](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/02_crazy8s.pdf)
+[List 1: Traženje ideja (PDF)](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/01_iskanje_idej.pdf) · [List 2: Mešalnik ideja (PDF)](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/02_mesalnik_idej.pdf)
 
 
 ## Pauza
@@ -722,7 +722,7 @@ Repozitorijum ostaje vaš. Istim upitima pravite svesku i aplikaciju za bilo koj
 | List | Kada    | PDF                                                                                                      |
 | ---- | ------- | -------------------------------------------------------------------------------------------------------- |
 | 1    | 1. dan  | [Traženje ideja](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/01_iskanje_idej.pdf)          |
-| 2    | 1. dan  | [Crazy 8s](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/02_crazy8s.pdf)                     |
+| 2    | 1. dan  | [Mešalnik ideja](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/02_mesalnik_idej.pdf)                     |
 | 3    | 1. dan  | [Opis za AI](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/03_opis_za_ai.pdf)                |
 | 4    | 1. dan  | [GitHub Pages](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/04_github_pages.pdf)            |
 | 5    | 2. dan  | [SCAMPER](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/05_scamper.pdf)                      |

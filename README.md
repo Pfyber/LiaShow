@@ -227,60 +227,69 @@ Vsa učila iz igre zjutraj so konkretni korak do abstraktne ideje: quipu do dese
 
 ## Iskanje idej
 
-_40 min · na papirju_
+_40 min · v paru · brez naglice_
 
-**Rezultat:** ideja za spletno aplikacijo, opisana v treh stavkih, in kup skic za jutri.
+**Rezultat:** nekaj idej za spletno aplikacijo in ena izbrana, opisana v treh stavkih.
 
-Dobra ideja redko pride prva. Zato najprej veliko idej, potem izbor. Vsak korak vzame rezultat prejšnjega.
+Ne iščemo popolne ideje. Iščemo nekaj, kar bi radi preizkusili pri pouku.
 
-![Crazy 8s](img/art_crazy8.png)<!-- style="float:right; width:150px; margin:0 0 1rem 1.5rem" -->
+![Kocka](img/art_kocka.png)<!-- style="float:right; width:140px; margin:0 0 1rem 1.5rem" -->
 
-**1. Bolečine** · 8 min · vsak sam
+**1. Bolečine** · 10 min · vsak sam
 
-- Snov, ki je dijaki ne razumejo. Ena na listek, čim več.
-- Prvi listek že imate.
+- Na listke zapišite snov, ki je dijaki težko razumejo. Ena na listek.
+- Prvi listek že imate s prejšnje prosojnice.
 
-**2. Vprašanje** · 7 min · v paru
+**2. Tema** · 5 min · v paru
 
-- Listke preberita drug drugemu in izberita enega.
-- Prepišita ga v vprašanje **Kako bi lahko …?**
+- Listke preberita drug drugemu in izberita eno temo.
+- Če želita, jo zapišita kot vprašanje: **Kako bi lahko …?**
 
-**3. Crazy 8s** · 10 min · vsak sam
+**3. Mešalnik idej** · 15 min · v paru
 
-- A4 prepognite na 8 polj.
-- Za isto vprašanje 8 različnih rešitev, ena na minuto.
-- Dovoljeno je vse: igra, simulacija, kartice, predmet, poskus. Lepota ni pomembna.
-- Nato si skice pokažeta.
+- Pritisnite **Premešaj**. Dobite vrsto aplikacije in dodatek.
+- Pogovorite se: kako bi naša tema delovala tako?
+- Kar vam je všeč, zapišite. Kar ne, preskočite in premešajte znova.
+- Dovolj so 3 do 5 idej.
+
+<script input="button" input-always-active>
+var vrste = ["kviz", "razvrščanje", "iskanje parov", "klik na sliko", "simulacija z drsniki", "časovnica"];
+var dodatki = ["na čas", "slike namesto besed", "dijak najde napako", "od lažjega k težjemu", "za ves razred na tabli", "par proti paru"];
+var v = vrste[Math.floor(Math.random() * vrste.length)];
+var d = dodatki[Math.floor(Math.random() * dodatki.length)];
+var card = "display:inline-block; padding:.7rem 1.2rem; margin:.3rem; border:1px solid #1f4fd1; border-radius:8px; font-size:1.35rem; background:#fff";
+setTimeout(function () {
+  var el = document.getElementById("mesalnik");
+  if (el) {
+    el.innerHTML = '<span style="' + card + '">' + v + '</span>'
+      + '<span style="font-size:1.5rem; margin:0 .4rem; color:#5b6270">+</span>'
+      + '<span style="' + card + '">' + d + '</span>';
+  }
+}, 50);
+"Premešaj"
+</script>
+
+<div id="mesalnik" style="margin:.5rem 0 1.5rem; min-height:4rem"></div>
 
 **4. Izbira** · 10 min · v paru
 
-- Vsak s 3 pikami označi najboljše skice, svoje ali partnerjeve.
-- Izbereta eno, ki deluje na zaslonu. Iz nje bo aplikacija.
-- Skice predmetov shranite za jutri.
+- Izberita idejo, ki bi jo najraje uporabila pri pouku. Iz nje bo aplikacija.
+- Opišita jo v treh stavkih: **kaj je, kaj dijak počne, česa se nauči.**
+- Ostale ideje shranite. Jutri lahko iz katere nastane fizično učilo.
 
-**5. Trije stavki** · 5 min · v paru
+**Primer: Ohmov zakon**
 
-- Kaj je, kaj dijak počne, česa se nauči.
+| Premešaj                                   | Ideja                                                     |
+| ------------------------------------------ | --------------------------------------------------------- |
+| simulacija z drsniki + na čas              | nastavi napetost, da žarnica zasveti v 10 sekundah        |
+| razvrščanje + od lažjega k težjemu         | razvrsti vezja po toku, najprej tri, nato šest            |
+| iskanje parov + slike namesto besed        | poveži shemo vezja s pravim tokom                         |
+| kviz + dijak najde napako                  | v izračunu toka je napaka, poišči jo                      |
+| **izbrana**                                | **simulacija z drsniki**                                  |
 
-**Primer**
+Brez računalnika gre tudi s kocko: na listu 2 sta obe tabeli.
 
-| Korak          | Ohmov zakon                                                     |
-| -------------- | --------------------------------------------------------------- |
-| bolečina       | dijaki ne razumejo Ohmovega zakona                              |
-| vprašanje      | Kako bi lahko Ohmov zakon naredili otipljiv?                    |
-| Crazy 8s       | drsniki za U in R, ob katerih žarnica sveti močneje             |
-|                | igra: izberi pravi upor, da LED ne pregori                      |
-|                | kartice za pare: formula in vezje                               |
-|                | vodni model s cevmi                                             |
-| izbira         | simulacija z drsniki                                            |
-
-Kako to izgleda, v dveh kratkih videih (angleško):
-
-!?[Kako bi lahko …?, 2 min](https://www.youtube.com/watch?v=MJWLON3Sy4E)<!-- style="max-width:560px" -->
-
-!?[Crazy 8s, 2 min](https://www.youtube.com/watch?v=yz4g87XapQ0)<!-- style="max-width:560px" -->
-
-[List 1: Iskanje idej (PDF)](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/01_iskanje_idej.pdf) · [List 2: Crazy 8s (PDF)](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/02_crazy8s.pdf)
+[List 1: Iskanje idej (PDF)](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/01_iskanje_idej.pdf) · [List 2: Mešalnik idej (PDF)](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/02_mesalnik_idej.pdf)
 
 
 ## Odmor
@@ -459,7 +468,7 @@ Vrni samo markdown, brez razlage.
 
 _10 min_
 
-- [x] ideja v treh stavkih in skice za jutri
+- [x] ideja v treh stavkih in listek z ostalimi idejami
 - [x] aplikacija na spletu
 - [x] interaktivni delovni zvezek
 - [x] `opis.md` v repozitoriju
@@ -468,7 +477,7 @@ _10 min_
 2. Aplikacijo in zvezek odprite na partnerjevem telefonu. Delujeta?
 3. Krog: ena stvar, ki vas je danes presenetila.
 
-**Jutri:** v makerspaceu naredite fizično učilo. Preglejte svoje skice Crazy 8s: katera bi bila dobra v roki?
+**Jutri:** v makerspaceu naredite fizično učilo. Preglejte listek z idejami: katera bi bila dobra v roki?
 
 
 # 2. dan: izdelava
@@ -484,7 +493,7 @@ _10 min_
 | 11.30 | Prototip             |
 | 12.15 | Pokaži in povej      |
 
-**Danes:** fizično učilo iz makerspacea. Lahko je predmet za isto idejo kot aplikacija ali nova ideja iz vaših skic. QR koda na učilu odpre aplikacijo ali zvezek.
+**Danes:** fizično učilo iz makerspacea. Lahko je predmet za isto idejo kot aplikacija ali nova ideja z vašega listka. QR koda na učilu odpre aplikacijo ali zvezek.
 
 **Fotografirajte vsak korak izdelave.** Jutri iz fotografij nastane stran učila.
 
@@ -541,7 +550,7 @@ SCAMPER je sedem vprašanj, s katerimi obstoječo stvar spremenimo v novo. Najpr
 !?[SCAMPER, 2 min, angleško](https://www.youtube.com/watch?v=M2I4PSdt7_8)<!-- style="max-width:560px" -->
 
 1. Izberita izhodišče in odgovorita na vseh sedem vprašanj, 10 minut.
-2. Enako naredite za svojo idejo: izbrano idejo ali skico predmeta iz Crazy 8s, 15 minut.
+2. Enako naredite za svojo idejo: izbrano idejo ali drugo idejo z mešalnika, 15 minut.
 3. Odločite se, kakšno bo vaše fizično učilo, 5 minut.
 
 | Črka | Pomen             | Vprašanje                                       |
@@ -857,7 +866,7 @@ Prvih 15 minut dokončajte stran, nato pišite načrt.
 | Mesec    | Primer vrstice                                          |
 | -------- | ------------------------------------------------------- |
 | november | predstavim projekt, dijaki v ekipah iščejo bolečine     |
-| december | Crazy 8s in izbira ideje, prvi prototip iz kartona      |
+| december | mešalnik idej in izbira ideje, prvi prototip iz kartona |
 
 List oddate vodji.
 
@@ -966,7 +975,7 @@ Repozitorij ostane vaš. Z enakimi pozivi naredite zvezek in aplikacijo za kater
 | List | Kdaj    | PDF                                                                                                       |
 | ---- | ------- | --------------------------------------------------------------------------------------------------------- |
 | 1    | 1. dan  | [Iskanje idej](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/01_iskanje_idej.pdf)             |
-| 2    | 1. dan  | [Crazy 8s](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/02_crazy8s.pdf)                      |
+| 2    | 1. dan  | [Mešalnik idej](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/02_mesalnik_idej.pdf)           |
 | 3    | 1. dan  | [Opis za AI](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/03_opis_za_ai.pdf)                 |
 | 4    | 1. dan  | [GitHub Pages](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/04_github_pages.pdf)             |
 | 5    | 2. dan  | [SCAMPER](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/05_scamper.pdf)                       |
