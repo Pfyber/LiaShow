@@ -1,7 +1,7 @@
 <!--
 author:   Luka Colarič
 email:    luka.colaric@sckr.si
-version:  1.2.0
+version:  1.3.0
 language: sl
 comment:  MAKE&LEARN. Usposabljanje učiteljev, 28.–30. 10. 2026, ŠC Kranj, MladLab.
           Ta tečaj je hkrati primer: vse, kar vidite, je en sam markdown v LiaScriptu.
@@ -23,7 +23,27 @@ V treh dneh v paru razvijete eno učilo za svoj predmet. Programiranje ni potreb
 ![](img/art_kocka.png)<!-- style="width:120px" -->
 
 
-## Tri dni, ena ideja
+# 1. dan: od ideje do aplikacije
+
+| Ura   | Blok                           |
+| ----- | ------------------------------ |
+| 9.00  | Dobrodošli                     |
+| 9.10  | Spoznavanje in pari            |
+| 9.25  | Ugani učilo                    |
+| 9.40  | Projekt in zgodovina učil      |
+| 10.00 | Iskanje idej                   |
+| 10.40 | Odmor                          |
+| 10.55 | Delovni zvezek                 |
+| 11.20 | Spletna aplikacija             |
+| 11.55 | Objava na spletu               |
+| 12.20 | Zaključek dneva                |
+
+
+## Dobrodošli
+
+_10 min_
+
+V treh dneh boste v paru naredili eno učilo: od ideje do spletne aplikacije, fizičnega prototipa in objavljene strani. Vsak dan gradi na prejšnjem.
 
 ``` ascii
                         1. dan                              2. dan             3. dan
@@ -33,33 +53,34 @@ V treh dneh v paru razvijete eno učilo za svoj predmet. Programiranje ni potreb
                                   '------------------'   '------------'   '---------------'
 ```
 
-Vsak korak gradi na prejšnjem. Kar napišete prvi dan, tretji dan postane stran učila.
+| Dan | Vprašanje dneva                                 |
+| --- | ----------------------------------------------- |
+| 1   | Kaj bi dijakom pomagalo razumeti snov?          |
+| 2   | Kako to dobi obliko, ki jo primeš v roke?       |
+| 3   | Kako to delimo z drugimi in prenesemo v razred? |
 
-Delate v paru, en učitelj iz Kranja in eden iz Niša. Isti par vse tri dni.
+**Potrebujete:** prenosnik, GitHub račun s potrjenim e-naslovom, dostop do AI (ChatGPT, Claude, Gemini ali Copilot). Ta tečaj imejte odprt ves čas.
 
 
-# 1. dan: od ideje do aplikacije
+## Spoznavanje in pari
 
-| Ura   | Blok                         |
-| ----- | ---------------------------- |
-| 9.00  | Ugani učilo                  |
-| 9.15  | Spoznavanje in pari          |
-| 9.30  | Projekt in zgodovina učil    |
-| 10.00 | Iskanje idej                 |
-| 10.40 | Odmor                        |
-| 10.55 | Delovni zvezek LiaScript     |
-| 11.20 | Spletna aplikacija z AI      |
-| 11.55 | Objava na GitHub Pages       |
-| 12.20 | Zaključek                    |
+_15 min_
 
-**Potrebujete:** prenosnik, GitHub račun s potrjenim e-naslovom, AI (ChatGPT, Claude, Gemini ali Copilot).
+**Rezultat:** par za vse tri dni in predmet, za katerega bosta naredila učilo.
+
+1. **Krog:** ime, šola, predmet in najboljše učilo, ki se ga spomnite iz šole. Ena minuta na osebo.
+2. **Par:** poiščite nekoga iz druge šole, s čim bolj sorodnim predmetom.
+3. **Predmet:** dogovorita se, za čigav predmet bo učilo, ali poiščita temo, ki je skupna obema.
+4. Sedita skupaj in oba odprita ta tečaj.
+
+En par, eno učilo. Akcijski načrt na koncu napiše vsak zase, za svoj razred.
 
 
 ## Ugani učilo
 
 _15 min · v paru_
 
-Osem resničnih učil iz zgodovine. Za vsako izberi ime, nato vsa razvrsti od najstarejšega do najnovejšega.
+Ogrevanje. Osem resničnih učil iz zgodovine: vsako je nekdo naredil, da bi razložil eno stvar. Za vsako izberite ime, nato vsa razvrstite od najstarejšega do najnovejšega.
 
 ![A](img/foto_jevons.jpg)
 ![B](img/foto_quipu.jpg)
@@ -86,7 +107,7 @@ Osem resničnih učil iz zgodovine. Za vsako izberi ime, nato vsa razvrsti od na
 
 **H** [[ Chladnijeva plošča | Genaille–Lucasove palice | Jevonsov logični klavir | Llullov krog | Pantograf | Planimeter | Quipu | (Taumatrop) ]]
 
-Vrstni red od najstarejšega do najnovejšega, vpiši črke (npr. A B C …):
+Vrstni red od najstarejšega do najnovejšega, vpišite črke (npr. A B C …):
 
 [[B D G F H C A E]]
 <script>
@@ -107,26 +128,19 @@ Vrstni red od najstarejšega do najnovejšega, vpiši črke (npr. A B C …):
 
 *****************************************************************
 
-
-## Spoznavanje in pari
-
-_15 min_
-
-1. Ime, šola, predmet.
-2. Najboljše učilo, ki se ga spomniš iz šole.
-3. Poišči par iz druge šole.
+**Za pogovor:** katero od osmih bi danes uporabili pri svojem pouku in zakaj?
 
 
 ## Projekt MAKE&LEARN
 
-_Erasmus+ KA210-VET, partnerstvo manjšega obsega_
+_10 min_
+
+Delavnica je del projekta Erasmus+. Kar naredite te tri dni, boste z dijaki ponovili v svoji šoli.
 
 | 2                                      | 10                     | 20+                         | 15                 |
 | -------------------------------------- | ---------------------- | --------------------------- | ------------------ |
 | šoli                                   | učiteljev              | učil                        | mesecev            |
 | ŠC Kranj, ETŠ Mija Stanimirović (Niš)  | 5 + 5                  | izdelajo dijaki z učitelji  | 9/2026 – 11/2027   |
-
-Dijaki in učitelji skupaj izdelajo učila za redni pouk, čim več iz recikliranih materialov.
 
 | Kdaj                 | Kaj                              | Kje       |
 | -------------------- | -------------------------------- | --------- |
@@ -135,10 +149,14 @@ Dijaki in učitelji skupaj izdelajo učila za redni pouk, čim več iz reciklira
 | mar – jun 2027       | spletna knjižnica načrtov        | splet     |
 | okt 2027             | predstavitev in tekmovanje       | Niš       |
 
-**Dobro učilo:** ima jasen namen, deluje, uporabno je pri pouku.
+**Dobro učilo** ima jasen pedagoški namen, deluje in je uporabno pri pouku. Po teh treh merilih bodo ocenjena tudi učila na tekmovanju.
 
 
 ## Zgodovina učil
+
+_10 min_
+
+Vsako učilo je nastalo, ker nekdo nečesa ni znal razložiti samo z besedami.
 
 ![Abak](img/art_abak.png)
 ![Globus](img/art_globus.png)
@@ -165,13 +183,15 @@ Dijaki in učitelji skupaj izdelajo učila za redni pouk, čim več iz reciklira
 
 ## Konkretno, slikovno, abstraktno
 
+Dijak snov najlažje razume v treh korakih:
+
 | Konkretno                       | Slikovno                           | Abstraktno  |
 | ------------------------------- | ---------------------------------- | ----------- |
 | Primem pico in jo razrežem.     | Narišem krog, pobarvam polovico.   | Zapišem ½.  |
 
-Najboljša učila so preprosta. Najpogosteje manjka konkretna stopnja: nekaj, kar dijak prime v roke.
+Pouk pogosto začne kar pri abstraktnem. Dobro učilo doda manjkajoči korak, najpogosteje konkretnega: nekaj, kar dijak prime v roke.
 
-**Kje v vašem predmetu manjka?** S tem vprašanjem začnemo iskanje idej.
+**Kje v vašem predmetu manjka?** S tem vprašanjem gremo v iskanje idej.
 
 
 ## Iskanje idej
@@ -180,16 +200,18 @@ _40 min · na papirju_
 
 **Rezultat:** ena ideja, opisana v treh stavkih.
 
-| Korak             | Kaj                                                 | Čas    |
-| ----------------- | --------------------------------------------------- | ------ |
-| 1. Bolečina       | snov, ki je dijaki ne razumejo, en listek na idejo  | 10 min |
-| 2. Kako bi lahko? | bolečino prepišeta v vprašanje                      | 10 min |
-| 3. Crazy 8s       | 8 skic v 8 minutah na prepognjenem A4               | 10 min |
-| 4. Izbira         | vsak s 3 pikami označi najboljše, izbereta eno      | 10 min |
+Dobra ideja redko pride prva. Zato najprej veliko idej, potem izbor.
 
-Primer: Kako bi lahko Ohmov zakon naredili otipljiv?
+| Korak               | Kako                                                                          | Čas    |
+| ------------------- | ----------------------------------------------------------------------------- | ------ |
+| 1. Bolečina         | Vsak sam: snov, ki je dijaki nikoli ne razumejo. Ena na listek, čim več.      | 10 min |
+| 2. Kako bi lahko …? | V paru izberita tri listke in vsakega prepišita v vprašanje.                  | 10 min |
+| 3. Crazy 8s         | A4 prepognite na 8 polj. Vsako minuto ena skica rešitve. Lepota ni pomembna.  | 10 min |
+| 4. Izbira           | Vsak s 3 pikami označi skice, ki so mu všeč. Izbereta eno.                    | 10 min |
 
-Na koncu izbrano idejo zapišite v treh stavkih: **kaj je, kaj dijak z njo počne, česa se nauči.** Potrebovali jih boste takoj po odmoru.
+Primer: bolečina »dijaki ne razumejo Ohmovega zakona« postane vprašanje »Kako bi lahko Ohmov zakon naredili otipljiv?«
+
+Na koncu izbrano idejo zapišite v treh stavkih: **kaj je, kaj dijak z njo počne, česa se nauči.** Po odmoru jo boste prilepili v AI.
 
 [List 1: Iskanje idej (PDF)](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/01_iskanje_idej.pdf) · [List 2: Crazy 8s (PDF)](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/02_crazy8s.pdf)
 
@@ -198,16 +220,24 @@ Na koncu izbrano idejo zapišite v treh stavkih: **kaj je, kaj dijak z njo počn
 
 _15 min · nadaljujemo ob 10.55_
 
+Med odmorom preverite, da se lahko prijavite v GitHub in v AI. Po odmoru ju potrebujete.
 
-## Delovni zvezek LiaScript
+
+## Delovni zvezek
 
 _25 min_
 
 **Rezultat:** delovni zvezek za vašo temo.
 
-LiaScript iz navadnega besedila naredi interaktivni tečaj. Brezplačno, v brskalniku, brez prijave. Tudi ta tečaj je narejen tako.
+Vaše učilo bo imelo tri dele. Danes naredimo oba digitalna, jutri fizičnega.
 
-Tako je napisan kviz:
+| Del              | Kaj je                                     | Orodje         |
+| ---------------- | ------------------------------------------ | -------------- |
+| delovni zvezek   | razlaga in vprašanja za dijaka             | LiaScript      |
+| aplikacija       | interaktivna vaja: igra, simulacija, kviz  | AI, HTML       |
+| fizično učilo    | kar dijak prime v roke, s QR kodo           | 3D-tisk, laser |
+
+LiaScript iz navadnega besedila naredi interaktivni tečaj. Brezplačno, v brskalniku, brez prijave. Tudi ta tečaj je narejen tako. Tako je napisan kviz:
 
 ``` markdown
 Koliko je tok pri 12 V in 4 Ω?
@@ -227,13 +257,12 @@ Koliko je tok pri 12 V in 4 Ω?
 
 Oznak se ni treba učiti. Napiše jih AI, vi preverite vsebino. [Kaj vse zmore LiaScript](https://liascript.github.io/course/?https://raw.githubusercontent.com/Pfyber/LiaShow/main/liascript-zmore.md)
 
-
 ### Vaja: zvezek z AI
 
-1. Kopiraj poziv (ikona desno zgoraj). Zamenjaj besedilo v oglatih oklepajih.
-2. Odgovor prilepi v [LiveEditor](https://liascript.github.io/LiveEditor/) in preizkusi vprašanja.
-3. Preveri dejstva. Vsaj eno vprašanje popravi sam.
-4. Pusti odprto. Ob 11.55 ga prilepiš na GitHub.
+1. Kopirajte poziv (ikona desno zgoraj). Zamenjajte besedilo v oglatih oklepajih.
+2. Odgovor prilepite v [LiveEditor](https://liascript.github.io/LiveEditor/) in preizkusite vprašanja.
+3. Preverite dejstva. Vsaj eno vprašanje popravite sami.
+4. LiveEditor pustite odprt. Ob 11.55 zvezek objavimo.
 
 ``` text
 Si učitelj in avtor gradiv v LiaScriptu. Naredi delovni zvezek v LiaScriptu.
@@ -258,15 +287,16 @@ Piši preprosto, za dijake. Ne izmišljuj podatkov.
 Vrni samo markdown, brez razlage.
 ```
 
+Razdelek **Za učitelja** je začetek vaše dokumentacije. Tretji dan iz njega nastane stran učila.
 
 
-## Spletna aplikacija z AI
+## Spletna aplikacija
 
 _35 min_
 
-**Rezultat:** delujoča spletna aplikacija za vaše učilo.
+**Rezultat:** delujoča aplikacija za vaše učilo.
 
-Vsako od teh učil je ena datoteka, ki jo je napisala AI po kratkem opisu.
+Zvezek razlaga, aplikacija pa dijaka spravi v akcijo. Vsako od teh učil je ena sama datoteka, ki jo je napisala AI po kratkem opisu.
 
 ![RGB izziv](img/shot_rgb.png)
 ![Phishing detektiv](img/shot_phishing.png)
@@ -277,9 +307,9 @@ Vsako od teh učil je ena datoteka, ki jo je napisala AI po kratkem opisu.
 
 ### List 3: opis učila
 
-AI zna samo to, kar ji poveste. Bolj ko je opis konkreten, boljša je aplikacija. Ta opis boste uporabili še enkrat, tretji dan za stran učila.
+AI zna samo to, kar ji poveste. Bolj ko je opis konkreten, boljša je aplikacija. Najpomembnejša je točka 6: pravi seznam vprašanj ali pojmov, ne samo tema.
 
-Kopiraj, izpolni in pošlji AI.
+Kopirajte, izpolnite in pošljite AI.
 
 ``` text
 Naredi spletno učilo po tem opisu.
@@ -310,25 +340,31 @@ kaj aplikacija dela, kako jo uporabim v razredu, kaj dijak pri tem vadi.
 
 ### Delo z AI
 
-1. Odgovori na vprašanja AI.
-2. Preizkusi aplikacijo v predogledu AI. Če ga ni, kodo shrani kot `index.html` in jo odpri z dvoklikom.
-3. Popravljaj eno stvar naenkrat: »Spremeni samo X, ostalo pusti.«
-4. Pusti pogovor odprt. Ob 11.55 kodo in opis prilepiš na GitHub.
+1. Odgovorite na vprašanja AI.
+2. Preizkusite aplikacijo v predogledu AI. Če ga ni, kodo shranite kot `index.html` in jo odprite z dvoklikom.
+3. Popravljajte eno stvar naenkrat: »Spremeni samo X, ostalo pusti.«
+4. Pogovor pustite odprt. Ob 11.55 kodo in opis objavimo.
 
 
-## Objava na GitHub Pages
+## Objava na spletu
 
 _25 min_
 
-**Rezultat:** aplikacija in zvezek na spletu, vse o učilu v enem repozitoriju.
+**Rezultat:** aplikacija in zvezek na spletu, vse o učilu na enem mestu.
 
-Vse delate v brskalniku, s kopiranjem in lepljenjem.
+**GitHub** je brezplačen prostor za datoteke na spletu. **GitHub Pages** iz teh datotek naredi spletno stran, ki jo odpre vsak telefon. Za učilo naredite en **repozitorij**, to je mapa s tremi datotekami. Vse delate v brskalniku, s kopiranjem in lepljenjem.
 
-1. **Repozitorij.** Na [github.com](https://github.com) klikni **New**. Ime z malimi črkami, brez presledkov, npr. `ohmov-zakon`. Izberi **Public** in **Create repository**.
-2. **Aplikacija.** Klikni **creating a new file**. Ime `index.html`, prilepi kodo iz AI, **Commit changes**.
-3. **Zvezek.** **Add file → Create new file**. Ime `README.md`. Prilepi zvezek iz LiveEditorja. Besedo `POVEZAVA` zamenjaj z naslovom aplikacije: `https://uporabnik.github.io/ohmov-zakon/` (namesto `uporabnik` tvoje GitHub ime). **Commit changes**.
-4. **Opis.** **Add file → Create new file**. Ime `opis.md`. Prilepi izpolnjen opis učila in Opis za učitelje iz AI. **Commit changes**.
-5. **Objava.** **Settings → Pages**: Branch **main**, **/ (root)**, **Save**. Počakaj 1 do 2 minuti.
+| Datoteka     | Vsebina                    |
+| ------------ | -------------------------- |
+| `index.html` | aplikacija                 |
+| `README.md`  | delovni zvezek             |
+| `opis.md`    | opis učila, za tretji dan  |
+
+1. **Repozitorij.** Na [github.com](https://github.com) kliknite **New**. Ime z malimi črkami, brez presledkov, npr. `ohmov-zakon`. Izberite **Public** in **Create repository**.
+2. **Aplikacija.** Kliknite **creating a new file**. Ime `index.html`, prilepite kodo iz AI, **Commit changes**.
+3. **Zvezek.** **Add file → Create new file**. Ime `README.md`. Prilepite zvezek iz LiveEditorja. Besedo `POVEZAVA` zamenjajte z naslovom aplikacije: `https://uporabnik.github.io/ohmov-zakon/` (namesto `uporabnik` vaše GitHub ime). **Commit changes**.
+4. **Opis.** **Add file → Create new file**. Ime `opis.md`. Prilepite izpolnjen opis učila in Opis za učitelje iz AI. **Commit changes**.
+5. **Objava.** **Settings → Pages**: Branch **main**, **/ (root)**, **Save**. Počakajte 1 do 2 minuti.
 
 **Vaši povezavi**
 
@@ -337,23 +373,29 @@ Vse delate v brskalniku, s kopiranjem in lepljenjem.
 | aplikacija     | `https://uporabnik.github.io/ohmov-zakon/`                                                  |
 | delovni zvezek | `https://liascript.github.io/course/?https://raw.githubusercontent.com/uporabnik/ohmov-zakon/main/README.md` |
 
-| Če …                    | Naredi                                                      |
-| ----------------------- | ----------------------------------------------------------- |
-| stran kaže 404          | počakaj še minuto; ime datoteke mora biti točno `index.html` |
-| Pages ni na voljo       | repozitorij mora biti Public                                |
-| zvezek kaže napako      | prilepi ga v LiveEditor in poglej, kje se prikaz ustavi      |
+| Če …                    | Naredite                                                       |
+| ----------------------- | -------------------------------------------------------------- |
+| stran kaže 404          | počakajte še minuto; ime datoteke mora biti točno `index.html` |
+| Pages ni na voljo       | repozitorij mora biti Public                                   |
+| zvezek kaže napako      | prilepite ga v LiveEditor in poglejte, kje se prikaz ustavi    |
 
 [List 4: GitHub Pages za tisk (PDF)](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/04_github_pages.pdf)
 
 
-## Danes
+## Zaključek dneva
+
+_10 min_
 
 - [x] ideja v treh stavkih
 - [x] delovni zvezek z razdelkom Za učitelja
 - [x] aplikacija na spletu
 - [x] `opis.md` v repozitoriju
 
-**Povezavo do aplikacije pošljite vodji v Teams.** Jutri jo vgraviramo na fizično učilo kot QR kodo.
+1. **Povezavo do aplikacije pošljite vodji v Teams.** Jutri jo vgraviramo na učilo kot QR kodo.
+2. Aplikacijo odprite na partnerjevem telefonu. Deluje?
+3. Krog: ena stvar, ki vas je danes presenetila.
+
+**Jutri:** iz aplikacije naredimo predmet, ki ga dijak prime v roke. Razmislite, kakšne oblike bi lahko bil.
 
 
 # 2. dan: izdelava
@@ -369,7 +411,7 @@ Vse delate v brskalniku, s kopiranjem in lepljenjem.
 | 11.30 | Prototip             |
 | 12.15 | Pokaži in povej      |
 
-**Danes:** aplikacija dobi telo, prototip s QR kodo.
+**Danes:** aplikacija dobi telo. Ob koncu imate prototip s QR kodo, ki odpre vašo aplikacijo.
 
 **Fotografirajte vsak korak izdelave.** Jutri iz fotografij nastane stran učila.
 
@@ -378,18 +420,22 @@ Vse delate v brskalniku, s kopiranjem in lepljenjem.
 
 _10 min_
 
-Vsak par v 30 sekundah pokaže aplikacijo na telefonu.
+Vsak par v 30 sekundah pokaže aplikacijo na telefonu in pove, kaj je bilo najtežje.
 
 
 ## Kaj je dobro učilo
 
 _15 min_
 
-1. Samo pokaže napako.
-2. En pojem.
-3. Več čutil.
-4. Za vse dijake.
-5. Iz recikliranega.
+Pet lastnosti, ki jih imajo učila, ki se obdržijo. Vse smo včeraj videli v zgodovini.
+
+| Lastnost                  | Primer                                           |
+| ------------------------- | ------------------------------------------------ |
+| 1. Samo pokaže napako     | Montessori: kos se ne prilega, če je narobe      |
+| 2. En pojem               | Cuisenairjeve palčke: samo števila kot dolžine   |
+| 3. Več čutil              | Chladnijeva plošča: zvok vidiš v pesku           |
+| 4. Za vse dijake          | abak: deluje brez branja in brez jezika          |
+| 5. Iz recikliranega       | karton, odpadni les, stara elektronika           |
 
 Kaj od tega ima vaša ideja že zdaj?
 
@@ -399,14 +445,20 @@ Kaj od tega ima vaša ideja že zdaj?
 [[4]] za vse dijake
 [[5]] iz recikliranega
 
+Česar nima, poskusite dodati v naslednjem bloku.
+
 
 ## SCAMPER
 
 _30 min · na papirju_
 
-**Rezultat:** boljša ideja za fizični del učila.
+**Rezultat:** ideja za fizični del učila.
 
-Izvlecite kartico s klasičnim učilom in ga predelajte s sedmimi vprašanji. Nato izberite, kar vzamete za svoje učilo.
+SCAMPER je sedem vprašanj, s katerimi obstoječo stvar spremenimo v novo. Najprej vadimo na tujem učilu, potem uporabimo na svojem.
+
+1. Izvlecite kartico s klasičnim učilom in odgovorite na vseh sedem vprašanj, 10 minut.
+2. Enako naredite za svoje učilo, 15 minut.
+3. Odločite se, kakšen bo fizični del vašega učila, 5 minut.
 
 | Črka | Pomen             | Vprašanje                                       |
 | ---- | ----------------- | ----------------------------------------------- |
@@ -425,23 +477,29 @@ Izvlecite kartico s klasičnim učilom in ga predelajte s sedmimi vprašanji. Na
 
 ## Varnost
 
+_5 min_
+
+Preden se dotaknemo strojev:
+
 1. Laser ne dela brez nadzora.
-2. Odsesavanje vedno vklopljeno.
+2. Odsesavanje je vedno vklopljeno.
 3. Šoba 3D-tiskalnika je vroča, nad 200 °C.
 4. Ob ognju: pokrov zaprt, stroj ustavi, pokliči.
 
 
 ## 3D-tisk
 
-_40 min_
+_35 min_
 
-**Rezultat:** natisnjen del učila in datoteka STL.
+**Rezultat:** del učila v tiskalniku in datoteka STL.
 
-1. Najdi model na [Printables](https://www.printables.com) ali ga nariši v [Tinkercad](https://www.tinkercad.com) ([video za začetnike](https://www.youtube.com/results?search_query=tinkercad+beginner+tutorial)).
-2. Razreži: do 20 minut tiska.
-3. Datoteko prinesi k tiskalniku. STL shrani za stran učila.
+3D-tiskalnik po računalniškem modelu sloj za slojem zgradi predmet iz plastike. Tisk traja dolgo, zato morajo biti modeli do odmora v tiskalniku.
 
-**Izziv:** kocka za vaš predmet, na 6 ploskvah besede, simboli ali formule.
+1. Najdite model na [Printables](https://www.printables.com) ali ga narišite v [Tinkercad](https://www.tinkercad.com) ([video za začetnike](https://www.youtube.com/results?search_query=tinkercad+beginner+tutorial)).
+2. Model naj se natisne v največ 20 minutah. Tisk zažene vodja.
+3. STL shranite za stran učila.
+
+**Ne veste, kaj bi tiskali?** Kocka za vaš predmet, na 6 ploskvah besede, simboli ali formule.
 
 
 ## Odmor
@@ -455,13 +513,15 @@ _40 min_
 
 **Rezultat:** vgravirana QR koda, ki odpre vašo aplikacijo.
 
-1. Odpri predlogo za laser v Inkscapu.
-2. **Extensions → Render → Barcode → QR Code**.
-3. Prilepi povezavo do aplikacije.
-4. QR naj bo velik vsaj 25 mm, kot gravura.
-5. Kodo preizkusi s telefonom na zaslonu, šele nato reži. SVG shrani za stran učila.
+Laserski rezalnik po risbi reže in gravira les, karton ali akril. QR koda poveže fizično učilo z aplikacijo: dijak jo skenira s telefonom.
 
-Rez gre po vrsti, 3 minute na par. Medtem delate prototip.
+1. Odprite predlogo za laser v Inkscapu.
+2. **Extensions → Render → Barcode → QR Code**.
+3. Prilepite povezavo do aplikacije.
+4. QR naj bo velik vsaj 25 mm.
+5. Kodo preizkusite s telefonom na zaslonu, šele nato režite. SVG shranite za stran učila.
+
+Rez gre po vrsti, 3 minute na par. Kdor čaka, že dela prototip.
 
 
 ## Prototip
@@ -470,9 +530,9 @@ _45 min · na papirju_
 
 **Rezultat:** prototip, ki ga lahko primete, s QR kodo.
 
-Najprej karton in odpadni material, nato natisnjeni in izrezani deli. Ni treba dokončati: šteje, da ideja deluje v roki.
+Prototip ni končni izdelek. Pokaže, ali ideja deluje v roki. Najprej karton in odpadni material, nato dodajte natisnjene in izrezane dele.
 
-Na list 6 narišite skico in zapišite materiale. Potrebovali ga boste jutri.
+Na list 6 narišite skico in zapišite materiale. Jutri ju potrebujete za stran učila.
 
 [List 6: Prototip (PDF)](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/06_prototip.pdf)
 
@@ -481,26 +541,34 @@ Na list 6 narišite skico in zapišite materiale. Potrebovali ga boste jutri.
 
 _15 min_
 
-Vsak par 1 minuto: problem, učilo, QR koda. Ostali skenirajo.
+Vsak par 2 minuti: problem, učilo, QR koda. Ostali skenirajo in preizkusijo.
+
+**Jutri:** prinesite fotografije, datoteki STL in SVG ter list 6.
 
 
 # 3. dan: knjižnica in načrt
 
-| Ura   | Blok                             |
-| ----- | -------------------------------- |
-| 9.00  | Včeraj                           |
-| 9.10  | Kritični prijatelj               |
-| 9.30  | Spletna knjižnica učil           |
-| 10.05 | Pisanje strani                   |
-| 10.40 | Odmor                            |
-| 10.55 | Stran in akcijski načrt          |
-| 11.45 | Oddaja                           |
-| 12.00 | Predstavitve                     |
-| 12.20 | Kaj sledi, vprašalnik            |
+| Ura   | Blok                         |
+| ----- | ---------------------------- |
+| 9.00  | Včeraj                       |
+| 9.10  | Kritični prijatelj           |
+| 9.30  | Spletna knjižnica učil       |
+| 9.45  | Priprava gradiva             |
+| 10.05 | Pisanje strani               |
+| 10.40 | Odmor                        |
+| 10.55 | Akcijski načrt               |
+| 11.45 | Oddaja                       |
+| 12.00 | Predstavitve                 |
+| 12.20 | Zaključek                    |
 
-**Danes:** iz vsega, kar imate, nastane stran učila. Vsak napiše še načrt dela z dijaki.
+**Danes:** iz vsega, kar imate, nastane stran učila. Vsak napiše še načrt, kako bo učilo izdelal z dijaki.
 
-**Pripravite:** `opis.md` iz repozitorija, razdelek Za učitelja iz zvezka, list 6, fotografije, STL in SVG.
+
+## Včeraj
+
+_10 min_
+
+Prevzemite natisnjene dele in jih dodajte prototipu. Fotografirajte končan prototip.
 
 
 ## Kritični prijatelj
@@ -509,10 +577,12 @@ _20 min · na papirju_
 
 **Rezultat:** povratna informacija drugega para in ena izboljšava.
 
-1. Par predstavi učilo drugemu paru, 3 minute.
+Dva para se združita. Kdor učila ni delal, vidi, česar avtor ne vidi več.
+
+1. Par predstavi učilo, 3 minute. Drugi par ga preizkusi.
 2. Drugi par napiše po en stavek v vsako polje: **Všeč mi je … · Želim si … · Kaj če …?**
 3. Zamenjajta vlogi.
-4. Odločita, kaj bosta spremenila.
+4. Vsak par se odloči, kaj bo spremenil.
 
 [List 7: Kritični prijatelj (PDF)](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/07_kriticni_prijatelj.pdf)
 
@@ -521,32 +591,57 @@ _20 min · na papirju_
 
 _15 min_
 
-Vsako učilo dobi svojo stran, v slovenščini, srbščini in angleščini. Vse strani imajo enake razdelke, zato jih je lahko primerjati in ponoviti.
+Učila iz projekta bodo zbrana v javni spletni knjižnici, v slovenščini, srbščini in angleščini. Vsako dobi svojo stran z enakimi razdelki, da ga lahko ponovi vsak učitelj.
 
 ![Primer kazala učil](img/shot_index.png)
 
-| Razdelek                    | Vsebina                                        |
-| --------------------------- | ---------------------------------------------- |
+| Razdelek                    | Vsebina                                         |
+| --------------------------- | ----------------------------------------------- |
 | Namen                       | kateri problem rešuje, kaj dijak zna po uporabi |
-| Materiali in orodja         | kaj potrebujete, kaj je reciklirano            |
-| Izdelava                    | koraki s fotografijami                         |
-| Uporaba pri pouku           | kako ga uporabite v uri                        |
-| Kako so sodelovali dijaki   | kaj so načrtovali, izdelali in preizkusili     |
-| Nadgradnje                  | ideje za naprej                                |
-| Datoteke                    | STL, SVG, povezavi do aplikacije in zvezka     |
+| Materiali in orodja         | kaj potrebujete, kaj je reciklirano             |
+| Izdelava                    | koraki s fotografijami                          |
+| Uporaba pri pouku           | kako ga uporabite v uri                         |
+| Kako so sodelovali dijaki   | kaj so načrtovali, izdelali in preizkusili      |
+| Nadgradnje                  | ideje za naprej                                 |
+| Datoteke                    | STL, SVG, povezavi do aplikacije in zvezka      |
 
-Stran je napisana v markdownu, enako kot vaš zvezek. Napiše jo AI iz vaših zapiskov.
+
+## Priprava gradiva
+
+_20 min_
+
+**Rezultat:** mapa z vsem, kar stran potrebuje.
+
+Na računalniku naredite mapo `priimek-ucilo` in vanjo zložite:
+
+```
+priimek-ucilo/
+   slike/
+      naslovna.jpg
+      korak-1.jpg
+      korak-2.jpg
+   datoteke/
+      model.stl
+      rezanje.svg
+```
+
+1. Izberite eno naslovno fotografijo in eno za vsak korak izdelave.
+2. Preimenujte jih: `naslovna.jpg`, `korak-1.jpg`, `korak-2.jpg` …
+3. Dodajte STL in SVG.
+4. V svojem repozitoriju odprite `opis.md` in ga kopirajte. Potrebovali ga boste v naslednjem bloku.
 
 
 ## Pisanje strani
 
-_35 + 50 min_
+_35 min_
 
 **Rezultat:** stran `index.md`, pripravljena za knjižnico.
 
-1. Kopiraj poziv. Prilepi `opis.md` in Za učitelja, dopolni manjkajoče podatke.
-2. Pošlji AI. Preberi rezultat: kar ni res, zbriši; dopolni mesta `[manjka]`.
-3. Rezultat shrani kot `index.md` (v Teamsu: nova datoteka, prilepi).
+Stran napiše AI iz vaših podatkov. Vaša naloga je preveriti, ali je vse res.
+
+1. Kopirajte poziv. Prilepite `opis.md` in razdelek Za učitelja iz zvezka. Dopolnite seznam DOPOLNI.
+2. Pošljite AI. Preberite rezultat: kar ni res, zbrišite; dopolnite mesta `[manjka]`.
+3. Rezultat shranite kot `index.md` v mapo `priimek-ucilo`.
 
 ``` text
 Izpolni predlogo strani učila s spodnjimi podatki.
@@ -610,11 +705,13 @@ _15 min · nadaljujemo ob 10.55_
 
 ## Akcijski načrt
 
-_vsak učitelj svojega · na papirju_
+_50 min · vsak učitelj svojega · na papirju_
 
-**Rezultat:** vaš načrt, kako boste učilo do junija 2027 izdelali z dijaki. To je obvezen rezultat projekta.
+**Rezultat:** vaš načrt, kako boste do junija 2027 učilo izdelali z dijaki. To je obvezen rezultat projekta.
 
-Na list odgovorite:
+Do zdaj ste učilo naredili vi. V projektu ga naredijo dijaki. Načrt pove, kdaj, s kom in kako.
+
+Prvih 15 minut dokončajte stran, nato pišite načrt.
 
 1. Predmet, letnik, število dijakov in ekip.
 2. Katero učilo bodo izdelali dijaki in kaj se pri tem naučijo.
@@ -622,6 +719,11 @@ Na list odgovorite:
 4. Materiali, najprej reciklirani.
 5. Kdaj ga preizkusite v razredu.
 6. Kako boste dijake vprašali po motivaciji.
+
+| Mesec    | Primer vrstice                                          |
+| -------- | ------------------------------------------------------- |
+| november | predstavim projekt, dijaki v ekipah iščejo bolečine     |
+| december | Crazy 8s in izbira ideje, prvi prototip iz kartona      |
 
 List oddate vodji.
 
@@ -632,17 +734,13 @@ List oddate vodji.
 
 _15 min_
 
-V skupno mapo v Teamsu naložite mapo z imenom `priimek-ucilo`:
+V skupno mapo v Teamsu naložite mapo `priimek-ucilo`:
 
 ```
 priimek-ucilo/
    index.md
    slike/
-      naslovna.jpg
-      korak-1.jpg
    datoteke/
-      model.stl
-      rezanje.svg
 ```
 
 - [ ] `index.md` brez oznak `[manjka]`
@@ -658,20 +756,23 @@ priimek-ucilo/
 
 _20 min_
 
-Vsak par 1 minuto: problem, učilo, kako ga bodo izdelali dijaki.
+Vsak par 3 minute: problem, učilo v roki, kako ga bodo izdelali dijaki. Nato eno vprašanje iz publike.
 
 
-## Kaj sledi
+## Zaključek
 
-| Kdaj      | Kaj                              |
-| --------- | -------------------------------- |
-| nov 2026  | začetek z dijaki                 |
-| jun 2027  | 10 učil na šolo                  |
+_10 min_
+
+| Kdaj      | Kaj                               |
+| --------- | --------------------------------- |
+| nov 2026  | začetek z dijaki                  |
+| jun 2027  | 10 učil na šolo                   |
 | okt 2027  | predstavitev in tekmovanje v Nišu |
 
 Repozitorij ostane vaš. Z enakimi pozivi naredite zvezek in aplikacijo za katero koli temo.
 
-**Vprašalnik o usposabljanju** izpolnite na papirju, anonimno, in ga oddajte vodji.
+1. **Vprašalnik** izpolnite na papirju, anonimno, in ga oddajte vodji.
+2. Skupinska fotografija.
 
 [List 12: Vprašalnik (PDF)](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/12_vprasalnik.pdf)
 
@@ -681,13 +782,13 @@ Repozitorij ostane vaš. Z enakimi pozivi naredite zvezek in aplikacijo za kater
 
 ## Pozivi za AI
 
-| Poziv           | Kdaj       | Kaj vstavite         | Kaj dobite                             |
-| --------------- | ---------- | -------------------- | -------------------------------------- |
-| Delovni zvezek  | 1. dan     | ideja v treh stavkih | zvezek z razdelkom Za učitelja         |
-| Aplikacija      | 1. dan     | opis učila (list 3)  | `index.html` in Opis za učitelje       |
-| Stran učila     | 3. dan     | `opis.md`, Za učitelja, nove podatke | `index.md` za knjižnico |
+| Poziv           | Kdaj       | Kaj vstavite                         | Kaj dobite                        |
+| --------------- | ---------- | ------------------------------------ | --------------------------------- |
+| Delovni zvezek  | 1. dan     | ideja v treh stavkih                 | zvezek z razdelkom Za učitelja    |
+| Aplikacija      | 1. dan     | opis učila (list 3)                  | `index.html` in Opis za učitelje  |
+| Stran učila     | 3. dan     | `opis.md`, Za učitelja, nove podatke | `index.md` za knjižnico           |
 
-**Pravila za delo z AI:** konkreten opis, ena sprememba naenkrat, dejstva preveri sam, kar ni res, zbriši.
+**Pravila za delo z AI:** konkreten opis, ena sprememba naenkrat, dejstva preverite sami, kar ni res, zbrišite.
 
 
 ## 20 klasičnih učil za navdih
@@ -720,20 +821,20 @@ Repozitorij ostane vaš. Z enakimi pozivi naredite zvezek in aplikacijo za kater
 
 ## Delovni listi
 
-| List | Kdaj    | PDF                                                                                                    |
-| ---- | ------- | ------------------------------------------------------------------------------------------------------ |
-| 1    | 1. dan  | [Iskanje idej](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/01_iskanje_idej.pdf)          |
-| 2    | 1. dan  | [Crazy 8s](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/02_crazy8s.pdf)                   |
-| 3    | 1. dan  | [Opis za AI](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/03_opis_za_ai.pdf)              |
-| 4    | 1. dan  | [GitHub Pages](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/04_github_pages.pdf)          |
-| 5    | 2. dan  | [SCAMPER](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/05_scamper.pdf)                    |
-| 6    | 2. dan  | [Prototip](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/06_prototip.pdf)                  |
+| List | Kdaj    | PDF                                                                                                       |
+| ---- | ------- | --------------------------------------------------------------------------------------------------------- |
+| 1    | 1. dan  | [Iskanje idej](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/01_iskanje_idej.pdf)             |
+| 2    | 1. dan  | [Crazy 8s](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/02_crazy8s.pdf)                      |
+| 3    | 1. dan  | [Opis za AI](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/03_opis_za_ai.pdf)                 |
+| 4    | 1. dan  | [GitHub Pages](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/04_github_pages.pdf)             |
+| 5    | 2. dan  | [SCAMPER](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/05_scamper.pdf)                       |
+| 6    | 2. dan  | [Prototip](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/06_prototip.pdf)                     |
 | 7    | 3. dan  | [Kritični prijatelj](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/07_kriticni_prijatelj.pdf) |
-| 8    | 3. dan  | [Stran učila](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/08_stran_ucila.pdf)            |
-| 9    | 3. dan  | [Akcijski načrt](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/09_akcijski_nacrt.pdf)      |
-| 10   | 3. dan  | [Markdown in oddaja](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/10_markdown_oddaja.pdf) |
-| 11   | priloga | [20 klasičnih učil](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/11_20_klasicnih_ucil.pdf) |
-| 12   | 3. dan  | [Vprašalnik](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/12_vprasalnik.pdf)              |
+| 8    | 3. dan  | [Stran učila](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/08_stran_ucila.pdf)               |
+| 9    | 3. dan  | [Akcijski načrt](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/09_akcijski_nacrt.pdf)         |
+| 10   | 3. dan  | [Markdown in oddaja](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/10_markdown_oddaja.pdf)    |
+| 11   | priloga | [20 klasičnih učil](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/11_20_klasicnih_ucil.pdf)   |
+| 12   | 3. dan  | [Vprašalnik](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/12_vprasalnik.pdf)                 |
 
 [Vsi listi v enem PDF](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/00_vsi_delovni_listi.pdf)
 

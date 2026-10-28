@@ -31,15 +31,15 @@ Course URL once pushed to GitHub:
 
 ## Schedule (keep README.md, vodja.md and the PPTX in sync)
 
-- Day 1: guessing game (obscure historical aids), intro pairs, project + history, idea finding (pain point → "how might we" → Crazy 8s → choose), break, LiaScript workbook with AI, web app with AI (single index.html), publish on GitHub Pages.
+- Day 1: welcome (3-day overview), intro round and mixed pairs (pair chooses one subject), guessing game in pairs, project + history, idea finding (pain point → "how might we" → Crazy 8s → choose), break, LiaScript workbook with AI, web app with AI (single index.html), publish on GitHub Pages.
 - Day 2: yesterday recap (each pair shows its app), what makes a good aid, SCAMPER (with printed cards of classic aids), safety + 3D printing, break, laser with engraved QR code (Inkscape: Extensions → Render → Barcode → QR Code), cardboard prototype, show and tell.
-- Day 3: critical friend (I like / I wish / What if), library + markdown + template, writing the library page, break, page + classroom action plan (each teacher, required project output), submission to Teams, presentations, what's next + evaluation questionnaire.
+- Day 3: pick up prints, critical friend (I like / I wish / What if), library overview, preparing the material folder (photos renamed, STL, SVG), writing the library page, break, page + classroom action plan (each teacher, required project output), submission to Teams, presentations, what's next + evaluation questionnaire.
 
 Worksheet numbers are fixed and referenced everywhere: 1 Iskanje idej, 2 Crazy 8s, 3 Opis za AI, 4 GitHub Pages, 5 SCAMPER, 6 Prototip, 7 Kritični prijatelj, 8 Stran učila, 9 Akcijski načrt, 10 Markdown in oddaja, 11 20 klasičnih učil, 12 Vprašalnik.
 
 ## Writing rules
 
-- Language: the course exists twice, `README.md` (Slovenian, `language: sl`) and `README.sr.md` (Serbian, Latin script, ekavica, `language: hr` because LiaScript has no Serbian UI). They link to each other with the `translation:` header macro and a link on the title slide. Any change to one must be made in the other; same slides, same order, same quiz answers. `liascript-zmore.md` and `vodja.md` stay bilingual / Slovenian.
+- Language: the course exists twice, `README.md` (Slovenian, `language: sl`) and `README.sr.md` (Serbian, Latin script, ekavica, `language: hr` because LiaScript has no Serbian UI). They link to each other with the `translation:` header macro and a link on the title slide. Any change to one must be made in the other; same slides, same order, same quiz answers. (As of v1.3.0 README.md was reworked; README.sr.md still has the v1.2.0 flow and needs the same changes.) `liascript-zmore.md` and `vodja.md` stay bilingual / Slovenian.
 - Plain, understated language. No em dashes. No marketing tone, no "AI-sounding" phrasing.
 - Design: minimal, white background, black text, one blue accent, thin lines. No decorative cards or emoji.
 - Facts about the project come only from the Erasmus+ application. Do not invent numbers or dates.

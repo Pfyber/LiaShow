@@ -1,7 +1,7 @@
 <!--
 author:   Luka Colarič
 email:    luka.colaric@sckr.si
-version:  1.2.0
+version:  1.3.0
 comment:  Scenarij za vodjo delavnice MAKE&LEARN. Ni za udeležence: vsebuje rešitve.
 -->
 
@@ -32,9 +32,10 @@ Udeleženci imajo odprt tečaj (`README.md`), ti ta dokument. Pri vsakem bloku: 
 
 | Ura   | Blok                      | Ti                                         |
 | ----- | ------------------------- | ------------------------------------------ |
-| 9.00  | Ugani učilo               | tečaj na projektorju, pari ugibajo         |
-| 9.15  | Spoznavanje               | začneš ti, 1 minuta                        |
-| 9.30  | Projekt, zgodovina        | edini daljši govor, 30 min                 |
+| 9.00  | Dobrodošli                | diagram treh dni, vprašanja dneva          |
+| 9.10  | Spoznavanje in pari       | začneš ti, 1 minuta; nato pari             |
+| 9.25  | Ugani učilo               | tečaj na projektorju, pari ugibajo         |
+| 9.40  | Projekt, zgodovina        | edini daljši govor, 20 min                 |
 | 10.00 | Iskanje idej              | 4 × 10 min, štopaš                         |
 | 10.40 | Odmor                     |                                            |
 | 10.55 | LiaScript                 | pokažeš LiveEditor, nato vaja              |
@@ -43,7 +44,17 @@ Udeleženci imajo odprt tečaj (`README.md`), ti ta dokument. Pri vsakem bloku: 
 | 12.20 | Zaključek                 | povezave v Teams                           |
 
 
-## 9.00 Ugani učilo
+## 9.00 Dobrodošli
+
+Pokaži diagram in tri vprašanja dneva. Povej rdečo nit (zgoraj). Vsi odprejo tečaj na prenosniku; udeleženci iz Niša srbsko različico.
+
+
+## 9.10 Spoznavanje in pari
+
+Začneš ti: ime, šola, predmet, najljubše učilo. Nato pari: Kranj z Nišem, sorodni predmeti. Če se kdo ne najde, pare določiš ti. Pred koncem bloka vsak par pove, za kateri predmet bo učilo.
+
+
+## 9.25 Ugani učilo
 
 Rešitev in vrstni red: **B D G F H C A E**.
 
@@ -58,10 +69,10 @@ Rešitev in vrstni red: **B D G F H C A E**.
 | A    | Jevonsov logični klavir     | 1869        | mehansko reševanje logičnih nalog                   |
 | E    | Genaille–Lucasove palice    | 1891        | Napierjeve palice brez prenašanja                   |
 
-Reci: »Nihče ne pozna vseh. Če ne veste imena, ugibajte, kaj počne.«
+Reci: »Nihče ne pozna vseh. Če ne veste imena, ugibajte, kaj počne.« Igra je hkrati preizkus, ali vsem tečaj deluje. Na koncu vprašanje za pogovor, 2 do 3 odgovori.
 
 
-## 9.30 Projekt in zgodovina
+## 9.40 Projekt in zgodovina
 
 Projekt na kratko: dve šoli, deset učiteljev, dvajset učil, tekmovanje v Nišu oktobra 2027. Merila: jasen namen, deluje, uporabno pri pouku.
 
@@ -111,7 +122,7 @@ Pazi na: ime repozitorija z malimi črkami, datoteka točno `index.html`, Public
 | 10.35 | Odmor            | preveri tiskalnike                   |
 | 10.50 | Laser, QR        | vrstni red parov na tablo            |
 | 11.30 | Prototip         | hodiš med pari, list 6               |
-| 12.15 | Pokaži in povej  | fotografiraj                         |
+| 12.15 | Pokaži in povej  | 2 min na par, fotografiraj           |
 
 Na začetku reci: »Fotografirajte vsak korak.« Brez fotografij jutri ni strani.
 
@@ -125,11 +136,12 @@ Na začetku reci: »Fotografirajte vsak korak.« Brez fotografij jutri ni strani
 | 9.00  | Včeraj                 | razdeliš tiske                          |
 | 9.10  | Kritični prijatelj     | pari v četverke, Kranj z Nišem, list 7  |
 | 9.30  | Knjižnica              | pokažeš primer strani, 15 min           |
+| 9.45  | Priprava gradiva       | mapa, fotografije preimenovane          |
 | 10.05 | Pisanje strani         | najpogosteje manjkajo fotografije korakov |
 | 10.40 | Odmor                  |                                         |
-| 10.55 | Stran, akcijski načrt  | list 9, vsak svojega                    |
+| 10.55 | Akcijski načrt         | 15 min dokončajo stran, nato list 9     |
 | 11.45 | Oddaja                 | preveriš mape v Teamsu                  |
-| 12.00 | Predstavitve           | fotografiraj                            |
+| 12.00 | Predstavitve           | 3 min na par, fotografiraj              |
 | 12.20 | Kaj sledi, vprašalnik  | pobereš liste 9 in 12, skupinska fotografija |
 
 
