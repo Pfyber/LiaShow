@@ -709,7 +709,7 @@ Učila iz projekta bodo zbrana v javni spletni knjižnici, v slovenščini, srb�
 | Kako so sodelovali dijaki   | kaj so načrtovali, izdelali in preizkusili      |
 | Nadgradnje                  | ideje za naprej                                 |
 
-Stran je napisana v markdownu, enako kot vaš zvezek. Napiše jo AI iz vaših zapiskov. Srbski in angleški prevod pripravi vodja.
+Stran je napisana v markdownu, enako kot vaš zvezek. Napiše jo AI iz vaših zapiskov, v slovenščini, srbščini in angleščini.
 
 
 ## Priprava gradiva
@@ -722,7 +722,9 @@ Na računalniku naredite mapo `priimek-ucilo` in vanjo zložite:
 
 ```
 priimek-ucilo/
-   index.sl.md      (nastane v naslednjem bloku)
+   index.sl.md      (nastanejo v naslednjem bloku)
+   index.sr.md
+   index.en.md
    slike/
       naslovna.jpg
       korak-1.jpg
@@ -742,13 +744,17 @@ priimek-ucilo/
 
 _35 min_
 
-**Rezultat:** stran `index.sl.md`, pripravljena za knjižnico.
+**Rezultat:** stran v treh jezikih: `index.sl.md`, `index.sr.md`, `index.en.md`.
 
 Stran napiše AI iz vaših podatkov. Vaša naloga je preveriti, ali je vse res.
 
-1. Kopirajte poziv. Prilepite `opis.md` in razdelek Za učitelja iz zvezka. Dopolnite seznam DOPOLNI.
+1. Kopirajte prvi poziv. Prilepite `opis.md` in razdelek Za učitelja iz zvezka. Dopolnite seznam DOPOLNI.
 2. Pošljite AI. Preberite rezultat: kar ni res, zbrišite; dopolnite mesta `[manjka]`.
 3. Rezultat shranite kot `index.sl.md` v mapo `priimek-ucilo`.
+4. Z drugim pozivom ga AI prevede v srbščino in angleščino. Shranite `index.sr.md` in `index.en.md`.
+5. Partner iz Niša prebere srbski prevod in popravi, kar ne zveni prav.
+
+**Poziv 1: stran v slovenščini**
 
 ``` text
 Izpolni predlogo strani učila s spodnjimi podatki.
@@ -804,6 +810,25 @@ licenca: "CC BY-SA 4.0"
 ## Nadgradnje
 ```
 
+**Poziv 2: prevod v srbščino in angleščino**
+
+``` text
+Prevedi spodnjo stran učila v srbščino (latinica, ekavica) in v angleščino.
+Vrni dve ločeni datoteki: najprej index.sr.md, nato index.en.md.
+
+Pravila:
+- Oznak na vrhu (title:, opis:, predmet: …) ne prevajaj, prevedi samo vrednosti.
+- Poti do slik (slike/...), povezave ter imena oseb in šol pusti enake.
+- Naslove razdelkov prevedi tako:
+  srbsko: Svrha, Materijali i alati, Izrada, Upotreba u nastavi,
+          Kako su učestvovali učenici, Nadogradnje
+  angleško: Purpose, Materials and tools, How to make it, Use in class,
+            How students took part, Ideas for later
+- Ničesar ne dodajaj.
+
+[prilepi index.sl.md]
+```
+
 Raje najprej na papir? [List 8: Stran učila (PDF)](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/08_stran_ucila.pdf)
 
 
@@ -848,11 +873,14 @@ V skupno mapo v Teamsu naložite mapo `priimek-ucilo`:
 ```
 priimek-ucilo/
    index.sl.md
+   index.sr.md
+   index.en.md
    slike/
    datoteke/
 ```
 
-- [ ] `index.sl.md` brez oznak `[manjka]`
+- [ ] `index.sl.md`, `index.sr.md` in `index.en.md`, brez oznak `[manjka]`
+- [ ] srbski prevod je prebral partner iz Niša
 - [ ] izpolnjeni `opis`, `aplikacija` in `zvezek` na vrhu strani
 - [ ] naslovna fotografija in fotografije korakov
 - [ ] STL in SVG
@@ -896,6 +924,7 @@ Repozitorij ostane vaš. Z enakimi pozivi naredite zvezek in aplikacijo za kater
 | Aplikacija      | 1. dan     | ideja in opis učila (list 3)         | `index.html` in Opis za učitelje  |
 | Delovni zvezek  | 1. dan     | stran iz učbenika ali delovni list   | `README.md` z razdelkom Za učitelja |
 | Stran učila     | 3. dan     | `opis.md`, Za učitelja, nove podatke | `index.sl.md` za knjižnico        |
+| Prevod strani   | 3. dan     | `index.sl.md`                        | `index.sr.md` in `index.en.md`    |
 
 **Pravila za delo z AI:** konkreten opis, ena sprememba naenkrat, dejstva preverite sami, kar ni res, zbrišite.
 

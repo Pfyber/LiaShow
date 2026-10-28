@@ -153,4 +153,6 @@ Na začetku reci: »Fotografirajte vsak korak.« Brez fotografij jutri ni strani
 
 Poziv že vsebuje predlogo. Prilepijo `opis.md` (odprejo ga v svojem repozitoriju) in razdelek Za učitelja, dopolnijo seznam DOPOLNI. AI rada doda, česar ne ve. Zato pravilo `[manjka]`: vsako tako mesto dopolnijo sami ali zbrišejo.
 
+Nato drugi poziv: prevod v srbščino in angleščino. Partner iz Niša prebere srbski prevod. Oddajo vse tri datoteke.
+
 Akcijski načrt je obljubljen rezultat projekta. Brez njega usposabljanje ni zaključeno.

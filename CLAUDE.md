@@ -58,7 +58,7 @@ Worksheet numbers are fixed and referenced everywhere: 1 Iskanje idej, 2 Crazy 8
 
 ## Related work
 
-- Teaching aids library: separate Hugo project in `Downloads/MAKE_LEARN_knjiznica` (sl/sr/en, no theme). One folder per aid in `content/ucila/<priimek-ucilo>/` with `index.sl.md`, `index.sr.md`, `index.en.md`, `slike/`, `datoteke/` (files in `datoteke/` are listed automatically). Template in its `predloga-ucila/`. The Erasmus+ co-funding line is in the site footer, so pages do not repeat it. Front matter keys: title, opis, avtorji, sola, predmet, letnik, cas_izdelave, tezavnost, materiali, reciklirano, orodja, naslovna, aplikacija, zvezek, licenca. Workshop participants submit `index.sl.md`; Luka adds sr/en.
+- Teaching aids library: separate Hugo project in `Downloads/MAKE_LEARN_knjiznica` (sl/sr/en, no theme). One folder per aid in `content/ucila/<priimek-ucilo>/` with `index.sl.md`, `index.sr.md`, `index.en.md`, `slike/`, `datoteke/` (files in `datoteke/` are listed automatically). Template in its `predloga-ucila/`. The Erasmus+ co-funding line is in the site footer, so pages do not repeat it. Front matter keys: title, opis, avtorji, sola, predmet, letnik, cas_izdelave, tezavnost, materiali, reciklirano, orodja, naslovna, aplikacija, zvezek, licenca. Workshop participants submit all three: `index.sl.md` from the page prompt, then `index.sr.md` and `index.en.md` from a translation prompt; the Niš partner checks the Serbian.
 - Example web aids built as single-file HTML (RGB challenge, number systems, PC ports, ESP32 pinout, pixel art to binary, phishing detective, name wheel, countdown, big text) are linked from Luka's personal aids index.
 
 ## Open tasks
@@ -67,5 +67,5 @@ Worksheet numbers are fixed and referenced everywhere: 1 Iskanje idej, 2 Crazy 8
 2. After Day 1, collect the participants' app links and generate a QR code PNG per pair (Python `qrcode`), sized for laser engraving at 25 mm.
 3. Replace YouTube search links with specific videos once chosen.
 4. Proofread the Serbian lines with a colleague from Niš.
-5. After Day 3, copy each submitted `priimek-ucilo/` folder into the library's `content/ucila/`, add `index.sr.md` and `index.en.md` translations.
+5. After Day 3, copy each submitted `priimek-ucilo/` folder (index.sl/sr/en.md, slike/, datoteke/) into the library's `content/ucila/` and check the translations.
 6. Optional: add an English version of README.md for the Digital Blueprint Library.
