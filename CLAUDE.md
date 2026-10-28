@@ -32,7 +32,7 @@ Course URL once pushed to GitHub:
 ## Schedule (keep README.md, vodja.md and the PPTX in sync)
 
 - Day 1: welcome (3-day overview), intro round and mixed pairs (pair chooses one subject), guessing game in pairs, project + history, idea finding (pain point → "how might we" → Crazy 8s → choose), break, web app with AI (single index.html), publish on GitHub Pages, LiaScript interactive workbook from an existing textbook page or worksheet (README.md in the same repo, links to the app).
-- Day 2: yesterday recap (each pair shows its app), what makes a good aid, SCAMPER (with printed cards of classic aids), safety + 3D printing, break, laser with engraved QR code (Inkscape: Extensions → Render → Barcode → QR Code), cardboard prototype, show and tell.
+- Day 2: yesterday recap (each pair shows its app), what makes a good aid, SCAMPER on a starting point the pair chooses (any teaching aid or a board game), then on their own idea, safety + 3D printing, break, laser with engraved QR code (Inkscape: Extensions → Render → Barcode → QR Code), cardboard prototype, show and tell.
 - Day 3: pick up prints, critical friend (I like / I wish / What if), library overview, preparing the material folder (photos renamed, STL, SVG), writing the library page, break, page + classroom action plan (each teacher, required project output), submission to Teams, presentations, what's next + evaluation questionnaire.
 
 Worksheet numbers are fixed and referenced everywhere: 1 Iskanje idej, 2 Crazy 8s, 3 Opis za AI, 4 GitHub Pages, 5 SCAMPER, 6 Prototip, 7 Kritični prijatelj, 8 Stran učila, 9 Akcijski načrt, 10 Markdown in oddaja, 11 20 klasičnih učil, 12 Vprašalnik.

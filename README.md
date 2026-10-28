@@ -528,17 +528,19 @@ _30 min · na papirju_
 
 **Rezultat:** ideja za fizično učilo.
 
-SCAMPER je sedem vprašanj, s katerimi obstoječo stvar spremenimo v novo. Najprej vadimo na tujem učilu, potem uporabimo na svojem.
+![Družabna igra](img/art_kocka.png)<!-- style="float:right; width:150px; margin:0 0 1rem 1.5rem" -->
 
-Kartice s klasičnimi učili, na primer:
+SCAMPER je sedem vprašanj, s katerimi obstoječo stvar spremenimo v novo. Najprej vadimo na nečem, kar že obstaja, potem uporabimo na svojem.
 
-| Hanojski stolp | Napierjeve palice | Séguinova deska | Zoetrop | Albertijev disk |
-| -------------- | ----------------- | --------------- | ------- | --------------- |
-| ![](img/art_hanoi.png)<!-- style="height:80px" --> | ![](img/art_napier.png)<!-- style="height:80px" --> | ![](img/art_seguin.png)<!-- style="height:80px" --> | ![](img/art_zoetrop.png)<!-- style="height:80px" --> | ![](img/art_sifra.png)<!-- style="height:80px" --> |
+**Izhodišče izberete sami:**
+
+- učilo, ki ga poznate ali uporabljate pri pouku,
+- družabna igra: Človek ne jezi se, Spomin, Activity, Uno, Jenga, šah …,
+- karkoli iz učilnice ali z zgodovinske prosojnice.
 
 !?[SCAMPER, 2 min, angleško](https://www.youtube.com/watch?v=M2I4PSdt7_8)<!-- style="max-width:560px" -->
 
-1. Izvlecite kartico s klasičnim učilom in odgovorite na vseh sedem vprašanj, 10 minut.
+1. Izberita izhodišče in odgovorita na vseh sedem vprašanj, 10 minut.
 2. Enako naredite za svojo idejo: izbrano idejo ali skico predmeta iz Crazy 8s, 15 minut.
 3. Odločite se, kakšno bo vaše fizično učilo, 5 minut.
 
@@ -552,7 +554,9 @@ Kartice s klasičnimi učili, na primer:
 | E    | Odstrani          | Kaj izpustim, da ostane bistvo?                 |
 | R    | Obrni             | Kaj, če naredim obratno?                        |
 
-**Primer, abak:** kroglice zamenjaj z besedami (S), abak za dvojiški sistem (C), za ves razred na steni (M).
+**Primer, Spomin:** pare slik zamenjaj s pari pojem in formula (S), na hrbtno stran dodaj QR kodo z razlago (C), velike kartice za ves razred na tabli (M).
+
+**Primer, Človek ne jezi se:** na polja dodaj vprašanja iz snovi (A), namesto kocke kolo z enotami (S), kdor odgovori narobe, gre nazaj (R).
 
 [List 5: SCAMPER (PDF)](https://github.com/Pfyber/LiaShow/blob/main/delovni-listi/05_scamper.pdf)
 

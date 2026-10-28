@@ -16,7 +16,7 @@ Udeleženci imajo odprt tečaj (`README.md`), ti ta dokument. Pri vsakem bloku: 
 - [ ] povezava do tečaja deluje, v obeh jezikih (slovenščina, srpščina); udeleženci iz Niša dobijo povezavo do `README.sr.md`
 - [ ] vse tri pozive iz tečaja enkrat preizkusi z AI, ki jo bodo uporabljali
 - [ ] natisnjeni listi: 1, 2, 5, 6, 7, 9, 12 za vse; 3, 4, 8 nekaj rezervnih
-- [ ] SCAMPER kartice v 2 kompletih, listki, flomastri, pike za glasovanje
+- [ ] nekaj družabnih iger in učil kot izhodišče za SCAMPER (Spomin, Človek ne jezi se, Jenga …), listki, flomastri, pike za glasovanje
 - [ ] prenosniki: Inkscape, rezalnik, Tinkercad
 - [ ] Tinkercad Classes s kodo razreda
 - [ ] nastavitve laserja za 3 mm in karton, predloga za laser z oknom za QR kodo
@@ -121,7 +121,7 @@ Uvod: aplikacija je novo učilo, zvezek pa izboljša gradivo, ki ga že imajo. N
 | ----- | ---------------- | ------------------------------------ |
 | 9.00  | Včeraj           | vsak par 30 s na telefonu            |
 | 9.10  | Dobro učilo      | 15 min                               |
-| 9.25  | SCAMPER          | razdeliš kartice naključno, list 5   |
+| 9.25  | SCAMPER          | pari izberejo učilo ali igro, list 5 |
 | 9.55  | Varnost, 3D-tisk | ti zaganjaš tiske                    |
 | 10.35 | Odmor            | preveri tiskalnike                   |
 | 10.50 | Laser, QR        | vrstni red parov na tablo            |
